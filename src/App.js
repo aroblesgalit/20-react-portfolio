@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path={["/", "/about"]}>
+        <Route path={["/", "/about"]}>
           <Home />
         </Route>
       </Switch>

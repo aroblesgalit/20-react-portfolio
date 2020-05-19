@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
-header {
+.container {
+    padding: 40px 100px;
     background-color: #26291A;
-    padding: 0 20px;
 }
 
 
 /* For smaller screens */
 @media only screen and (max-width: 992px) {
-    header {
-        padding: 0 10px;
+    .container {
+        padding: 20px 10px;
     }
 }
