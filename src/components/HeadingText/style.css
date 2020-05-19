@@ -16,3 +16,18 @@
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
+
+.ctaBtn {
+    background-color: #B7D437;
+    font-weight: bold;
+    border: none;
+}
+
+.ctaBtn:hover {
+    background-color: rgb(157, 187, 21);
+}
+
+.ctaBtn a {
+    text-decoration: none;
+    color: #26291A;
+}
