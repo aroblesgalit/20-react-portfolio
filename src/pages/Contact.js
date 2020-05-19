@@ -1,29 +1,13 @@
 import React from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
+import ContactInfo from "../components/ContactInfo";
 
 function Contact() {
     return (
         <div className="container">
             <h2 className="uk-text-center">Contact</h2>
-            <div className="contact-form uk-child-width-1-2@m" uk-grid="true">
-                <div className="contactInfo uk-flex uk-flex-column uk-margin-bottom">
-                    <span className="contactLabel uk-text-muted uk-form-label">Email</span>
-                    <span className="contactDesc uk-flex uk-flex-middle"><span className="contactIcon"
-                        uk-icon="icon: mail"></span>aroblesgalit@gmail.com</span>
-                    <span className="contactLabel uk-text-muted uk-form-label">Phone</span>
-                    <span className="contactDesc uk-flex uk-flex-middle"><span className="contactIcon"
-                        uk-icon="icon: phone"></span>714.949.1232</span>
-                    <span className="contactLabel uk-text-muted uk-form-label">LinkedIn</span>
-                    <span className="contactDesc uk-flex uk-flex-middle"><span className="contactIcon"
-                        uk-icon="icon: linkedin"></span><Link to="https://www.linkedin.com/in/aroblesgalit/"
-                            target="_blank">linkedin.com/in/aroblesgalit</Link></span>
-                    <span className="contactLabel uk-text-muted uk-form-label">GitHub</span>
-                    <span className="contactDesc uk-flex uk-flex-middle"><span className="contactIcon"
-                        uk-icon="icon: github"></span><Link to="https://github.com/aroblesgalit"
-                            target="_blank">github.com/aroblesgalit</Link></span>
-                    <hr className="uk-divider-small" />
-                </div>
+            <div className="uk-child-width-1-2@m" uk-grid="true">
+                <ContactInfo />
                 <form className="uk-form-stacked uk-position-relative">
                     <div className="uk-margin">
                         <label className="uk-form-label uk-text-muted" for="name">Name</label>
