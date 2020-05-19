@@ -1,11 +1,12 @@
 import React from "react";
 import "./style.css";
+import myImg from "../../assets/images/Alvin_headshot_sm.jpg";
 
 function About() {
     return (
         <div>
             <div className="uk-tile aboutSection" uk-height-viewport="expand: true">
-                <img src="../../../public/assets/images/Alvin_headshot_sm.jpg" alt="Me" className="uk-border-circle" uk-img="true" />
+                <img src={myImg} alt="Me" className="uk-border-circle" uk-img="true" />
                 <p className="uk-text-center">
                     Front-End Web Developer with a Bachelor of Fine Arts in Graphic Design from Cal Poly Pomona and a
                     Certificate in Full Stack Web Development from UT Austin. Skills in HTML, CSS, JavaScript, Node.js, and Express.
