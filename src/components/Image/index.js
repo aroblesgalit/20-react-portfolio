@@ -6,7 +6,7 @@ function Image() {
     return (
         <div>
             <div className="uk-tile aboutSection" uk-height-viewport="expand: true">
-                <img src={myImg} alt="Me" className="uk-border-circle" uk-img="true" />
+                <img src={myImg} alt="Me" className="uk-border-circle myImg" uk-img="true" />
             </div>
         </div>
     );

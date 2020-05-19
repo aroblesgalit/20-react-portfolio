@@ -5,7 +5,7 @@ function About() {
     return (
         <div className="aboutWrapper">
             <h2 className="uk-text-center">About</h2>
-            <p className="uk-text-center">
+            <p className="uk-text-center aboutMeText">
                 Front-End Web Developer with a Bachelor of Fine Arts in Graphic Design from Cal Poly Pomona and a
                 Certificate in Full Stack Web Development from UT Austin. Skills in HTML, CSS, JavaScript, Node.js, and Express.
                 Strengths in balancing design and functionality, collaboration, and time-management. During my time in
