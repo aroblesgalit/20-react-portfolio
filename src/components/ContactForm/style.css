@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    /* max-width: 600px; */
+}
+
+#submitBtn {
+    background-color: #B7D437;
+    border: none;
+    font-weight: bold;
+    color: #26291A;
+}
+
+#submitBtn:hover {
+    background-color: rgb(157, 187, 21);
+}

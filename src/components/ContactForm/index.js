@@ -3,7 +3,7 @@ import "./style.css";
 
 function ContactForm() {
     return (
-        <form className="uk-form-stacked uk-position-relative">
+        <form className="uk-form-stacked uk-position-relative" uk-height-viewport="expand: true">
             <div className="uk-margin">
                 <label className="uk-form-label uk-text-muted" for="name">Name</label>
                 <div className="uk-form-controls">
@@ -23,12 +23,7 @@ function ContactForm() {
                         placeholder="Your message..."></textarea>
                 </div>
             </div>
-            <button
-                id="submitBtn"
-                className="uk-button uk-button-default uk-position-absolute uk-position-bottom-right"
-            >
-                Submit
-            </button>
+            <button id="submitBtn" className="uk-button" >Submit</button>
         </form>
     );
 }
