@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.aboutWrapper {
+    max-width: 620px;
+    margin: 40px auto;
+}

@@ -1,6 +1,7 @@
 import React from "react";
-import About from "../components/About";
+import Image from "../components/Image";
 import HeadingText from "../components/HeadingText";
+import About from "../components/About";
 import "./style.css";
 
 function Home() {
@@ -8,8 +9,9 @@ function Home() {
         <div className="container">
             <div className="uk-child-width-expand@m uk-text-center uk-grid-collapse" uk-grid="true">
                 <HeadingText />
-                <About />
+                <Image />
             </div>
+            <About />
         </div>
     );
 }

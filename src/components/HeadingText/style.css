@@ -11,6 +11,10 @@
     line-height: 1.1;
 }
 
+span {
+    color: #B7D437;
+}
+
 .subHeading {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
