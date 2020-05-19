@@ -1,8 +1,17 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
 import "./style.css";
+import PortfolioCard from "../components/PortfolioCard";
+import API from "../utils/API";
 
-function Home() {
+function Portfolio() {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        API.getProjects()
+            .then(res => setProjects(res))
+            .catch(err => console.log(err));
+    }, [])
+
     return (
         <div className="container">
             <div
@@ -10,10 +19,21 @@ function Home() {
                 uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 300"
                 uk-grid="true"
             >
-            <p>Card element goes here</p>
+            {
+                projects.map(project => (
+                    <PortfolioCard 
+                        key={project.title}
+                        title={project.title} 
+                        description={project.description} 
+                        imageUrl={project.imageUrl}
+                        githubUrl={project.githubUrl}
+                        deployedUrl={project.deployedUrl}
+                    />
+                ))
+            }
             </div>
         </div>
     );
 }
 
-export default Home;
+export default Portfolio;
