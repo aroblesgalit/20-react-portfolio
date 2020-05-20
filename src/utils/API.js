@@ -35,13 +35,13 @@ const projects = [
     },
     {
         title: "Employee Tracker",
-        description: "A Command line interface for tracking employees within a company.",
+        description: "A command-line interface for tracking employees within a company.",
         imageUrl: employeeTracker,
         githubUrl: "https://github.com/aroblesgalit/12-Employee-Tracker"
     },
     {
         title: "Work Day Scheduler",
-        description: "A simple calendar day scheduler with color coordinated rows for past, present, and futre tasks.",
+        description: "A simple calendar day scheduler with color coordinated rows for past, present, and future tasks.",
         imageUrl: workDayScheduler,
         githubUrl: "https://github.com/aroblesgalit/05-Work-Day-Scheduler",
         deployedUrl: "https://aroblesgalit.github.io/05-Work-Day-Scheduler/"

@@ -13,8 +13,8 @@ function PortfolioCard({ title, description, imageUrl, githubUrl, deployedUrl })
                     <h3 className="uk-card-title">{title}</h3>
                     <p>{description}</p>
                     <a className="portfolioLink" href={githubUrl}
-                        target="_blank" rel="noopener noreferrer">GitHub</a> { deployedUrl ? (<a className="portfolioLink"
-                        href={deployedUrl} target="_blank" rel="noopener noreferrer">Deployed</a>) : "" }
+                        target="_blank" rel="noopener noreferrer">GITHUB</a> { deployedUrl ? (<a className="portfolioLink"
+                        href={deployedUrl} target="_blank" rel="noopener noreferrer">APP</a>) : "" }
                 </div>
             </div>
         </div>
