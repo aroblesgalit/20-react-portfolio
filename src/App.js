@@ -11,10 +11,10 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/portfolio">
+        <Route path="/portfolio">
           <Portfolio />
         </Route>
-        <Route exact path="/contact">
+        <Route path="/contact">
           <Contact />
         </Route>
         <Route path="/">
