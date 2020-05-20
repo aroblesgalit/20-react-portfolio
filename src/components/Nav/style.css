@@ -9,6 +9,10 @@
     color: #f2f2f2;
 }
 
+.myLogo:hover {
+    color: #B7D437;
+}
+
 .logoMark {
     width: 40px;
 }

@@ -11,8 +11,9 @@ form {
 #submitBtn {
     background-color: #B7D437;
     border: none;
-    font-weight: bold;
+    font-weight: 400;
     color: #26291A;
+    letter-spacing: 1.2px;
 }
 
 #submitBtn:hover {

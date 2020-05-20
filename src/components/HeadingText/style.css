@@ -11,7 +11,7 @@
     line-height: 1.1;
 }
 
-span {
+.greeting span {
     color: #B7D437;
 }
 
@@ -23,9 +23,11 @@ span {
 }
 
 .ctaBtn {
+    font-family: 'Roboto', sans-serif;
     background-color: #B7D437;
-    font-weight: bold;
+    font-weight: 400;
     border: none;
+    letter-spacing: 1.2px;
 }
 
 .ctaBtn:hover {
