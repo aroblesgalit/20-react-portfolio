@@ -17,6 +17,10 @@
     width: 40px;
 }
 
+.navLink {
+    display: flex;
+}
+
 .navLink li a {
     color: #f2f2f2;
 }
@@ -27,4 +31,29 @@
 
 .navLink li a:focus {
     color: #B7D437;
+}
+
+.navMenuSmall {
+    display: none;
+}
+
+#navMenuIcon {
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+#navMenuIcon:hover {
+    color: #B7D437;
+}
+
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+    .navMenuSmall {
+        display: block;
+    }
+
+    .navLink {
+        display: none;
+    }
 }
