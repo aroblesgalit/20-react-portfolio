@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68a0b4f6897475a9750819c542a8f6ac",
+    "revision": "715a83b1757151a98c7118261c6ce4e7",
     "url": "/20-react-portfolio/index.html"
   },
   {
-    "revision": "645089642a2e2fd32905",
+    "revision": "e7aa8e40cd968e56d411",
     "url": "/20-react-portfolio/static/css/main.b90d02d6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/20-react-portfolio/static/js/2.dde7f4eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "645089642a2e2fd32905",
-    "url": "/20-react-portfolio/static/js/main.4c5438dd.chunk.js"
+    "revision": "e7aa8e40cd968e56d411",
+    "url": "/20-react-portfolio/static/js/main.9b72bd55.chunk.js"
   },
   {
     "revision": "b28486e7e169cbcb3f12",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/20-react-portfolio/static/media/employeeTracker.fee19abc.jpg"
   },
   {
+    "revision": "4c400c66ccec22eac7181da96d4c6329",
+    "url": "/20-react-portfolio/static/media/googleBooksSearch.4c400c66.jpg"
+  },
+  {
     "revision": "827b3ec057c315849f10fd6250740845",
     "url": "/20-react-portfolio/static/media/superheroBB.827b3ec0.jpg"
   },
@@ -54,9 +58,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c4fcae77f37b8267cf2960e090afa183",
     "url": "/20-react-portfolio/static/media/weatherDashboard.c4fcae77.jpg"
-  },
-  {
-    "revision": "87389d25728aec373cb622d75b879918",
-    "url": "/20-react-portfolio/static/media/workDayScheduler.87389d25.jpg"
   }
 ]);
