@@ -3,7 +3,7 @@ import superhero from "../assets/images/superheroBB.jpg";
 import weatherDashboard from "../assets/images/weatherDashboard.jpg";
 import teamProfile from "../assets/images/teamProfileGenerator.jpg";
 import employeeTracker from "../assets/images/employeeTracker.jpg";
-import workDayScheduler from "../assets/images/workDayScheduler.jpg";
+import googleBooksSearch from "../assets/images/googleBooksSearch.jpg";
 
 const projects = [
     {
@@ -15,36 +15,36 @@ const projects = [
     },
     {
         title: "Superhero B&B",
-        description: "A mobile-first application that allows superhero fanatics to view their favorite heroes' informations.",
+        description: "A mobile-first app that allows superhero fanatics to view their favorite heroes' stats.",
         imageUrl: superhero,
         githubUrl: "https://github.com/cynthia-dm1216/ProjectGroup1",
         deployedUrl: "https://cynthia-dm1216.github.io/ProjectGroup1/"
     },
     {
+        title: "Google Books Search",
+        description: "A React-based books search app that allows users to save books to review or purchase later.",
+        imageUrl: googleBooksSearch,
+        githubUrl: "https://github.com/aroblesgalit/21-google-books-search",
+        deployedUrl: "https://twenty-one-google-books-search.herokuapp.com/"
+    },
+    {
         title: "Weather Dashboard",
-        description: "A weather dashboard application that shows the current and future weather information of a city.",
+        description: "A weather dashboard app that shows the current and future weather information of a city.",
         imageUrl: weatherDashboard,
         githubUrl: "https://github.com/aroblesgalit/06-Weather-Dashboard",
         deployedUrl: "https://aroblesgalit.github.io/06-Weather-Dashboard/"
     },
     {
         title: "Team Profile Generator",
-        description: "A command-line interface application for dynamically generating a team profile html.",
+        description: "A command-line interface app for dynamically generating a team profile html.",
         imageUrl: teamProfile,
         githubUrl: "https://github.com/aroblesgalit/10-Team-Profile-Generator"
     },
     {
         title: "Employee Tracker",
-        description: "A command-line interface for tracking employees within a company.",
+        description: "A command-line interface app for tracking employees within a company.",
         imageUrl: employeeTracker,
         githubUrl: "https://github.com/aroblesgalit/12-Employee-Tracker"
-    },
-    {
-        title: "Work Day Scheduler",
-        description: "A simple calendar day scheduler with color coordinated rows for past, present, and future tasks.",
-        imageUrl: workDayScheduler,
-        githubUrl: "https://github.com/aroblesgalit/05-Work-Day-Scheduler",
-        deployedUrl: "https://aroblesgalit.github.io/05-Work-Day-Scheduler/"
     }
 ];
 
