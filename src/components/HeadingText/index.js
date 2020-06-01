@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
-import resumePdf from "../../assets/images/AlvinGalit_Resume_May2020.pdf";
+import resumePdf from "../../assets/images/AlvinGalit_Resume_June2020.pdf";
 
 function HeadingText() {
     return (
