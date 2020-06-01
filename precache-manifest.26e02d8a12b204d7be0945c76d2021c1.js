@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75cc150c70838d09bb8d0b0ba28b948e",
+    "revision": "8c696275295c3b68ea4be89985217fc3",
     "url": "/20-react-portfolio/index.html"
   },
   {
-    "revision": "db445f282b14aff26ce7",
+    "revision": "b1183f51dbd337c6dc5e",
     "url": "/20-react-portfolio/static/css/main.b90d02d6.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/20-react-portfolio/static/js/2.dde7f4eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db445f282b14aff26ce7",
-    "url": "/20-react-portfolio/static/js/main.b1bf80b8.chunk.js"
+    "revision": "b1183f51dbd337c6dc5e",
+    "url": "/20-react-portfolio/static/js/main.a95f54b9.chunk.js"
   },
   {
     "revision": "b28486e7e169cbcb3f12",
     "url": "/20-react-portfolio/static/js/runtime-main.387ba80b.js"
   },
   {
-    "revision": "d363b391a81fa2b0de2e4581c01f29ce",
-    "url": "/20-react-portfolio/static/media/AlvinGalit_Resume_June2020.d363b391.pdf"
+    "revision": "e0de9e97f73446b268f36bfa90a8f031",
+    "url": "/20-react-portfolio/static/media/AlvinGalit_Resume_June2020.e0de9e97.pdf"
   },
   {
     "revision": "9cfe3398cae3eb2cdc7e9ee4bfd48e69",
