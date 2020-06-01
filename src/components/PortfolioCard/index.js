@@ -14,7 +14,7 @@ function PortfolioCard({ title, description, imageUrl, githubUrl, deployedUrl })
                     <p>{description}</p>
                     <a className="portfolioLink" href={githubUrl}
                         target="_blank" rel="noopener noreferrer">GITHUB</a> { deployedUrl ? (<a className="portfolioLink"
-                        href={deployedUrl} target="_blank" rel="noopener noreferrer">APP</a>) : "" }
+                        href={deployedUrl} target="_blank" rel="noopener noreferrer">DEMO</a>) : "" }
                 </div>
             </div>
         </div>

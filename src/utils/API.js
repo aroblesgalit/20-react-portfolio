@@ -1,11 +1,18 @@
 import careerResourcesWiki from "../assets/images/careerResourcesWiki.jpg";
 import superhero from "../assets/images/superheroBB.jpg";
 import weatherDashboard from "../assets/images/weatherDashboard.jpg";
-import teamProfile from "../assets/images/teamProfileGenerator.jpg";
+import digitalClass from "../assets/images/digitalClass.jpg";
 import employeeTracker from "../assets/images/employeeTracker.jpg";
 import googleBooksSearch from "../assets/images/googleBooksSearch.jpg";
 
 const projects = [
+    {
+        title: "Digital Class",
+        description: "A full-stack MERN app allowing teachers to quickly and easily create and assign quizzes.",
+        imageUrl: digitalClass,
+        githubUrl: "https://github.com/aroblesgalit/digital-class",
+        deployedUrl: "https://digital-class-production.herokuapp.com/"
+    },
     {
         title: "Career Resources & Wiki",
         description: "A full-stack app that allows users to post and get resources about job fields of their choice.",
@@ -35,12 +42,6 @@ const projects = [
         deployedUrl: "https://aroblesgalit.github.io/06-Weather-Dashboard/"
     },
     {
-        title: "Team Profile Generator",
-        description: "A command-line interface app for dynamically generating a team profile html.",
-        imageUrl: teamProfile,
-        githubUrl: "https://github.com/aroblesgalit/10-Team-Profile-Generator"
-    },
-    {
         title: "Employee Tracker",
         description: "A command-line interface app for tracking employees within a company.",
         imageUrl: employeeTracker,
@@ -49,7 +50,7 @@ const projects = [
 ];
 
 export default {
-    getProjects: function() {
+    getProjects: function () {
         return new Promise(resolve => {
             resolve(projects);
         });
