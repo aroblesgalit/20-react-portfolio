@@ -40,6 +40,7 @@ function Nav() {
                     <ul className="uk-navbar-nav navLink">
                         <li><Link to="/" className="">About</Link></li>
                         <li><Link to="/portfolio">Portfolio</Link></li>
+                        <li><Link to="/skills">Skills</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                     <div className="navMenuSmall" onClick={handleNavToggle}>
