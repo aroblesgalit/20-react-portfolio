@@ -29,3 +29,16 @@
 .socialLink:hover {
     color: #B7D437;
 }
+
+.credits {
+    color: #B7D437;
+    margin-top: 6px !important;
+}
+
+.credits:hover {
+    color: #B7D437;
+}
+
+.copyright {
+    margin-top: 4px;
+}

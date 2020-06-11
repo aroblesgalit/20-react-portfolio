@@ -51,7 +51,11 @@ const projects = [
 
 const skills = [
     {
-        title: "HTML/CSS",
+        title: "HTML",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "CSS",
         icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
     },
     {
@@ -69,8 +73,58 @@ const skills = [
     {
         title: "UIKit",
         icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "React",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
+    },
+    {
+        title: "Node.js",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "MongoDB",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "MySQL",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "Express",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "Visual Studio",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "Adobe Illustrator",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "Photoshop",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "Adobe XD",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "InDesign",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "After Effects",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
     }
+]
 
+const credits = [
+    {
+        text: "image",
+        link: "google.com"
+    }
 ]
 
 export default {
@@ -82,6 +136,11 @@ export default {
     getSkills: function () {
         return new Promise(resolve => {
             resolve(skills);
+        });
+    },
+    getCredits: function () {
+        return new Promise(resolve => {
+            resolve(credits);
         });
     }
 };
