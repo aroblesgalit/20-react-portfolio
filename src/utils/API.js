@@ -4,6 +4,14 @@ import weatherDashboard from "../assets/images/weatherDashboard.jpg";
 import digitalClass from "../assets/images/digitalClass.jpg";
 import employeeTracker from "../assets/images/employeeTracker.jpg";
 import googleBooksSearch from "../assets/images/googleBooksSearch.jpg";
+import nodejsLogo from "../assets/images/nodejsLogo.svg";
+import mongodbLogo from "../assets/images/mongodbLogo.svg";
+import mysqlLogo from "../assets/images/mysqlLogo.svg";
+import expressjsLogo from "../assets/images/expressjsLogo.svg";
+import jqueryLogo from "../assets/images/jqueryLogo.svg";
+import htmlLogo from "../assets/images/htmlLogo.svg";
+import cssLogo from "../assets/images/cssLogo.svg";
+import javascriptLogo from "../assets/images/javascriptLogo.svg";
 
 const projects = [
     {
@@ -52,27 +60,27 @@ const projects = [
 const skills = [
     {
         title: "HTML",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: htmlLogo
     },
     {
         title: "CSS",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: cssLogo
     },
     {
         title: "JavaScript",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: javascriptLogo
     }, 
     {
         title: "jQuery",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: jqueryLogo
     },
     {
         title: "Bootstrap",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
     }, 
     {
         title: "UIKit",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: "https://cdn.iconscout.com/icon/free/png-64/uikit-285322.png"
     },
     {
         title: "React",
@@ -80,50 +88,114 @@ const skills = [
     },
     {
         title: "Node.js",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: nodejsLogo
     },
     {
         title: "MongoDB",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: mongodbLogo
     },
     {
         title: "MySQL",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: mysqlLogo
     },
     {
         title: "Express",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: expressjsLogo
     },
     {
         title: "Visual Studio",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
     },
     {
         title: "Adobe Illustrator",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg"
     },
     {
-        title: "Photoshop",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        title: "Adobe Photoshop",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/2/20/Photoshop_CC_icon.png"
     },
     {
         title: "Adobe XD",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        icon: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Adobe_Experience_Design_logo.svg"
     },
     {
-        title: "InDesign",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        title: "Adobe InDesign",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg"
     },
     {
-        title: "After Effects",
-        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+        title: "Adobe After Effects",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg"
     }
 ]
 
 const credits = [
     {
-        text: "image",
-        link: "google.com"
+        text: "HTML5 Logo",
+        link: "https://www.w3.org/html/logo/#downloads"
+    },
+    {
+        text: "CSS3 Logo",
+        link: "https://worldvectorlogo.com/downloaded/css3"
+    },
+    {
+        text: "JavaScript Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Javascript-shield.svg"
+    },
+    {
+        text: "jQuery Logo",
+        link: "https://brand.jquery.org/logos/"
+    },
+    {
+        text: "Bootstrap Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Bootstrap_logo.svg"
+    },
+    {
+        text: "UIKit Logo",
+        link: "https://iconscout.com/icon/uikit"
+    },
+    {
+        text: "React Logo",
+        link: "https://commons.wikimedia.org/wiki/File:React-icon.svg"
+    },
+    {
+        text: "Node.js Logo",
+        link: "https://nodejs.org/en/about/resources/"
+    },
+    {
+        text: "MongoDB Logo",
+        link: "https://www.mongodb.com/brand-resources"
+    },
+    {
+        text: "MySQL Logo",
+        link: "https://www.mysql.com/about/legal/logos.html"
+    },
+    {
+        text: "Express Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Expressjs.png"
+    },
+    {
+        text: "Visual Studio Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg"
+    }, 
+    {
+        text: "Adobe Illustrator Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg"
+    },
+    {
+        text: "Adobe Photoshop Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Photoshop_CC_icon.png"
+    }, 
+    {
+        text: "Adobe Experience Design Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Adobe_Experience_Design_logo.svg"
+    },
+    {
+        text: "Adobe InDesign Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Adobe_InDesign_CC_icon.svg"
+    },
+    {
+        text: "Adobe After Effects Logo",
+        link: "https://commons.wikimedia.org/wiki/File:Adobe_After_Effects_CC_icon.svg"
     }
 ]
 
