@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
+import "./nav.css";
 import myLogo from "../../assets/images/alvinGalit_logoMark.png";
 import NavToggle from "../NavToggle";
 

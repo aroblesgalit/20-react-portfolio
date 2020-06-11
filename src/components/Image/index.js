@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./image.css";
 import myImg from "../../assets/images/Alvin_headshot_sm.jpg";
 
 function Image() {

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../components/Image";
 import HeadingText from "../components/HeadingText";
 import About from "../components/About";
-import "./style.css";
+import "./pages.css";
 
 function Home() {
     return (

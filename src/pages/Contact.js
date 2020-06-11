@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./pages.css";
 import ContactInfo from "../components/ContactInfo";
 import ContactForm from "../components/ContactForm";
 

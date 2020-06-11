@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./portfolioCard.css";
 
 function PortfolioCard({ title, description, imageUrl, githubUrl, deployedUrl }) {
     return (

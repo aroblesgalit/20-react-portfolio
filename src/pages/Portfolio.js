@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./style.css";
+import "./pages.css";
 import PortfolioCard from "../components/PortfolioCard";
 import API from "../utils/API";
 

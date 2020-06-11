@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./creditCard.css";
 
 function CreditCard(props) {
     return (
