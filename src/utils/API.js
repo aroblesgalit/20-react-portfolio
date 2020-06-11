@@ -49,10 +49,39 @@ const projects = [
     }
 ];
 
+const skills = [
+    {
+        title: "HTML/CSS",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "JavaScript",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    }, 
+    {
+        title: "jQuery",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    },
+    {
+        title: "Bootstrap",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    }, 
+    {
+        title: "UIKit",
+        icon: "https://image.flaticon.com/icons/svg/919/919827.svg"
+    }
+
+]
+
 export default {
     getProjects: function () {
         return new Promise(resolve => {
             resolve(projects);
+        });
+    },
+    getSkills: function () {
+        return new Promise(resolve => {
+            resolve(skills);
         });
     }
 };
