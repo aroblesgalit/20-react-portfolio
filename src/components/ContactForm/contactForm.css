@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-form {
-    /* max-width: 600px; */
-}
-
 #submitBtn {
     background-color: #B7D437;
     border: none;
