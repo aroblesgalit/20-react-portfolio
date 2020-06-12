@@ -19,3 +19,35 @@ form {
 #submitBtn:hover {
     background-color: rgb(157, 187, 21);
 }
+
+.success-alert-container {
+    border: 1px solid #B7D437;
+    background: none;
+}
+
+.success-alert-container>p {
+    color: #B7D437;
+    font-size: 14px;
+}
+
+.success-alert-container>span {
+    color: #B7D437;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.danger-alert-container {
+    border: 1px solid #e62d2d;
+    background: none;
+}
+
+.danger-alert-container>p {
+    color: #e62d2d;
+    font-size: 14px;
+}
+
+.danger-alert-container>span {
+    color: #e62d2d;
+    opacity: 1;
+    cursor: pointer;
+}
