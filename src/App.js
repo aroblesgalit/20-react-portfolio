@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-      <Route exact path="/">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/portfolio">
@@ -27,6 +27,9 @@ function App() {
         </Route>
         <Route path="/credits">
           <Credits />
+        </Route>
+        <Route path="*">
+          <Home />
         </Route>
       </Switch>
       <Footer />
