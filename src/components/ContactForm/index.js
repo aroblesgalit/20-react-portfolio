@@ -1,5 +1,8 @@
 import React, { useRef, useState } from "react";
 import "./contactForm.css";
+import emailjs from "emailjs-com";
+import dotenv from "dotenv";
+dotenv.config();
 
 function ContactForm() {
 
@@ -16,13 +19,27 @@ function ContactForm() {
         let email = emailRef.current.value;
         let message = messageRef.current.value;
 
+        const messageInfo = {
+            name: name,
+            email: email,
+            message: message
+        }
+
         if (name && email && message) {
             setMissingFields(false);
             console.log("Form submitting...");
+            emailjs.send("default_service", "portfolio_contact", messageInfo, process.env.REACT_APP_EMAILJS_USERID)
+                .then(res => {
+                    console.log("Form submitted...", res);
+                })
+                .catch(err => {
+                    console.log("Something went wrong while trying to send the form...", err);
+                });
+
             setMessageSent(true);
-            setTimeout(() => {
-                window.location.reload(false);
-            }, 3000);
+            // setTimeout(() => {
+            //     window.location.reload(false);
+            // }, 3000);
 
         } else {
             console.log("Empty fields...")
