@@ -3,7 +3,7 @@ import superhero from "../assets/images/superheroBB.jpg";
 import weatherDashboard from "../assets/images/weatherDashboard.jpg";
 import digitalClass from "../assets/images/digitalClass.jpg";
 import employeeTracker from "../assets/images/employeeTracker.jpg";
-import googleBooksSearch from "../assets/images/googleBooksSearch.jpg";
+import champUnite from "../assets/images/champUnite.jpg";
 import nodejsLogo from "../assets/images/nodejsLogo.svg";
 import mongodbLogo from "../assets/images/mongodbLogo.svg";
 import mysqlLogo from "../assets/images/mysqlLogo.svg";
@@ -22,6 +22,13 @@ const projects = [
         deployedUrl: "https://digital-class-production.herokuapp.com/"
     },
     {
+        title: "ChampUnite",
+        description: "A full-stack MERN game app where users go on a one-on-one card battle.",
+        imageUrl: champUnite,
+        githubUrl: "https://github.com/aroblesgalit/champ-unite",
+        deployedUrl: "https://champ-unite-v01.herokuapp.com/"
+    },
+    {
         title: "Career Resources & Wiki",
         description: "A full-stack app that allows users to post and get resources about job fields of their choice.",
         imageUrl: careerResourcesWiki,
@@ -34,13 +41,6 @@ const projects = [
         imageUrl: superhero,
         githubUrl: "https://github.com/cynthia-dm1216/ProjectGroup1",
         deployedUrl: "https://cynthia-dm1216.github.io/ProjectGroup1/"
-    },
-    {
-        title: "Google Books Search",
-        description: "A React-based books search app that allows users to save books to review or purchase later.",
-        imageUrl: googleBooksSearch,
-        githubUrl: "https://github.com/aroblesgalit/21-google-books-search",
-        deployedUrl: "https://twenty-one-google-books-search.herokuapp.com/"
     },
     {
         title: "Weather Dashboard",

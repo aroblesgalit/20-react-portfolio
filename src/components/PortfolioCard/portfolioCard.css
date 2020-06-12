@@ -26,3 +26,7 @@
     color: #26291A;
     text-decoration: none;
 }
+
+.uk-card-media-top {
+    border-bottom: 1px solid #B7D437;
+}
