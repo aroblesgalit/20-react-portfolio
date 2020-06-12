@@ -37,9 +37,9 @@ function ContactForm() {
                 });
 
             setMessageSent(true);
-            // setTimeout(() => {
-            //     window.location.reload(false);
-            // }, 3000);
+            setTimeout(() => {
+                window.location.reload(false);
+            }, 3000);
 
         } else {
             console.log("Empty fields...")
