@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/20-react-portfolio/static/css/main.35c87ae5.chunk.css",
-    "main.js": "/20-react-portfolio/static/js/main.1843c61b.chunk.js",
-    "main.js.map": "/20-react-portfolio/static/js/main.1843c61b.chunk.js.map",
+    "main.css": "/20-react-portfolio/static/css/main.6009f0f0.chunk.css",
+    "main.js": "/20-react-portfolio/static/js/main.d26c1265.chunk.js",
+    "main.js.map": "/20-react-portfolio/static/js/main.d26c1265.chunk.js.map",
     "runtime-main.js": "/20-react-portfolio/static/js/runtime-main.387ba80b.js",
     "runtime-main.js.map": "/20-react-portfolio/static/js/runtime-main.387ba80b.js.map",
-    "static/js/2.467630cd.chunk.js": "/20-react-portfolio/static/js/2.467630cd.chunk.js",
-    "static/js/2.467630cd.chunk.js.map": "/20-react-portfolio/static/js/2.467630cd.chunk.js.map",
+    "static/js/2.f600def1.chunk.js": "/20-react-portfolio/static/js/2.f600def1.chunk.js",
+    "static/js/2.f600def1.chunk.js.map": "/20-react-portfolio/static/js/2.f600def1.chunk.js.map",
     "index.html": "/20-react-portfolio/index.html",
-    "precache-manifest.5c5c590232548396279e9d7d8cf24e70.js": "/20-react-portfolio/precache-manifest.5c5c590232548396279e9d7d8cf24e70.js",
+    "precache-manifest.c3255e989a6cdb10d60575d145478186.js": "/20-react-portfolio/precache-manifest.c3255e989a6cdb10d60575d145478186.js",
     "service-worker.js": "/20-react-portfolio/service-worker.js",
-    "static/css/main.35c87ae5.chunk.css.map": "/20-react-portfolio/static/css/main.35c87ae5.chunk.css.map",
-    "static/js/2.467630cd.chunk.js.LICENSE.txt": "/20-react-portfolio/static/js/2.467630cd.chunk.js.LICENSE.txt",
+    "static/css/main.6009f0f0.chunk.css.map": "/20-react-portfolio/static/css/main.6009f0f0.chunk.css.map",
+    "static/js/2.f600def1.chunk.js.LICENSE.txt": "/20-react-portfolio/static/js/2.f600def1.chunk.js.LICENSE.txt",
     "static/media/AlvinGalit_Resume_June2020.pdf": "/20-react-portfolio/static/media/AlvinGalit_Resume_June2020.f692b667.pdf",
     "static/media/Alvin_headshot_sm.jpg": "/20-react-portfolio/static/media/Alvin_headshot_sm.9cfe3398.jpg",
     "static/media/alvinGalit_logoMark.png": "/20-react-portfolio/static/media/alvinGalit_logoMark.834280cd.png",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.387ba80b.js",
-    "static/js/2.467630cd.chunk.js",
-    "static/css/main.35c87ae5.chunk.css",
-    "static/js/main.1843c61b.chunk.js"
+    "static/js/2.f600def1.chunk.js",
+    "static/css/main.6009f0f0.chunk.css",
+    "static/js/main.d26c1265.chunk.js"
   ]
 }
