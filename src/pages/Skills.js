@@ -21,20 +21,22 @@ function Skills() {
 
     return (
         <div className="container">
-            <h2 className="uk-text-center">Skills</h2>
-            <div className="skills-results uk-grid-small uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-5@l uk-text-center" uk-grid="true">
-                {
-                    skills && skills.length > 0 ? (
-                        skills.map(skill => {
-                            id += 1;
-                            return <SkillCard
-                                key={id}
-                                title={skill.title}
-                                icon={skill.icon}
-                            />
-                        })
-                    ) : ""
-                }
+            <div className="skills-wrapper">
+                <h2 className="uk-text-center">Skills</h2>
+                <div className="skills-results uk-grid-small uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-5@l uk-text-center" uk-grid="true">
+                    {
+                        skills && skills.length > 0 ? (
+                            skills.map(skill => {
+                                id += 1;
+                                return <SkillCard
+                                    key={id}
+                                    title={skill.title}
+                                    icon={skill.icon}
+                                />
+                            })
+                        ) : ""
+                    }
+                </div>
             </div>
         </div>
     );

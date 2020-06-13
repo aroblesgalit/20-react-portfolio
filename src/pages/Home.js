@@ -7,7 +7,7 @@ import "./pages.css";
 function Home() {
     return (
         <div className="container">
-            <div className="uk-child-width-expand@m uk-text-center uk-grid-collapse" uk-grid="true">
+            <div className="heading-wrapper uk-child-width-expand@m uk-text-center uk-grid-collapse" uk-grid="true">
                 <HeadingText />
                 <Image />
             </div>
