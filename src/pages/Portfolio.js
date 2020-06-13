@@ -17,7 +17,7 @@ function Portfolio() {
             <div className="portfolio-wrapper">
                 <h2 className="uk-text-center">Portfolio</h2>
                 <div
-                    className="uk-child-width-1-3@m uk-child-width-1-2@s uk-child-width-1-1"
+                    className="uk-child-width-1-3@l uk-child-width-1-2@s uk-child-width-1-1"
                     uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 300"
                     uk-grid="true"
                 >
