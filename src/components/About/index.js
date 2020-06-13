@@ -38,17 +38,16 @@ function About() {
                     online courses that were either free or very affordable including FreeCodeCamp and 
                     Udemy. Everyday after work, I would code for a few hours, but I'd get lost as I'm 
                     trying to learn a lot of things. I wasn't giving myself enough time to process and 
-                    absorb the materials. I decided to checkout some meetup groups for people getting 
+                    absorb the materials. I decided to check out some meetup groups for people getting 
                     into coding like me. I went to some and met a few like-minded people and even 
                     worked on projects together. But then I went back online and drowned myself in 
                     more courses, and I realized this wasn't working for me. I needed structure. So I 
-                    decided to enroll myself in a bootcamp. I've always wanted to do it before but 
+                    decided to enroll myself into a bootcamp. I've always wanted to do it before but 
                     time kept me from pursuing that path. I decided to put my job on hold to fully 
-                    immerse myself in the bootcamp. I was finally able to grasp the materials, and I 
-                    believe my prior attempt at teaching myself helped me out a bit. The bootcamp 
-                    taught me a lot but more importantly how to continue learning. There are still a 
-                    lot of things to learn, and I'm always looking forward to building new projects 
-                    and continue growing.
+                    immerse myself in the bootcamp. I was finally able to grasp the materials, and in 
+                    the process, I grew a passion for coding. The bootcamp taught me a lot but more 
+                    importantly how to continue learning. There are still a lot of things to learn, and 
+                    I'm always looking forward to building new projects and continue growing.
                     </p>
                 </div>
                 <div className="uk-flex uk-flex-column uk-flex-middle uk-margin-large-top">
