@@ -34,6 +34,10 @@
     background-color: rgb(157, 187, 21);
 }
 
+.ctaBtn:focus {
+    background-color: #B7D437;
+}
+
 .ctaBtn a {
     text-decoration: none;
     color: #26291A;

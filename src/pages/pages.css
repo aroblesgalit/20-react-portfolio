@@ -5,7 +5,7 @@
 }
 
 .container {
-    padding: 40px 100px;
+    /* padding: 40px 100px; */
     background-color: #26291A;
     min-height: calc(100vh - 80px);
 }
@@ -13,6 +13,10 @@
 .contactWrapper {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+}
+
+.portfolio-wrapper {
+    padding: 0 100px;
 }
 
 h2 {
@@ -25,7 +29,7 @@ h2 {
 
 /* For smaller screens */
 @media only screen and (max-width: 992px) {
-    .container {
+    .portfolio-wrapper {
         padding: 20px;
     }
 }

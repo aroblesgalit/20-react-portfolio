@@ -9,9 +9,9 @@ function HeadingText() {
             <div className="uk-tile headingText uk-text-left" uk-height-viewport="expand: true">
                 <div className="greeting">Hello! I'm <span>Alvin</span>.</div>
                 <p className="subHeading">Front-End Web Developer and Graphic Designer</p>
-                <button className="ctaBtn uk-button uk-button-default uk-margin">
-                    <Link to={resumePdf} target="_blank">Resume</Link>
-                </button>
+                <Link to={resumePdf} target="_blank">
+                    <button className="ctaBtn uk-button uk-button-default uk-margin">Resume</button>
+                </Link>
             </div>
         </div>
     );
