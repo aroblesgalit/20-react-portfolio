@@ -20,6 +20,10 @@
     color: #26291A;
 }
 
+.portfolioLink:nth-child(3) {
+    margin-right: 6px;
+}
+
 .portfolioLink:hover {
     background-color: rgb(157, 187, 21);
     color: #26291A;
