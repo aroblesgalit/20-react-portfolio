@@ -10,7 +10,7 @@ function About() {
             <div className="uk-child-width-1-2@m uk-flex uk-flex-column uk-flex-middle">
                 <h2 className="uk-text-center">About</h2>
                 <p className="aboutMeText uk-text-justify uk-padding">
-                    Front-End Web Developer with a Bachelor of Fine Arts in Graphic Design from
+                    Web Developer with a Bachelor of Fine Arts in Graphic Design from
                     Cal Poly Pomona and a Certificate of Completion of the Coding Bootcamp
                     Certificate Program from the University of Texas at Austin. Skills in HTML,
                     CSS, JavaScript, MongoDB, Express, React, and Node.js. Strengths in balancing
