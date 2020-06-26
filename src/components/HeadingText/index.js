@@ -8,7 +8,7 @@ function HeadingText() {
         <div>
             <div className="uk-tile headingText uk-text-left" uk-height-viewport="expand: true">
                 <div className="greeting">Hello! I'm <span>Alvin</span>.</div>
-                <p className="subHeading">Front-End Web Developer and Graphic Designer</p>
+                <p className="subHeading">Web Developer and Graphic Designer</p>
                 <Link to={resumePdf} target="_blank">
                     <button className="ctaBtn uk-button uk-button-default uk-margin">Resume</button>
                 </Link>
