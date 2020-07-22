@@ -7,9 +7,10 @@
 .portfolioCard {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+    min-width: 225px;
 }
 
-.portfolioLink {
+.demoLink {
     height: 32px;
     padding: 10px 20px;
     background-color: #B7D437;
@@ -20,11 +21,25 @@
     color: #26291A;
 }
 
-.portfolioLink:nth-child(3) {
+.demoLink:hover {
+    background-color: rgb(157, 187, 21);
+    color: #26291A;
+    text-decoration: none;
+}
+
+.repoLink {
+    height: 32px;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #B7D437;
+    letter-spacing: 1.2px;
+    color: #26291A;
     margin-right: 6px;
 }
 
-.portfolioLink:hover {
+.repoLink:hover {
     background-color: rgb(157, 187, 21);
     color: #26291A;
     text-decoration: none;
@@ -37,4 +52,10 @@
 .portfolio-card-img-container {
     height: 200px;
     overflow: hidden;
+}
+
+.portfolio-card-img-container img {
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
 }
