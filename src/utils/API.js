@@ -1,5 +1,5 @@
 import careerResourcesWiki from "../assets/images/careerResourcesWiki.png";
-import superhero from "../assets/images/superheroBB.png";
+import artistWebApp from "../assets/images/artistWebApp.jpg";
 import weatherDashboard from "../assets/images/weatherDashboard.png";
 import digitalClass from "../assets/images/digitalClass.png";
 import employeeTracker from "../assets/images/employeeTracker.jpg";
@@ -15,13 +15,6 @@ import javascriptLogo from "../assets/images/javascriptLogo.svg";
 
 const projects = [
     {
-        title: "Digital Class",
-        description: "A full-stack MERN app allowing teachers to quickly and easily create and assign quizzes.",
-        imageUrl: digitalClass,
-        githubUrl: "https://github.com/aroblesgalit/digital-class",
-        deployedUrl: "https://digital-class-production.herokuapp.com/"
-    },
-    {
         title: "ChampUnite",
         description: "A full-stack MERN game app where users go on a one-on-one card battle.",
         imageUrl: champUnite,
@@ -29,18 +22,25 @@ const projects = [
         deployedUrl: "https://champ-unite-v01.herokuapp.com/"
     },
     {
+        title: "Artist Web App",
+        description: "A web app for an artist to show off his/her work as well as sell art.",
+        imageUrl: artistWebApp,
+        githubUrl: "https://github.com/aroblesgalit/artist-web-app",
+        deployedUrl: "https://artist-web-app.herokuapp.com/"
+    },
+    {
+        title: "Digital Class",
+        description: "A full-stack MERN app allowing teachers to quickly and easily create and assign quizzes.",
+        imageUrl: digitalClass,
+        githubUrl: "https://github.com/aroblesgalit/digital-class",
+        deployedUrl: "https://digital-class-production.herokuapp.com/"
+    },
+    {
         title: "Career Resources & Wiki",
         description: "A full-stack app that allows users to post and get resources about job fields of their choice.",
         imageUrl: careerResourcesWiki,
         githubUrl: "https://github.com/aroblesgalit/Project2",
         deployedUrl: "https://secure-shelf-77308.herokuapp.com/"
-    },
-    {
-        title: "Superhero B&B",
-        description: "A mobile-first app that allows superhero fanatics to view their favorite heroes' stats.",
-        imageUrl: superhero,
-        githubUrl: "https://github.com/cynthia-dm1216/ProjectGroup1",
-        deployedUrl: "https://cynthia-dm1216.github.io/ProjectGroup1/"
     },
     {
         title: "Weather Dashboard",
