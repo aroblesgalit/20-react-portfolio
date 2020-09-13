@@ -12,6 +12,7 @@ import jqueryLogo from "../assets/images/jqueryLogo.svg";
 import htmlLogo from "../assets/images/htmlLogo.svg";
 import cssLogo from "../assets/images/cssLogo.svg";
 import javascriptLogo from "../assets/images/javascriptLogo.svg";
+import indigoBallBg from "../assets/images/gdproj_indigoBall_bg.jpg";
 
 const projects = [
     {
@@ -57,6 +58,15 @@ const projects = [
     }
 ];
 
+const graphicDesignProjects = [
+    {
+        title: "Indigo Ball",
+        type: ["Logo Design", "Print"],
+        image: indigoBallBg,
+        link: ""
+    }
+];
+
 const skills = [
     {
         title: "HTML",
@@ -69,7 +79,7 @@ const skills = [
     {
         title: "JavaScript",
         icon: javascriptLogo
-    }, 
+    },
     {
         title: "jQuery",
         icon: jqueryLogo
@@ -77,7 +87,7 @@ const skills = [
     {
         title: "Bootstrap",
         icon: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
-    }, 
+    },
     {
         title: "UIKit",
         icon: "https://cdn.iconscout.com/icon/free/png-64/uikit-285322.png"
@@ -176,7 +186,7 @@ const credits = [
     {
         text: "Visual Studio Logo",
         link: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg"
-    }, 
+    },
     {
         text: "Adobe Illustrator Logo",
         link: "https://commons.wikimedia.org/wiki/File:Adobe_Illustrator_CC_icon.svg"
@@ -184,7 +194,7 @@ const credits = [
     {
         text: "Adobe Photoshop Logo",
         link: "https://commons.wikimedia.org/wiki/File:Photoshop_CC_icon.png"
-    }, 
+    },
     {
         text: "Adobe Experience Design Logo",
         link: "https://commons.wikimedia.org/wiki/File:Adobe_Experience_Design_logo.svg"
@@ -213,6 +223,11 @@ export default {
     getCredits: function () {
         return new Promise(resolve => {
             resolve(credits);
+        });
+    },
+    getGDProjects: function () {
+        return new Promise(resolve => {
+            resolve(graphicDesignProjects);
         });
     }
 };
