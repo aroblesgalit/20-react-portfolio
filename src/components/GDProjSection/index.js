@@ -13,7 +13,7 @@ export default function GDProjSection({ title, type, image, link }) {
                 <button 
                     type="button" 
                     className="uk-button uk-button-default uk-margin"
-                    onClick={`window.location.href=${link}`}
+                    onClick={() => window.location.href=link}
                 >
                     See project
                 </button>

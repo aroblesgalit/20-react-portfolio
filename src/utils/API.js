@@ -63,7 +63,7 @@ const graphicDesignProjects = [
         title: "Indigo Ball",
         type: ["Logo Design", "Print"],
         image: indigoBallBg,
-        link: ""
+        link: "https://www.alvingalit.com/"
     }
 ];
 
