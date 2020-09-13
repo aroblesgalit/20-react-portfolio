@@ -5,7 +5,7 @@ import GDProjSection from "../components/GDProjSection";
 export default function GraphicDesign() {
     return (
         <div className="container">
-            <h2>Graphic Design Portfolio</h2>
+            <h2 className="uk-text-center">Graphic Design Portfolio</h2>
             <GDProjSection />
         </div>
     )

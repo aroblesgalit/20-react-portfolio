@@ -10,3 +10,7 @@ section {
     scroll-snap-align: center;
     background-color: rgb(158, 185, 194);
 }
+
+h3 {
+    font-size: 32px;
+}
