@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Skills from "./pages/Skills";
 import Credits from "./pages/Credits";
+import GraphicDesign from "./pages/GraphicDesign";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path="/portfolio">
           <Portfolio />
+        </Route>
+        <Route path="/graphic-design">
+          <GraphicDesign />
         </Route>
         <Route path="/skills">
           <Skills />

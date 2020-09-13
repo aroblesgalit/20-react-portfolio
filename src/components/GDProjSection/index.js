@@ -3,7 +3,7 @@ import "./gdProjSection.css";
 
 export default function GDProjSection() {
     return (
-        <section>
+        <section className="uk-flex uk-flex-column uk-flex-left">
             Graphic Design Project One
         </section>
     )
