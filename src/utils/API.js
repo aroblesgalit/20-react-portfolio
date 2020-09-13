@@ -14,6 +14,7 @@ import cssLogo from "../assets/images/cssLogo.svg";
 import javascriptLogo from "../assets/images/javascriptLogo.svg";
 import indigoBallBg from "../assets/images/gdproj_indigoBall_bg.jpg";
 import hyperMockBg from "../assets/images/gdproj_hyperMock_bg.jpg";
+import otherLogosBg from "../assets/images/gdproj_otherLogos_bg.jpg";
 
 const projects = [
     {
@@ -70,6 +71,12 @@ const graphicDesignProjects = [
         title: "HyperMock",
         type: ["Logo Design", "UI Design"],
         image: hyperMockBg,
+        link: "https://www.alvingalit.com/"
+    },
+    {
+        title: "Other Logos",
+        type: ["Logo Designs"],
+        image: otherLogosBg,
         link: "https://www.alvingalit.com/"
     }
 ];
