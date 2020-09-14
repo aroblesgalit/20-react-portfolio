@@ -66,7 +66,7 @@ const graphicDesignProjects = [
         title: "Indigo Ball",
         type: ["Logo Design", "Print"],
         image: indigoBallBg,
-        link: "https://www.alvingalit.com/"
+        link: "/indigo-ball"
     },
     {
         title: "HyperMock",

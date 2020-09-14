@@ -1,11 +1,11 @@
 import React from "react";
 import "./pages.css";
-import indigoBallSplash from "../assets/images/indigoBall-splash.jpg";
+import Splash from "../components/Splash";
 
 export default function IndigoBall() {
     return (
         <div className="container">
-            <img src={indigoBallSplash} alt="Indigo Ball Logo" />
+            <Splash />
         </div>
     )
 }
