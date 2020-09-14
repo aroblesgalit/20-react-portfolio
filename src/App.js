@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Skills from "./pages/Skills";
 import Credits from "./pages/Credits";
 import GraphicDesign from "./pages/GraphicDesign";
+import IndigoBall from "./pages/IndigoBall";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </Route>
         <Route path="/graphic-design">
           <GraphicDesign />
+        </Route>
+        <Route path="/indigo-ball">
+          <IndigoBall />
         </Route>
         <Route path="/skills">
           <Skills />
