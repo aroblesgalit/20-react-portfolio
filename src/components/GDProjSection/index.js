@@ -3,9 +3,9 @@ import "./gdProjSection.css";
 
 export default function GDProjSection({ title, type, image, link }) {
     return (
-        <section className="uk-inline">
+        <section className="uk-flex uk-position-relative">
             <img src={image} alt={title} />
-            <div className="uk-overlay uk-light uk-position-top">
+            <div className="uk-light uk-position-absolute">
                 <p className="uk-text-small uk-margin-remove">
                     {type.join(", ")}
                 </p>
