@@ -6,6 +6,23 @@ import ProjectInfo from "../components/ProjectInfo";
 import ProjectContent from "../components/ProjectContent";
 
 export default function IndigoBall() {
+
+    // Brainstorm words
+    const words = [
+        {
+            word: "indigo",
+            graphics: ["color", "plant"]
+        },
+        {
+            word: "ball",
+            graphics: ["circle", "disco ball", "moon", "black tie"]
+        },
+        {
+            word: "fundraiser",
+            graphics: ["heart", "hands", "money"]
+        }
+    ]
+
     return (
         <div className="container">
             <Splash imgUrl={indigoBallSplash} />
@@ -23,6 +40,7 @@ export default function IndigoBall() {
                 description="To design the logo, I first did a brainstorm on the words
                     associated with the event to come up with ideas for the preliminary
                     sketches."
+                words={words}
             />
         </div>
     )
