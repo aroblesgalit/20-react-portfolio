@@ -8,6 +8,7 @@ import indigoBallSketch1 from "../assets/images/indigoBall-sketch-1.jpg";
 import indigoBallSketch2 from "../assets/images/indigoBall-sketch-2.jpg";
 import indigoBallSketch3 from "../assets/images/indigoBall-sketch-3.jpg";
 import indigoBallVectorize from "../assets/images/indigoBall-vectorize.jpg";
+import indigoBallLogo from "../assets/images/indigoBall-logoVersions.jpg";
 
 export default function IndigoBall() {
 
@@ -55,6 +56,13 @@ export default function IndigoBall() {
             url: indigoBallVectorize,
             title: "Vectors"
         }
+    ];
+
+    const finalLogo = [
+        {
+            url: indigoBallLogo,
+            title: "Final logo"
+        }
     ]
 
     return (
@@ -89,6 +97,16 @@ export default function IndigoBall() {
                 description="Once I've shared the sketches with the center, I take the
                     few they've chosen into Adobe Illustrator to vectorize them."
                 images={vectors}
+            />
+            <ProjectContent
+                type="other"
+                heading="4 final"
+                description="The center chose one logo from the vectorized set. Then, I
+                finalized it with colors, during which more back and forth took place.
+                Below is the final logo showing two versions: one against a light colored
+                background and the other against a dark colored background. Staying true
+                to the name, I chose the color indigo to represent the theme of the event."
+                images={finalLogo}
             />
         </div>
     )
