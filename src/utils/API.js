@@ -72,7 +72,7 @@ const graphicDesignProjects = [
         title: "HyperMock",
         type: ["Logo Design", "UI Design"],
         image: hyperMockBg,
-        link: "https://www.alvingalit.com/"
+        link: "/hypermock"
     },
     {
         title: "Other Logos",
