@@ -8,6 +8,7 @@ import hyperMockSketch1 from "../assets/images/hyperMock-sketch-1.jpg";
 import hyperMockSketch2 from "../assets/images/hyperMock-sketch-2.jpg";
 import hyperMockSketch3 from "../assets/images/hyperMock-sketch-3.jpg";
 import hyperMockVectorize from "../assets/images/hyperMock-vectorize.jpg";
+import hyperMockLogo from "../assets/images/hyperMock-finalLogo.jpg";
 
 export default function HyperMock() {
 
@@ -55,6 +56,13 @@ export default function HyperMock() {
         }
     ];
 
+    const finalLogo = [
+        {
+            url: hyperMockLogo,
+            title: "Final logo for HyperMock"
+        }
+    ];
+
     return (
         <div className="container">
             <Splash imgUrl={hyperMockSplash} />
@@ -87,6 +95,14 @@ export default function HyperMock() {
                 heading="3 vectors"
                 description="Then I used Illustrator to vectorize the best ones."
                 images={vectors}
+            />
+            <ProjectContent
+                type="other"
+                heading="4 final"
+                description="Below is the final logo. I chose a blue monochromatic color
+                    scheme to represent trust and intelligence in the product along with
+                    the Play font to match the logo mark."
+                images={finalLogo}
             />
         </div>
     )
