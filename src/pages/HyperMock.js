@@ -9,6 +9,8 @@ import hyperMockSketch2 from "../assets/images/hyperMock-sketch-2.jpg";
 import hyperMockSketch3 from "../assets/images/hyperMock-sketch-3.jpg";
 import hyperMockVectorize from "../assets/images/hyperMock-vectorize.jpg";
 import hyperMockLogo from "../assets/images/hyperMock-finalLogo.jpg";
+import hyperMockResearch1 from "../assets/images/hyperMock-uiResearch.jpg";
+import hyperMockResearch2 from "../assets/images/hyperMock-uiResearch-2.jpg";
 
 export default function HyperMock() {
 
@@ -77,6 +79,19 @@ export default function HyperMock() {
         "user can experience step-by-step instructions in augmented reality"
     ];
 
+    const researchImages = [
+        {
+            title: "moodboard",
+            url: hyperMockResearch1,
+            alt: "Moodboard for HyperMock"
+        },
+        {
+            title: "sketches",
+            url: hyperMockResearch2,
+            alt: "Sketches for HyperMock"
+        }
+    ];
+
     return (
         <div className="container">
             <Splash imgUrl={hyperMockSplash} />
@@ -130,6 +145,7 @@ export default function HyperMock() {
                     moodboard, and sketches I did."
                 name="Research"
                 notes={researchNotes}
+                images={researchImages}
             />
         </div>
     )
