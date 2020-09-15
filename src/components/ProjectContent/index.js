@@ -2,7 +2,7 @@ import React from "react";
 import "./projectContent.css";
 import Brainstorm from "../Brainstorm";
 
-export default function ProjectContent({ type, heading, description, name, notes, words, combinations, images }) {
+export default function ProjectContent({ heading, description, name, notes, words, combinations, images }) {
     return (
         <div className="proj-content uk-flex uk-flex-column uk-width-100 uk-flex-middle">
             <h4>{heading}</h4>
@@ -21,7 +21,7 @@ export default function ProjectContent({ type, heading, description, name, notes
                 images ? (
                     images.map(image => (
                         <React.Fragment key={image.url}>
-                            {image.title ? <span className="image-title">{image.title}</span> : ""}
+                            { image.title ? <span className="image-title">{image.title}</span> : "" }
                             <img src={image.url} alt={image.alt} />
                         </React.Fragment>
                     ))

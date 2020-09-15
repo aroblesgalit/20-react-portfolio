@@ -11,6 +11,7 @@ import hyperMockVectorize from "../assets/images/hyperMock-vectorize.jpg";
 import hyperMockLogo from "../assets/images/hyperMock-finalLogo.jpg";
 import hyperMockResearch1 from "../assets/images/hyperMock-uiResearch.jpg";
 import hyperMockResearch2 from "../assets/images/hyperMock-uiResearch-2.jpg";
+import hyperMockWireframes from "../assets/images/hyperMock-uiWireframes.jpg";
 
 export default function HyperMock() {
 
@@ -92,6 +93,13 @@ export default function HyperMock() {
         }
     ];
 
+    const wireframes = [
+        {
+            url: hyperMockWireframes,
+            alt: "Wireframes of the user interface"
+        }
+    ];
+
     return (
         <div className="container">
             <Splash imgUrl={hyperMockSplash} />
@@ -105,7 +113,6 @@ export default function HyperMock() {
                 services="Logo Design, UI Design"
             />
             <ProjectContent
-                type="brainstorm"
                 heading="1 brainstorm"
                 description="Before designing the logo, I started with brainstorming words
                     that describe HyperMock."
@@ -115,20 +122,17 @@ export default function HyperMock() {
                 combinations={combinations}
             />
             <ProjectContent
-                type="other"
                 heading="2 sketches"
                 description="Based on the words I have brainstormed, I then sketched out
                     some ideas."
                 images={sketches}
             />
             <ProjectContent
-                type="other"
                 heading="3 vectors"
                 description="Then I used Illustrator to vectorize the best ones."
                 images={vectors}
             />
             <ProjectContent
-                type="other"
                 heading="4 final"
                 description="Below is the final logo. I chose a blue monochromatic color
                     scheme to represent trust and intelligence in the product along with
@@ -136,7 +140,6 @@ export default function HyperMock() {
                 images={finalLogo}
             />
             <ProjectContent
-                type="brainstorm"
                 heading="5 ui research"
                 description="Moving on to the UI, I had to keep it user-friendly to easily
                     author a simulation and step-by-step instructions or tasks on desktop
@@ -146,6 +149,12 @@ export default function HyperMock() {
                 name="Research"
                 notes={researchNotes}
                 images={researchImages}
+            />
+            <ProjectContent
+                heading="6 ui wireframes"
+                description="I took my sketches and turned them into low-fidelity wireframes
+                    using Adobe XD."
+                images={wireframes}
             />
         </div>
     )
