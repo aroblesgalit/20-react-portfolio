@@ -13,7 +13,7 @@ export default function Brainstorm({ name, about, words }) {
             <div className="uk-flex uk-flex-around uk-width-100">
                 {
                     words.map(item => (
-                        <div>
+                        <div className="word uk-text-center">
                             <h6>{item.word}</h6>
                             <ul>
                                 {
