@@ -30,6 +30,10 @@
     content: '\2014\a0  ';
 }
 
+.word {
+    margin-bottom: 1rem;
+}
+
 .word h6 {
     font-size: 1.25rem;
     position: relative;
@@ -45,4 +49,9 @@
     background-color: #D1D58E;
     position: absolute;
     bottom: 0;
+}
+
+.possible-combos {
+    border: 2px solid #D1D58E;
+    padding: 1.25rem;
 }

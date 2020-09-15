@@ -10,7 +10,7 @@ export default function Brainstorm({ name, about, words, combinations }) {
                     <li>{about}</li>
                 </ul>
             </div>
-            <div className="uk-flex uk-flex-around uk-width-100">
+            <div className="uk-flex uk-flex-around uk-flex-wrap uk-width-100">
                 {
                     words.map(item => (
                         <div className="word uk-text-center">
@@ -25,7 +25,7 @@ export default function Brainstorm({ name, about, words, combinations }) {
                         </div>
                     ))
                 }
-                <div className="word uk-text-center">
+                <div className="word possible-combos uk-text-center">
                     <h6>possible combinations</h6>
                     <ul>
                         {
