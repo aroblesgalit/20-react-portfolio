@@ -4,6 +4,9 @@ import Splash from "../components/Splash";
 import hyperMockSplash from "../assets/images/hyperMock-splash.jpg";
 import ProjectInfo from "../components/ProjectInfo";
 import ProjectContent from "../components/ProjectContent";
+import hyperMockSketch1 from "../assets/images/hyperMock-sketch-1.jpg";
+import hyperMockSketch2 from "../assets/images/hyperMock-sketch-2.jpg";
+import hyperMockSketch3 from "../assets/images/hyperMock-sketch-3.jpg";
 
 export default function HyperMock() {
 
@@ -29,6 +32,21 @@ export default function HyperMock() {
         ["3d object", "gears", "vr headset"]
     ];
 
+    const sketches = [
+        {
+            url: hyperMockSketch1,
+            title: "Logo sketches"
+        },
+        {
+            url: hyperMockSketch2,
+            title: "Logo sketches"
+        },
+        {
+            url: hyperMockSketch3,
+            title: "Logo sketches"
+        }
+    ]
+
     return (
         <div className="container">
             <Splash imgUrl={hyperMockSplash} />
@@ -48,6 +66,13 @@ export default function HyperMock() {
                     that describe HyperMock."
                 words={words}
                 combinations={combinations}
+            />
+            <ProjectContent
+                type="other"
+                heading="2 sketches"
+                description="Based on the words I have brainstormed, I then sketched out
+                    some ideas."
+                images={sketches}
             />
         </div>
     )
