@@ -1,7 +1,7 @@
 import React from "react";
 import "./brainstorm.css";
 
-export default function Brainstorm({ name, about, words }) {
+export default function Brainstorm({ name, about, words, combinations }) {
     return (
         <div className="brainstorm uk-flex uk-flex-column">
             <div className="description">
@@ -25,7 +25,16 @@ export default function Brainstorm({ name, about, words }) {
                         </div>
                     ))
                 }
-
+                <div className="word uk-text-center">
+                    <h6>possible combinations</h6>
+                    <ul>
+                        {
+                            combinations.map(items => (
+                                <li>{items.join(" + ")}</li>
+                            ))
+                        }
+                    </ul>
+                </div>
             </div>
         </div>
     )

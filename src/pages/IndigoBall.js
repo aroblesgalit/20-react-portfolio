@@ -21,6 +21,14 @@ export default function IndigoBall() {
             word: "fundraiser",
             graphics: ["heart", "hands", "money"]
         }
+    ];
+
+    const combinations = [
+        ["color", "circle", "heart"],
+        ["color", "disco ball", "heart"],
+        ["color", "moon", "heart"],
+        ["color", "disco ball"],
+        ["color", "circle"]
     ]
 
     return (
@@ -41,6 +49,7 @@ export default function IndigoBall() {
                     associated with the event to come up with ideas for the preliminary
                     sketches."
                 words={words}
+                combinations={combinations}
             />
         </div>
     )
