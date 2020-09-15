@@ -42,29 +42,29 @@ export default function HyperMock() {
     const sketches = [
         {
             url: hyperMockSketch1,
-            title: "Logo sketches"
+            alt: "Logo sketches"
         },
         {
             url: hyperMockSketch2,
-            title: "Logo sketches"
+            alt: "Logo sketches"
         },
         {
             url: hyperMockSketch3,
-            title: "Logo sketches"
+            alt: "Logo sketches"
         }
     ];
 
     const vectors = [
         {
             url: hyperMockVectorize,
-            title: "Vectorized sketches of 3 logo ideas."
+            alt: "Vectorized sketches of 3 logo ideas."
         }
     ];
 
     const finalLogo = [
         {
             url: hyperMockLogo,
-            title: "Final logo for HyperMock"
+            alt: "Final logo for HyperMock"
         }
     ];
 

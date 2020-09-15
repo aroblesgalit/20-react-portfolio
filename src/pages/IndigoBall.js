@@ -48,48 +48,48 @@ export default function IndigoBall() {
     const sketches = [
         {
             url: indigoBallSketch1,
-            title: "Logo sketches"
+            alt: "Logo sketches"
         },
         {
             url: indigoBallSketch2,
-            title: "Logo sketches"
+            alt: "Logo sketches"
         },
         {
             url: indigoBallSketch3,
-            title: "Logo sketches"
+            alt: "Logo sketches"
         }
     ];
 
     const vectors = [
         {
             url: indigoBallVectorize,
-            title: "Vectors"
+            alt: "Vectors"
         }
     ];
 
     const finalLogo = [
         {
             url: indigoBallLogo,
-            title: "Final logo"
+            alt: "Final logo"
         }
     ];
 
     const cards = [
         {
             url: indigoBallInvite1,
-            title: "Indigo Ball invite front cover"
+            alt: "Indigo Ball invite front cover"
         },
         {
             url: indigoBallInvite2,
-            title: "Indigo Ball invite outside"
+            alt: "Indigo Ball invite outside"
         },
         {
             url: indigoBallInvite3,
-            title: "Indigo Ball invite inside"
+            alt: "Indigo Ball invite inside"
         },
         {
             url: indigoBallSaveTheDate,
-            title: "Indigo Ball Save-the-Date card"
+            alt: "Indigo Ball Save-the-Date card"
         }
     ];
 

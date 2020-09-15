@@ -17,7 +17,7 @@ export default function ProjectContent({ type, heading, description, name, notes
                         combinations={combinations}
                     /> : (
                             images.map(image => (
-                                <img key={image.url} src={image.url} alt={images.title} />
+                                <img key={image.url} src={image.url} alt={images.alt} />
                             ))
                     )
             }
