@@ -9,6 +9,10 @@ import indigoBallSketch2 from "../assets/images/indigoBall-sketch-2.jpg";
 import indigoBallSketch3 from "../assets/images/indigoBall-sketch-3.jpg";
 import indigoBallVectorize from "../assets/images/indigoBall-vectorize.jpg";
 import indigoBallLogo from "../assets/images/indigoBall-logoVersions.jpg";
+import indigoBallInvite1 from "../assets/images/indigoBall-invite-1.jpg";
+import indigoBallInvite2 from "../assets/images/indigoBall-invite-2.jpg";
+import indigoBallInvite3 from "../assets/images/indigoBall-invite-3.jpg";
+import indigoBallSaveTheDate from "../assets/images/indigoBall-saveTheDate.jpg";
 
 export default function IndigoBall() {
 
@@ -63,7 +67,26 @@ export default function IndigoBall() {
             url: indigoBallLogo,
             title: "Final logo"
         }
-    ]
+    ];
+
+    const cards = [
+        {
+            url: indigoBallInvite1,
+            title: "Indigo Ball invite front cover"
+        },
+        {
+            url: indigoBallInvite2,
+            title: "Indigo Ball invite outside"
+        },
+        {
+            url: indigoBallInvite3,
+            title: "Indigo Ball invite inside"
+        },
+        {
+            url: indigoBallSaveTheDate,
+            title: "Indigo Ball Save-the-Date card"
+        }
+    ];
 
     return (
         <div className="container">
@@ -107,6 +130,12 @@ export default function IndigoBall() {
                 background and the other against a dark colored background. Staying true
                 to the name, I chose the color indigo to represent the theme of the event."
                 images={finalLogo}
+            />
+            <ProjectContent
+                type="other"
+                heading="5 print designs"
+                description="Below are my designs for the invitation and save the date card."
+                images={cards}
             />
         </div>
     )
