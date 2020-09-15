@@ -1,13 +1,17 @@
 import React from "react";
 import "./brainstorm.css";
 
-export default function Brainstorm({ name, about, words, combinations }) {
+export default function Brainstorm({ name, notes, words, combinations }) {
     return (
         <div className="brainstorm uk-flex uk-flex-column">
             <div className="description">
                 <h5>{name}</h5>
                 <ul>
-                    <li>{about}</li>
+                    {
+                        notes.map(note => (
+                            <li key={note}>{note}</li>
+                        ))
+                    }
                 </ul>
             </div>
             <div className="uk-flex uk-flex-around uk-flex-wrap uk-width-100">

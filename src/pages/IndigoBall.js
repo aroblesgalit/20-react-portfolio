@@ -17,6 +17,11 @@ import indigoBallSaveTheDate from "../assets/images/indigoBall-saveTheDate.jpg";
 export default function IndigoBall() {
 
     // Brainstorm words
+    const brainstormNote = {
+        name: "Indigo Ball",
+        notes: ["a fundraiser event for the LGBTQ Center OC"]
+    };
+
     const words = [
         {
             word: "indigo",
@@ -105,8 +110,8 @@ export default function IndigoBall() {
                 description="To design the logo, I first did a brainstorm on the words
                     associated with the event to come up with ideas for the preliminary
                     sketches."
-                name="Indigo Ball"
-                about="a fundraiser event for the LGBTQ Center OC"
+                name={brainstormNote.name}
+                notes={brainstormNote.notes}
                 words={words}
                 combinations={combinations}
             />

@@ -2,7 +2,7 @@ import React from "react";
 import "./projectContent.css";
 import Brainstorm from "../Brainstorm";
 
-export default function ProjectContent({ type, heading, description, name, about, words, combinations, images }) {
+export default function ProjectContent({ type, heading, description, name, notes, words, combinations, images }) {
     return (
         <div className="proj-content uk-flex uk-flex-column uk-width-100 uk-flex-middle">
             <h4>{heading}</h4>
@@ -12,7 +12,7 @@ export default function ProjectContent({ type, heading, description, name, about
                     <Brainstorm
                         key={name}
                         name={name}
-                        about={about}
+                        notes={notes}
                         words={words}
                         combinations={combinations}
                     /> : (

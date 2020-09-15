@@ -13,6 +13,11 @@ import hyperMockLogo from "../assets/images/hyperMock-finalLogo.jpg";
 export default function HyperMock() {
 
     // Brainstorm words
+    const brainstormNote = {
+        name: "HyperMock",
+        notes: ["authoring tool for augmented and virtual reality content"]
+    };
+
     const words = [
         {
             word: "authoring tool",
@@ -63,6 +68,15 @@ export default function HyperMock() {
         }
     ];
 
+    const researchNotes = [
+        "user can upload a model or virtual object into a manager page on desktop",
+        "user can author a simulation with virtual objects on desktop",
+        "user can author step-by-step instructions or tasks on desktop",
+        "user can author a simulation in virtual reality",
+        "user can experience a simulation with step-by-step instructions in virtual reality",
+        "user can experience step-by-step instructions in augmented reality"
+    ];
+
     return (
         <div className="container">
             <Splash imgUrl={hyperMockSplash} />
@@ -80,8 +94,8 @@ export default function HyperMock() {
                 heading="1 brainstorm"
                 description="Before designing the logo, I started with brainstorming words
                     that describe HyperMock."
-                name="HyperMock"
-                about="authoring tool for augmented and virtual reality content"
+                name={brainstormNote.name}
+                notes={brainstormNote.notes}
                 words={words}
                 combinations={combinations}
             />
@@ -114,7 +128,8 @@ export default function HyperMock() {
                     and seamlessly experience it in AR/VR. Then, I looked into what other
                     competitors have done for inspirations. Below are the brainstorming,
                     moodboard, and sketches I did."
-
+                name="Research"
+                notes={researchNotes}
             />
         </div>
     )
