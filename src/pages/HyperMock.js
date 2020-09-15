@@ -12,6 +12,11 @@ import hyperMockLogo from "../assets/images/hyperMock-finalLogo.jpg";
 import hyperMockResearch1 from "../assets/images/hyperMock-uiResearch.jpg";
 import hyperMockResearch2 from "../assets/images/hyperMock-uiResearch-2.jpg";
 import hyperMockWireframes from "../assets/images/hyperMock-uiWireframes.jpg";
+import hyperMockMockups2 from "../assets/images/hyperMock-uiMockups-2.jpg";
+import hyperMockMockups3 from "../assets/images/hyperMock-uiMockups-3.jpg";
+import hyperMockMockups4 from "../assets/images/hyperMock-uiMockups-4.jpg";
+import hyperMockMockups5 from "../assets/images/hyperMock-uiMockups-5.jpg";
+import hyperMockMockups6 from "../assets/images/hyperMock-uiMockups-6.jpg";
 
 export default function HyperMock() {
 
@@ -100,6 +105,33 @@ export default function HyperMock() {
         }
     ];
 
+    const mockups = [
+        {
+            title: "desktop",
+            url: hyperMockMockups2,
+            alt: "Mockups of the user interface"
+        },
+        {
+            url: hyperMockMockups3,
+            alt: "Mockups of the user interface"
+        },
+        {
+            title: "virtual reality",
+            url: hyperMockMockups4,
+            alt: "Mockups of the user interface"
+        },
+        {
+            title: "augmented reality",
+            url: hyperMockMockups6,
+            alt: "Mockups of the user interface"
+        },
+        {
+            title: "augmented and virtual reality",
+            url: hyperMockMockups5,
+            alt: "Mockups of the user interface"
+        }
+    ];
+
     return (
         <div className="container">
             <Splash imgUrl={hyperMockSplash} />
@@ -155,6 +187,11 @@ export default function HyperMock() {
                 description="I took my sketches and turned them into low-fidelity wireframes
                     using Adobe XD."
                 images={wireframes}
+            />
+            <ProjectContent
+                heading="7 ui mockups"
+                description="Finally, I designed the mockups below using Adobe XD."
+                images={mockups}
             />
         </div>
     )
