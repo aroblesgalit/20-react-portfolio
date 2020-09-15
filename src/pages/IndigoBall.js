@@ -7,6 +7,7 @@ import ProjectContent from "../components/ProjectContent";
 import indigoBallSketch1 from "../assets/images/indigoBall-sketch-1.jpg";
 import indigoBallSketch2 from "../assets/images/indigoBall-sketch-2.jpg";
 import indigoBallSketch3 from "../assets/images/indigoBall-sketch-3.jpg";
+import indigoBallVectorize from "../assets/images/indigoBall-vectorize.jpg";
 
 export default function IndigoBall() {
 
@@ -32,7 +33,7 @@ export default function IndigoBall() {
         ["color", "moon", "heart"],
         ["color", "disco ball"],
         ["color", "circle"]
-    ]
+    ];
 
     const sketches = [
         {
@@ -46,6 +47,13 @@ export default function IndigoBall() {
         {
             url: indigoBallSketch3,
             title: "Logo sketches"
+        }
+    ];
+
+    const vectors = [
+        {
+            url: indigoBallVectorize,
+            title: "Vectors"
         }
     ]
 
@@ -74,6 +82,13 @@ export default function IndigoBall() {
                 heading="2 sketches"
                 description="After I have brainstormed some ideas, I do some sketches."
                 images={sketches}
+            />
+            <ProjectContent
+                type="other"
+                heading="3 vectors"
+                description="Once I've shared the sketches with the center, I take the
+                    few they've chosen into Adobe Illustrator to vectorize them."
+                images={vectors}
             />
         </div>
     )
