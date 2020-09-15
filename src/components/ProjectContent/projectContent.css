@@ -23,3 +23,9 @@
     margin-bottom: 3.125rem;
     padding: 0 1.25rem;
 }
+
+.proj-content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.25rem;
+}

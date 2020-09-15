@@ -4,6 +4,9 @@ import Splash from "../components/Splash";
 import indigoBallSplash from "../assets/images/indigoBall-splash.jpg";
 import ProjectInfo from "../components/ProjectInfo";
 import ProjectContent from "../components/ProjectContent";
+import indigoBallSketch1 from "../assets/images/indigoBall-sketch-1.jpg";
+import indigoBallSketch2 from "../assets/images/indigoBall-sketch-2.jpg";
+import indigoBallSketch3 from "../assets/images/indigoBall-sketch-3.jpg";
 
 export default function IndigoBall() {
 
@@ -31,6 +34,21 @@ export default function IndigoBall() {
         ["color", "circle"]
     ]
 
+    const sketches = [
+        {
+            url: indigoBallSketch1,
+            title: "Logo sketches"
+        },
+        {
+            url: indigoBallSketch2,
+            title: "Logo sketches"
+        },
+        {
+            url: indigoBallSketch3,
+            title: "Logo sketches"
+        }
+    ]
+
     return (
         <div className="container">
             <Splash imgUrl={indigoBallSplash} />
@@ -55,6 +73,7 @@ export default function IndigoBall() {
                 type="other"
                 heading="2 sketches"
                 description="After I have brainstormed some ideas, I do some sketches."
+                images={sketches}
             />
         </div>
     )
