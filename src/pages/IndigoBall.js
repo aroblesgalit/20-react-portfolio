@@ -51,6 +51,11 @@ export default function IndigoBall() {
                 words={words}
                 combinations={combinations}
             />
+            <ProjectContent
+                type="other"
+                heading="2 sketches"
+                description="After I have brainstormed some ideas, I do some sketches."
+            />
         </div>
     )
 }
