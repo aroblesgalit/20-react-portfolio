@@ -12,6 +12,7 @@ import hyperMockLogo from "../assets/images/hyperMock-finalLogo.jpg";
 import hyperMockResearch1 from "../assets/images/hyperMock-uiResearch.jpg";
 import hyperMockResearch2 from "../assets/images/hyperMock-uiResearch-2.jpg";
 import hyperMockWireframes from "../assets/images/hyperMock-uiWireframes.jpg";
+import hyperMockMockups1 from "../assets/images/hyperMock-uiMockups.jpg";
 import hyperMockMockups2 from "../assets/images/hyperMock-uiMockups-2.jpg";
 import hyperMockMockups3 from "../assets/images/hyperMock-uiMockups-3.jpg";
 import hyperMockMockups4 from "../assets/images/hyperMock-uiMockups-4.jpg";
@@ -108,6 +109,10 @@ export default function HyperMock() {
     const mockups = [
         {
             title: "desktop",
+            url: hyperMockMockups1,
+            alt: "Mockups of the user interface"
+        },
+        {
             url: hyperMockMockups2,
             alt: "Mockups of the user interface"
         },
