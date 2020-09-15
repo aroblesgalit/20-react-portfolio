@@ -80,6 +80,8 @@ export default function HyperMock() {
                 heading="1 brainstorm"
                 description="Before designing the logo, I started with brainstorming words
                     that describe HyperMock."
+                name="HyperMock"
+                about="authoring tool for augmented and virtual reality content"
                 words={words}
                 combinations={combinations}
             />
@@ -103,6 +105,16 @@ export default function HyperMock() {
                     scheme to represent trust and intelligence in the product along with
                     the Play font to match the logo mark."
                 images={finalLogo}
+            />
+            <ProjectContent
+                type="brainstorm"
+                heading="5 ui research"
+                description="Moving on to the UI, I had to keep it user-friendly to easily
+                    author a simulation and step-by-step instructions or tasks on desktop
+                    and seamlessly experience it in AR/VR. Then, I looked into what other
+                    competitors have done for inspirations. Below are the brainstorming,
+                    moodboard, and sketches I did."
+
             />
         </div>
     )

@@ -105,6 +105,8 @@ export default function IndigoBall() {
                 description="To design the logo, I first did a brainstorm on the words
                     associated with the event to come up with ideas for the preliminary
                     sketches."
+                name="Indigo Ball"
+                about="a fundraiser event for the LGBTQ Center OC"
                 words={words}
                 combinations={combinations}
             />
