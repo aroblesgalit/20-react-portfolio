@@ -78,7 +78,7 @@ const graphicDesignProjects = [
         title: "Other Logos",
         type: ["Logo Designs"],
         image: otherLogosBg,
-        link: "https://www.alvingalit.com/"
+        link: "/other-logos"
     },
     {
         title: "Other Print Designs",
