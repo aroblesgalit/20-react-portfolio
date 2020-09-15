@@ -10,6 +10,7 @@ import Credits from "./pages/Credits";
 import GraphicDesign from "./pages/GraphicDesign";
 import IndigoBall from "./pages/IndigoBall";
 import HyperMock from "./pages/HyperMock";
+import OtherLogos from "./pages/OtherLogos";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path="/hypermock">
           <HyperMock />
+        </Route>
+        <Route path="/other-logos">
+          <OtherLogos />
         </Route>
         <Route path="/skills">
           <Skills />
