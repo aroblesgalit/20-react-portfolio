@@ -14,6 +14,7 @@ export default function OtherLogos() {
                     started each by pencil and paper then vectorized them in Illustrator."
                 services="Logo Designs"
             />
+            
         </div>
     )
 }
