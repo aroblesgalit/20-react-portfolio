@@ -6,6 +6,7 @@ import ProjectInfo from "../components/ProjectInfo";
 import ProjectLogo from "../components/ProjectLogo";
 import timmyScottLogo from "../assets/images/timmyScott_logo.png";
 import solarTwistLogo from "../assets/images/solarTwist_logo.png";
+import polynomialLogo from "../assets/images/polynomial_logo.png";
 
 export default function OtherLogos() {
 
@@ -21,6 +22,12 @@ export default function OtherLogos() {
             alt: "Logo for Solar Twist company.",
             shape: "horizontal",
             background: "#f4f4f4"
+        },
+        {
+            url: polynomialLogo,
+            alt: "Logo for a support group called Polynomial.",
+            shape: "box",
+            background: "#101526"
         }
     ];
 
