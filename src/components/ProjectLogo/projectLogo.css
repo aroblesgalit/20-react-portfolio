@@ -8,3 +8,13 @@
     height: 100vh;
     width: 100%;
 }
+
+.vertical-shape img {
+    width: 350px;
+    height: auto;
+}
+
+.horizontal-shape img {
+    width: 600px;
+    height: auto;
+}

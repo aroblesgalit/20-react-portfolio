@@ -11,7 +11,9 @@ export default function OtherLogos() {
     const logos = [
         {
             url: timmyScottLogo,
-            alt: "Logo for Timmy Scott Productions."
+            alt: "Logo for Timmy Scott Productions.",
+            shape: "vertical",
+            background: "#3c0e54"
         }
     ];
 
@@ -27,8 +29,11 @@ export default function OtherLogos() {
             {
                 logos.map(logo => (
                     <ProjectLogo
+                        key={logo.url}
                         url={logo.url}
                         alt={logo.alt}
+                        shape={logo.shape}
+                        background={logo.background}
                     />
                 ))
             }
