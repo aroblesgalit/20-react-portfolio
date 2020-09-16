@@ -7,6 +7,7 @@ import ProjectLogo from "../components/ProjectLogo";
 import timmyScottLogo from "../assets/images/timmyScott_logo.png";
 import solarTwistLogo from "../assets/images/solarTwist_logo.png";
 import polynomialLogo from "../assets/images/polynomial_logo.png";
+import careosityLogo from "../assets/images/careosity_logo.png";
 
 export default function OtherLogos() {
 
@@ -28,6 +29,12 @@ export default function OtherLogos() {
             alt: "Logo for a support group called Polynomial.",
             shape: "box",
             background: "#101526"
+        },
+        {
+            url: careosityLogo,
+            alt: "Logo for Care-osity company.",
+            shape: "box",
+            background: "#f4f4f4"
         }
     ];
 
