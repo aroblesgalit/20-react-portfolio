@@ -1,11 +1,10 @@
 import React from "react";
 import "./projectLogo.css";
-import timmyScottLogo from "../../assets/images/timmyScott_logo.png";
 
-export default function ProjectLogo() {
+export default function ProjectLogo({ url, alt }) {
     return (
-        <div className="proj-logo">
-            <img src={timmyScottLogo} alt="Logo for Timmy Scott Productions." />
+        <div className="proj-logo uk-flex uk-flex-center uk-flex-middle">
+            <img src={url} alt={alt} />
         </div>
     )
 }

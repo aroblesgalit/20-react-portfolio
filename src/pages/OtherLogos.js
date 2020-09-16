@@ -4,8 +4,17 @@ import Splash from "../components/Splash";
 import otherLogosSplash from "../assets/images/otherLogos-splash.jpg";
 import ProjectInfo from "../components/ProjectInfo";
 import ProjectLogo from "../components/ProjectLogo";
+import timmyScottLogo from "../assets/images/timmyScott_logo.png";
 
 export default function OtherLogos() {
+
+    const logos = [
+        {
+            url: timmyScottLogo,
+            alt: "Logo for Timmy Scott Productions."
+        }
+    ];
+
     return (
         <div className="container">
             <Splash imgUrl={otherLogosSplash} />
@@ -15,7 +24,14 @@ export default function OtherLogos() {
                     started each by pencil and paper then vectorized them in Illustrator."
                 services="Logo Designs"
             />
-            <ProjectLogo />
+            {
+                logos.map(logo => (
+                    <ProjectLogo
+                        url={logo.url}
+                        alt={logo.alt}
+                    />
+                ))
+            }
         </div>
     )
 }
