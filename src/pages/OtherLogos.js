@@ -5,6 +5,7 @@ import otherLogosSplash from "../assets/images/otherLogos-splash.jpg";
 import ProjectInfo from "../components/ProjectInfo";
 import ProjectLogo from "../components/ProjectLogo";
 import timmyScottLogo from "../assets/images/timmyScott_logo.png";
+import solarTwistLogo from "../assets/images/solarTwist_logo.png";
 
 export default function OtherLogos() {
 
@@ -14,6 +15,12 @@ export default function OtherLogos() {
             alt: "Logo for Timmy Scott Productions.",
             shape: "vertical",
             background: "#3c0e54"
+        },
+        {
+            url: solarTwistLogo,
+            alt: "Logo for Solar Twist company.",
+            shape: "horizontal",
+            background: "#f4f4f4"
         }
     ];
 
