@@ -3,6 +3,7 @@ import "./pages.css";
 import Splash from "../components/Splash";
 import otherLogosSplash from "../assets/images/otherLogos-splash.jpg";
 import ProjectInfo from "../components/ProjectInfo";
+import ProjectLogo from "../components/ProjectLogo";
 
 export default function OtherLogos() {
     return (
@@ -14,7 +15,7 @@ export default function OtherLogos() {
                     started each by pencil and paper then vectorized them in Illustrator."
                 services="Logo Designs"
             />
-            
+            <ProjectLogo />
         </div>
     )
 }
