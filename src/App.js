@@ -11,43 +11,46 @@ import GraphicDesign from "./pages/GraphicDesign";
 import IndigoBall from "./pages/IndigoBall";
 import HyperMock from "./pages/HyperMock";
 import OtherLogos from "./pages/OtherLogos";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route path="/graphic-design">
-          <GraphicDesign />
-        </Route>
-        <Route path="/indigo-ball">
-          <IndigoBall />
-        </Route>
-        <Route path="/hypermock">
-          <HyperMock />
-        </Route>
-        <Route path="/other-logos">
-          <OtherLogos />
-        </Route>
-        <Route path="/skills">
-          <Skills />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/credits">
-          <Credits />
-        </Route>
-        <Route path="*">
-          <Home />
-        </Route>
-      </Switch>
+      <ScrollToTop>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/graphic-design">
+            <GraphicDesign />
+          </Route>
+          <Route path="/indigo-ball">
+            <IndigoBall />
+          </Route>
+          <Route path="/hypermock">
+            <HyperMock />
+          </Route>
+          <Route path="/other-logos">
+            <OtherLogos />
+          </Route>
+          <Route path="/skills">
+            <Skills />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/credits">
+            <Credits />
+          </Route>
+          <Route path="*">
+            <Home />
+          </Route>
+        </Switch>
+      </ScrollToTop>
       <Footer />
     </Router>
   );
