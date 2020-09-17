@@ -10,6 +10,7 @@ import polynomialLogo from "../assets/images/polynomial_logo.png";
 import careosityLogo from "../assets/images/careosity_logo.png";
 import transPrideLogo from "../assets/images/transPride_logo.png";
 import sipsAndGigglesLogo from "../assets/images/sipsAndGiggles_logo.png";
+import lifeGamesLogo from "../assets/images/lifeGames_logo.png";
 
 export default function OtherLogos() {
 
@@ -49,6 +50,12 @@ export default function OtherLogos() {
             alt: "Logo for Sips and Giggles fundraiser event.",
             shape: "box",
             background: "#f4f4f4"
+        },
+        {
+            url: lifeGamesLogo,
+            alt: "Logo for a mobile app called LifeGames.",
+            shape: "vertical",
+            background: "#a41c43"
         }
     ];
 
