@@ -16,7 +16,7 @@ import indigoBallBg from "../assets/images/gdproj_indigoBall_bg.jpg";
 import hyperMockBg from "../assets/images/gdproj_hyperMock_bg.jpg";
 import otherLogosBg from "../assets/images/gdproj_otherLogos_bg.jpg";
 import otherPrintsBg from "../assets/images/gdproj_otherPrints_bg.jpg";
-// Graphic Design logo designs
+// Graphic Design - Logos
 import timmyScottLogo from "../assets/images/timmyScott_logo.png";
 import solarTwistLogo from "../assets/images/solarTwist_logo.png";
 import polynomialLogo from "../assets/images/polynomial_logo.png";
@@ -25,6 +25,12 @@ import transPrideLogo from "../assets/images/transPride_logo.png";
 import sipsAndGigglesLogo from "../assets/images/sipsAndGiggles_logo.png";
 import lifeGamesLogo from "../assets/images/lifeGames_logo.png";
 import professionalMixerLogo from "../assets/images/professionalMixer_logo.png";
+// Graphic Design - Prints
+import impactReportBrochure from "../assets/images/impact-report-brochure.jpg";
+import galaFlyer from "../assets/images/gala-flyer-2.jpg.png";
+import sipsAndGigglesFlyer from "../assets/images/sipsAndGiggles_logo.png";
+import lgbtqHangoutsFlyer from "../assets/images/lgbtqHangouts_flyer.png";
+import thankYouCard from "../assets/images/thankYou-card.png";
 
 const projects = [
     {
@@ -145,6 +151,33 @@ const graphicDesignLogos = [
         alt: "Logo for a mixer event called Professional Mixer Series.",
         shape: "horizontal",
         background: "#f4f4f4"
+    }
+];
+
+const graphicDesignPrints = [
+    {
+        heading: "impact report brochure",
+        description: "8.5 x 11 inches trifold brochure for the LGBTQ Center OC",
+        image: impactReportBrochure
+    },
+    {
+        heading: "gala flyer",
+        description: "5 x 7 inches flyer for APAIT",
+        image: galaFlyer
+    },
+    {
+        heading: "sips & giggles flyer",
+        description: "5 x 7 inches flyer for the LGBTQ Center OC",
+        image: sipsAndGigglesFlyer
+    },
+    {
+        heading: "lgbtq hangouts flyer",
+        description: "4.5 x 7 inches flyer for the LGBTQ Center OC",
+        image: lgbtqHangoutsFlyer
+    },
+    {
+        heading: "thank you card",
+        description: "5 x 7 inches Thank You card for the LGBTQ Center OC"
     }
 ];
 
@@ -313,7 +346,12 @@ export default {
     },
     getGDLogos: function () {
         return new Promise(resolve => {
-            resolve(graphicDesignLogos)
+            resolve(graphicDesignLogos);
+        });
+    },
+    getGDPrints: function () {
+        return new Promise(resolve => {
+            resolve(graphicDesignPrints);
         });
     }
 };
