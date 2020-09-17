@@ -93,7 +93,7 @@ const graphicDesignProjects = [
         title: "Other Print Designs",
         type: ["Print Designs"],
         image: otherPrintsBg,
-        link: "https://www.alvingalit.com/"
+        link: "/other-prints"
     }
 ];
 
