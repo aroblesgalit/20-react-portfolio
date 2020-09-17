@@ -177,7 +177,8 @@ const graphicDesignPrints = [
     },
     {
         heading: "thank you card",
-        description: "5 x 7 inches Thank You card for the LGBTQ Center OC"
+        description: "5 x 7 inches Thank You card for the LGBTQ Center OC",
+        image: thankYouCard
     }
 ];
 
