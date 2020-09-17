@@ -11,6 +11,7 @@ import GraphicDesign from "./pages/GraphicDesign";
 import IndigoBall from "./pages/IndigoBall";
 import HyperMock from "./pages/HyperMock";
 import OtherLogos from "./pages/OtherLogos";
+import OtherPrints from "./pages/OtherPrints";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -34,8 +35,11 @@ function App() {
           <Route path="/hypermock">
             <HyperMock />
           </Route>
-          <Route path="/other-logos">
+          <Route exact path="/other-logos">
             <OtherLogos />
+          </Route>
+          <Route exact path="/other-prints">
+            <OtherPrints />
           </Route>
           <Route path="/skills">
             <Skills />
