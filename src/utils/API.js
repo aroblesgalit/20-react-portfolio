@@ -16,6 +16,15 @@ import indigoBallBg from "../assets/images/gdproj_indigoBall_bg.jpg";
 import hyperMockBg from "../assets/images/gdproj_hyperMock_bg.jpg";
 import otherLogosBg from "../assets/images/gdproj_otherLogos_bg.jpg";
 import otherPrintsBg from "../assets/images/gdproj_otherPrints_bg.jpg";
+// Graphic Design logo designs
+import timmyScottLogo from "../assets/images/timmyScott_logo.png";
+import solarTwistLogo from "../assets/images/solarTwist_logo.png";
+import polynomialLogo from "../assets/images/polynomial_logo.png";
+import careosityLogo from "../assets/images/careosity_logo.png";
+import transPrideLogo from "../assets/images/transPride_logo.png";
+import sipsAndGigglesLogo from "../assets/images/sipsAndGiggles_logo.png";
+import lifeGamesLogo from "../assets/images/lifeGames_logo.png";
+import professionalMixerLogo from "../assets/images/professionalMixer_logo.png";
 
 const projects = [
     {
@@ -85,6 +94,57 @@ const graphicDesignProjects = [
         type: ["Print Designs"],
         image: otherPrintsBg,
         link: "https://www.alvingalit.com/"
+    }
+];
+
+const graphicDesignLogos = [
+    {
+        url: timmyScottLogo,
+        alt: "Logo for Timmy Scott Productions.",
+        shape: "vertical",
+        background: "#3c0e54"
+    },
+    {
+        url: solarTwistLogo,
+        alt: "Logo for Solar Twist company.",
+        shape: "horizontal",
+        background: "#f4f4f4"
+    },
+    {
+        url: polynomialLogo,
+        alt: "Logo for a support group called Polynomial.",
+        shape: "box",
+        background: "#101526"
+    },
+    {
+        url: careosityLogo,
+        alt: "Logo for Care-osity company.",
+        shape: "box",
+        background: "#f4f4f4"
+    },
+    {
+        url: transPrideLogo,
+        alt: "Logo for Trans Pride event.",
+        shape: "box",
+        background: "#0f204c"
+    },
+    {
+        url: sipsAndGigglesLogo,
+        alt: "Logo for Sips and Giggles fundraiser event.",
+        shape: "box",
+        background: "#f4f4f4"
+    },
+    {
+        url: lifeGamesLogo,
+        alt: "Logo for a mobile app called LifeGames.",
+        shape: "vertical",
+        background: "#a41c43"
+    },
+    {
+        url: professionalMixerLogo,
+        alt: "Logo for a mixer event called Professional Mixer Series.",
+        shape: "horizontal",
+        background: "#f4f4f4"
     }
 ];
 
@@ -249,6 +309,11 @@ export default {
     getGDProjects: function () {
         return new Promise(resolve => {
             resolve(graphicDesignProjects);
+        });
+    },
+    getGDLogos: function () {
+        return new Promise(resolve => {
+            resolve(graphicDesignLogos)
         });
     }
 };
