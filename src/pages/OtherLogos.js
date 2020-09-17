@@ -8,6 +8,7 @@ import timmyScottLogo from "../assets/images/timmyScott_logo.png";
 import solarTwistLogo from "../assets/images/solarTwist_logo.png";
 import polynomialLogo from "../assets/images/polynomial_logo.png";
 import careosityLogo from "../assets/images/careosity_logo.png";
+import transPrideLogo from "../assets/images/transPride_logo.png";
 
 export default function OtherLogos() {
 
@@ -35,6 +36,12 @@ export default function OtherLogos() {
             alt: "Logo for Care-osity company.",
             shape: "box",
             background: "#f4f4f4"
+        },
+        {
+            url: transPrideLogo,
+            alt: "Logo for Trans Pride event.",
+            shape: "box",
+            background: "#0f204c"
         }
     ];
 
