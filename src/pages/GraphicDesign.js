@@ -8,8 +8,8 @@ export default function GraphicDesign() {
 
     useEffect(() => {
         API.getGDProjects()
-        .then(res => setGDProjects(res))
-        .catch(err => console.log(err));
+            .then(res => setGDProjects(res))
+            .catch(err => console.log(err));
     }, [])
 
     return (
