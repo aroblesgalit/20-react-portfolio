@@ -163,22 +163,26 @@ const graphicDesignPrints = [
     {
         heading: "gala flyer",
         description: "5 x 7 inches flyer for APAIT",
-        image: galaFlyer
+        image: galaFlyer,
+        orientation: "portrait"
     },
     {
         heading: "sips & giggles flyer",
         description: "5 x 7 inches flyer for the LGBTQ Center OC",
-        image: sipsAndGigglesFlyer
+        image: sipsAndGigglesFlyer,
+        orientation: "landscape"
     },
     {
         heading: "lgbtq hangouts flyer",
         description: "4.5 x 7 inches flyer for the LGBTQ Center OC",
-        image: lgbtqHangoutsFlyer
+        image: lgbtqHangoutsFlyer,
+        orientation: "portrait"
     },
     {
         heading: "thank you card",
         description: "5 x 7 inches Thank You card for the LGBTQ Center OC",
-        image: thankYouCard
+        image: thankYouCard,
+        orientation: "landscape"
     }
 ];
 

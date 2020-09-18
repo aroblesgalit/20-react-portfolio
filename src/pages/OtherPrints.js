@@ -5,6 +5,7 @@ import otherPrintsSplash from "../assets/images/otherPrints-splash.jpg";
 import ProjectInfo from "../components/ProjectInfo";
 import API from "../utils/API";
 import ProjectContent from "../components/ProjectContent";
+import ProjectPrint from "../components/ProjectPrint";
 
 export default function OtherPrints() {
 
@@ -48,10 +49,11 @@ export default function OtherPrints() {
             />
             {
                 prints.map(print => (
-                    <ProjectContent
+                    <ProjectPrint
                         heading={print.heading}
                         description={print.description}
-                        images={[{url: print.image, alt: print.description}]}
+                        image={print.image}
+                        orientation={print.orientation}
                     />
                 ))
             }

@@ -5,7 +5,7 @@
 }
 
 .proj-print {
-    background-color: #d1d5be;
+    background-color: #f5f5f5;
 }
 
 .proj-print h4 {
@@ -24,8 +24,27 @@
     padding: 0 1.25rem;
 }
 
-.proj-print img {
+/* .proj-print img {
     width: 100%;
     height: auto;
     margin-bottom: 0.25rem;
+} */
+
+.print-portrait {
+    width: 40vw;
+}
+
+.print-landscape {
+    width: 50vw;
+}
+
+
+
+
+/* For mobile */
+@media screen and (max-width: 768px) {
+    .print-portrait,
+    .print-landscape {
+        width: 100%;
+    }
 }
