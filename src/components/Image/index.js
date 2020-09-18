@@ -14,7 +14,8 @@ function Image() {
         },
         config: {
             duration: 1000
-        }
+        },
+        delay: 800
     });
 
     const propsWrapper = useSpring({
@@ -26,7 +27,8 @@ function Image() {
         },
         config: {
             duration: 1000
-        }
+        },
+        delay: 800
     })
 
     return (
