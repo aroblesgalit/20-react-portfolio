@@ -24,3 +24,12 @@ h3 {
     font-size: 32px;
 }
 
+
+
+
+/* For mobile */
+@media screen and (max-width: 768px) {
+    section>div {
+        margin: 1.25rem;
+    }
+}
