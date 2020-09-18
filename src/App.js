@@ -13,6 +13,7 @@ import HyperMock from "./pages/HyperMock";
 import OtherLogos from "./pages/OtherLogos";
 import OtherPrints from "./pages/OtherPrints";
 import ScrollToTop from "./components/ScrollToTop";
+import GDNav from "./components/GDNav";
 
 function App() {
   return (
@@ -31,15 +32,19 @@ function App() {
           </Route>
           <Route path="/indigo-ball">
             <IndigoBall />
+            <GDNav />
           </Route>
           <Route path="/hypermock">
             <HyperMock />
+            <GDNav />
           </Route>
           <Route exact path="/other-logos">
             <OtherLogos />
+            <GDNav />
           </Route>
           <Route exact path="/other-prints">
             <OtherPrints />
+            <GDNav />
           </Route>
           <Route path="/skills">
             <Skills />
