@@ -8,11 +8,28 @@ import ProjectContent from "../components/ProjectContent";
 
 export default function OtherPrints() {
 
+    const [firstPrint, setFirstPrint] = useState({});
     const [prints, setPrints] = useState([]);
 
     useEffect(() => {
         API.getGDPrints()
-            .then(res => setPrints(res))
+            .then(res => {
+                setFirstPrint(() => {
+                    let tempFirstPrint = res[0];
+                    tempFirstPrint.images = [{
+                        url: res[0].image,
+                        alt: res[0].description
+                    }]
+                    return tempFirstPrint;
+                })
+                setPrints(() => {
+                    let tempPrints = [];
+                    for (let i = 1; i < res.length; i++) {
+                        tempPrints.push(res[i]);
+                    }
+                    return tempPrints;
+                });
+            })
             .catch(err => console.log(err));
     }, [])
 
@@ -23,6 +40,11 @@ export default function OtherPrints() {
                 title="Other Print Designs"
                 description="The following are various prints I designed in the last four years."
                 services="Print Designs"
+            />
+            <ProjectContent
+                heading={firstPrint.heading}
+                description={firstPrint.description}
+                images={firstPrint.images}
             />
             {
                 prints.map(print => (

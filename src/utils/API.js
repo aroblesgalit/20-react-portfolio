@@ -28,7 +28,7 @@ import professionalMixerLogo from "../assets/images/professionalMixer_logo.png";
 // Graphic Design - Prints
 import impactReportBrochure from "../assets/images/impact-report-brochure.jpg";
 import galaFlyer from "../assets/images/gala-flyer-2.jpg.png";
-import sipsAndGigglesFlyer from "../assets/images/sipsAndGiggles_logo.png";
+import sipsAndGigglesFlyer from "../assets/images/sips-and-giggles-flyer.png";
 import lgbtqHangoutsFlyer from "../assets/images/lgbtqHangouts_flyer.png";
 import thankYouCard from "../assets/images/thankYou-card.png";
 
