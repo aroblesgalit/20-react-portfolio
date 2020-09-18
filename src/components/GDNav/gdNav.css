@@ -7,4 +7,44 @@
 .gd-nav {
     bottom: 2rem;
     right: 2rem;
+    width: 8rem;
+    /* background-color: aquamarine; */
+}
+
+.gd-nav span {
+    background-color: #b7d437;
+    padding: 1.25rem;
+    border-radius: 2.5rem;
+    cursor: pointer;
+}
+
+.gd-nav span:hover {
+    background-color: rgb(157, 187, 21);
+}
+
+.gd-nav span:focus {
+    background-color: #B7D437;
+}
+
+.gd-nav .hidden {
+    display: none;
+}
+
+.gd-nav-left {
+    align-self: flex-start;
+}
+
+.gd-nav-right {
+    align-self: flex-end;
+}
+
+
+
+
+/* For mobile */
+@media screen and (max-width: 768px) {
+    .gd-nav {
+        right: 5vw;
+        width: 90vw;
+    }
 }
