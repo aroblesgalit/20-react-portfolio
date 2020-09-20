@@ -30,7 +30,7 @@ function Nav() {
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                     <div className="navMenuSmall" onClick={() => setToggle(!toggle)}>
-                        <span id="navMenuIcon" uk-icon={`icon: ${toggle ? "close" : "menu"}`}></span>
+                        <span id="navMenuIcon" uk-icon={`icon: ${toggle ? "close" : "menu"}; ratio: 1.7`}></span>
                     </div>
                 </div>
             </nav>
