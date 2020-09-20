@@ -17,7 +17,7 @@ function Nav() {
             <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar="true">
 
                 <div className="uk-navbar-left">
-                    <img src={myLogo} alt="My logo" className="logoMark" />
+                    <Link to="/" onClick={handleOnClick}><img src={myLogo} alt="My logo" className="logoMark" /></Link>
                     <Link className="uk-navbar-item uk-logo myLogo" to="/" onClick={handleOnClick}>Alvin Galit</Link>
                 </div>
 
