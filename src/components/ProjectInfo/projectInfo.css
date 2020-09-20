@@ -39,6 +39,10 @@
 
     .project-info h3 {
         text-align: left;
-        margin: 1rem 0 1rem 2.5rem;
+        margin: 1rem 1.25rem;
+    }
+
+    .project-info p {
+        margin: 0 1.25rem;
     }
 }

@@ -37,8 +37,8 @@
 }
 
 @media only screen and (max-width: 992px) {
-    /* .aboutWrapper {
-        padding-left: 20px;
-        padding-right: 20px;
-    } */
+    .aboutWrapper {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
 }
