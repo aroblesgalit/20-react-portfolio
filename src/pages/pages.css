@@ -22,6 +22,10 @@
     padding: 0 100px;
 }
 
+.heading-wrapper {
+    overflow: hidden;
+}
+
 h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 32px;
