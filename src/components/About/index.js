@@ -20,8 +20,8 @@ function About() {
                     timed quizzes as well as for students to conveniently take them on their
                     mobile. Applied aspects of UX/UI and agile development while working in a
                     team of five. Enrollment in the bootcamp brought out a passion for coding
-                    while bringing designs to life. Looking forward to continue growing and
-                    leveraging the skills learned to provide the best solutions.
+                    while bringing designs to life. Passionate and motivated to continue growing
+                    as a lifelong learner.
                     </p>
             </div>
         </div>
