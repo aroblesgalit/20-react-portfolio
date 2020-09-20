@@ -10,19 +10,24 @@ function About() {
             <div className="uk-child-width-1-2@m uk-flex uk-flex-column uk-flex-middle">
                 <h2 className="uk-text-center">About</h2>
                 <p className="aboutMeText uk-text-justify uk-padding">
-                    Web Developer with a Bachelor of Fine Arts in Graphic Design from
+                    I'm a Web Developer with a Bachelor of Fine Arts in Graphic Design from
                     Cal Poly Pomona and a Certificate of Completion of the Coding Bootcamp
-                    Certificate Program from the University of Texas at Austin. Skills in HTML,
-                    CSS, JavaScript, MongoDB, Express, React, and Node.js. Strengths in balancing
-                    design and functionality, collaboration, and time-management. Time in the
-                    coding bootcamp, allowed for completion of projects, such as a full-stack
-                    application for teachers to effortlessly create and share multiple-choice and
-                    timed quizzes as well as for students to conveniently take them on their
-                    mobile. Applied aspects of UX/UI and agile development while working in a
-                    team of five. Enrollment in the bootcamp brought out a passion for coding
-                    while bringing designs to life. Passionate and motivated to continue growing
-                    as a lifelong learner.
-                    </p>
+                    Certificate Program from the University of Texas at Austin. My skills are
+                    HTML, CSS, JavaScript, MongoDB, Express, React, and Node.js. My strengths 
+                    are balancing design and functionality, collaboration, and time-management. 
+                    During my time in the coding bootcamp, I completed projects, such as a 
+                    full-stack application for teachers to effortlessly create and share 
+                    multiple-choice and timed quizzes as well as for students to conveniently 
+                    take them on their mobile. I applied aspects of UX/UI and agile development 
+                    while working in a team of five. My enrollment in the bootcamp brought out 
+                    a passion for coding as I was able to bring my designs to life. I'm 
+                    passionate and motivated to continue growing as a lifelong learner.
+                </p>
+                <p className="aboutMeText uk-text-justify uk-padding">
+                    When I'm not coding, you can either find me drawing, exercising, hiking, 
+                    or simply watching movies. Oh and I can also be doing some graphic design
+                    freelance work on the side.
+                </p>
             </div>
         </div>
     );
