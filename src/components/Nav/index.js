@@ -6,12 +6,12 @@ import NavToggle from "../NavToggle";
 
 function Nav() {
 
-    const [toggleState, setToggle] = useState();
+    const [toggleState, setToggle] = useState(true);
     const [navToggle, setNavToggle] = useState();
 
-    useEffect(() => {
-        setToggle(true);
-    }, []);
+    // useEffect(() => {
+    //     setToggle(true);
+    // }, []);
 
     function handleNavToggle() {
         setToggle(!toggleState);
@@ -45,7 +45,7 @@ function Nav() {
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                     <div className="navMenuSmall" onClick={handleNavToggle}>
-                        <span id="navMenuIcon" uk-icon="icon: menu"></span>
+                        <span id="navMenuIcon" uk-icon={`icon: ${toggleState ? "menu" : "close"}`}></span>
                     </div>
                 </div>
             </nav>
