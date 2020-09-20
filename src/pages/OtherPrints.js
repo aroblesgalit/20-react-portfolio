@@ -50,6 +50,7 @@ export default function OtherPrints() {
             {
                 prints.map(print => (
                     <ProjectPrint
+                        key={print.heading}
                         heading={print.heading}
                         description={print.description}
                         image={print.image}

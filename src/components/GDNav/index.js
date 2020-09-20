@@ -1,10 +1,11 @@
 import React from "react";
 import "./gdNav.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function GDNav() {
 
-    const currentPath = window.location.pathname;
+    const location = useLocation();
+    const currentPath = location.pathname;
 
     return (
         <div className="gd-nav uk-position-fixed uk-flex uk-flex-between">
