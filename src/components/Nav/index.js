@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 import myLogo from "../../assets/images/alvinGalit_logoMark.png";
@@ -6,25 +6,10 @@ import NavToggle from "../NavToggle";
 
 function Nav() {
 
-    const [toggleState, setToggle] = useState(true);
-    const [navToggle, setNavToggle] = useState();
-
-    // useEffect(() => {
-    //     setToggle(true);
-    // }, []);
-
-    function handleNavToggle() {
-        setToggle(!toggleState);
-        if (toggleState) {
-            setNavToggle(<NavToggle handleOnClick={handleOnClick} />);
-        } else {
-            setNavToggle("");
-        }
-    }
+    const [toggle, setToggle] = useState(false);
 
     function handleOnClick() {
-        setToggle(true);
-        setNavToggle("");
+        setToggle(false);
     }
 
     return (
@@ -44,12 +29,12 @@ function Nav() {
                         <li><Link to="/skills">Skills</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
-                    <div className="navMenuSmall" onClick={handleNavToggle}>
-                        <span id="navMenuIcon" uk-icon={`icon: ${toggleState ? "menu" : "close"}`}></span>
+                    <div className="navMenuSmall" onClick={() => setToggle(!toggle)}>
+                        <span id="navMenuIcon" uk-icon={`icon: ${toggle ? "close" : "menu"}`}></span>
                     </div>
                 </div>
             </nav>
-            {navToggle}
+            {toggle ? <NavToggle handleOnClick={handleOnClick} /> : ""}
         </div>
     );
 }

@@ -5,7 +5,7 @@ import "./navToggle.css";
 function NavToggle({ handleOnClick }) {
     return (
         <div id="navToggle" className="uk-position-absolute uk-position-right">
-            <ul className="uk-navbar-nav uk-flex uk-flex-right">
+            <ul className="uk-navbar-nav uk-flex uk-flex-column">
                 <li><Link className="navSmallLink" to="/" onClick={handleOnClick}>About</Link></li>
                 <li><Link className="navSmallLink" to="/portfolio" onClick={handleOnClick}>Portfolio</Link></li>
                 <li><Link className="navSmallLink" to="/graphic-design" onClick={handleOnClick}>Design</Link></li>
