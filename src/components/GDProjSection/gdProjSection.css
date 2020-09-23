@@ -12,6 +12,7 @@ section {
 
 section>img {
     object-fit: cover;
+    object-position: left;
     min-width: 100%;
     min-height: 100%;
 }
