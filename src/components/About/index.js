@@ -21,7 +21,7 @@ function About() {
                     take them on their mobile. I applied aspects of UX/UI and agile development 
                     while working in a team of five. My enrollment in the bootcamp brought out 
                     a passion for coding as I was able to bring my designs to life. I'm 
-                    passionate and motivated to continue growing as a lifelong learner.
+                    driven and motivated to continue growing and learning.
                 </p>
                 <p className="aboutMeText uk-text-justify uk-padding">
                     When I'm not coding, you can either find me drawing, exercising, hiking, 
