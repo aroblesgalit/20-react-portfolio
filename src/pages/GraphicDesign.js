@@ -14,7 +14,7 @@ export default function GraphicDesign() {
 
     return (
         <div className="container">
-            <h2 className="uk-text-center">Graphic Design Portfolio</h2>
+            <h2 className="uk-text-center">Graphic Design</h2>
             {
                 gdProjects.map(project => (
                     <GDProjSection
