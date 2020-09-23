@@ -31,7 +31,7 @@ function NavToggle({ handleOnClick, currentPath, active }) {
                         className="navSmallLink" 
                         to="/graphic-design" 
                         onClick={handleOnClick}
-                        style={currentPath === "/graphic-design" ? active : {}}
+                        style={currentPath.includes("/graphic-design") ? active : {}}
                     >
                         Design
                     </Link>

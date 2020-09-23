@@ -27,22 +27,22 @@ function App() {
           <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="/graphic-design">
+          <Route exact path="/graphic-design">
             <GraphicDesign />
           </Route>
-          <Route path="/indigo-ball">
+          <Route exact path="/graphic-design/indigo-ball">
             <IndigoBall />
             <GDNav />
           </Route>
-          <Route path="/hypermock">
+          <Route exact path="/graphic-design/hypermock">
             <HyperMock />
             <GDNav />
           </Route>
-          <Route exact path="/other-logos">
+          <Route exact path="/graphic-design/other-logos">
             <OtherLogos />
             <GDNav />
           </Route>
-          <Route exact path="/other-prints">
+          <Route exact path="/graphic-design/other-prints">
             <OtherPrints />
             <GDNav />
           </Route>

@@ -81,25 +81,25 @@ const graphicDesignProjects = [
         title: "Indigo Ball",
         type: ["Logo Design", "Print"],
         image: indigoBallBg,
-        link: "/indigo-ball"
+        link: "/graphic-design/indigo-ball"
     },
     {
         title: "HyperMock",
         type: ["Logo Design", "UI Design"],
         image: hyperMockBg,
-        link: "/hypermock"
+        link: "/graphic-design/hypermock"
     },
     {
         title: "Other Logos",
         type: ["Logo Designs"],
         image: otherLogosBg,
-        link: "/other-logos"
+        link: "/graphic-design/other-logos"
     },
     {
         title: "Other Print Designs",
         type: ["Print Designs"],
         image: otherPrintsBg,
-        link: "/other-prints"
+        link: "/graphic-design/other-prints"
     }
 ];
 

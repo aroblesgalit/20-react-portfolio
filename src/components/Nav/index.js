@@ -33,7 +33,7 @@ function Nav() {
                     <ul className="uk-navbar-nav navLink">
                         <li><Link to="/" style={currentPath === "/" ? active : {}}>About</Link></li>
                         <li><Link to="/portfolio" style={currentPath === "/portfolio" ? active : {}}>Portfolio</Link></li>
-                        <li><Link to="/graphic-design" style={currentPath === "/graphic-design" ? active : {}}>Design</Link></li>
+                        <li><Link to="/graphic-design" style={currentPath.includes("/graphic-design") ? active : {}}>Design</Link></li>
                         <li><Link to="/skills" style={currentPath === "/skills" ? active : {}}>Skills</Link></li>
                         <li><Link to="/contact" style={currentPath === "/contact" ? active : {}}>Contact</Link></li>
                     </ul>
