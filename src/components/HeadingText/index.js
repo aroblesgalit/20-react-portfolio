@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 import "./headingText.css";
-import resumePdf from "../../assets/images/AlvinGalit_Resume_July2020.pdf";
+import resumePdf from "../../assets/images/AlvinGalit_Resume_October2020.pdf";
 
 function HeadingText() {
 
