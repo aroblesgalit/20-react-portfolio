@@ -14,6 +14,7 @@ import OtherLogos from "./pages/OtherLogos";
 import OtherPrints from "./pages/OtherPrints";
 import ScrollToTop from "./components/ScrollToTop";
 import GDNav from "./components/GDNav";
+import Posts from "./pages/Posts";
 
 function App() {
   return (
@@ -48,6 +49,9 @@ function App() {
           </Route>
           <Route path="/skills">
             <Skills />
+          </Route>
+          <Route path="/posts">
+            <Posts />
           </Route>
           <Route path="/contact">
             <Contact />

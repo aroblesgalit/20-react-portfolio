@@ -35,6 +35,7 @@ function Nav() {
                         <li><Link to="/portfolio" style={currentPath === "/portfolio" ? active : {}}>Portfolio</Link></li>
                         <li><Link to="/graphic-design" style={currentPath.includes("/graphic-design") ? active : {}}>Design</Link></li>
                         <li><Link to="/skills" style={currentPath === "/skills" ? active : {}}>Skills</Link></li>
+                        <li><Link to="/posts" style={currentPath === "/posts" ? active : {}}>Posts</Link></li>
                         <li><Link to="/contact" style={currentPath === "/contact" ? active : {}}>Contact</Link></li>
                     </ul>
                     <div className="navMenuSmall" onClick={() => setToggle(!toggle)}>
