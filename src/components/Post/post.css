@@ -1,14 +1,21 @@
-.postCard {
+.post-card {
     max-width: 600px;
     margin: 0 1rem;
 }
 
-.postCard .date {
+.post-card .date {
     color: #aaaaaa;
     margin: 0;
     font-size: 0.875rem;
 }
 
-.postCard h3 {
+.post-card h3 {
     margin-top: 0;
+}
+
+.post-copy {
+    /* white-space: nowrap;
+    /* height: 60px; */
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
 }
