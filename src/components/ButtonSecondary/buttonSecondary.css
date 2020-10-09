@@ -1,0 +1,17 @@
+.btn-secondary {
+    height: 32px;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #B7D437;
+    letter-spacing: 1.2px;
+    color: #26291A;
+    margin-right: 6px;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(157, 187, 21);
+    color: #26291A;
+    text-decoration: none;
+}

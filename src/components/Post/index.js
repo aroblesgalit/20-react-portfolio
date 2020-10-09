@@ -5,7 +5,7 @@ export default function Post() {
     return (
         <div className="postCard uk-card uk-card-default">
             <div className="uk-card-body">
-                <p>10/8/2020 9:58PM</p>
+                <p className="date">10/8/2020 9:58PM</p>
                 <h3 className="uk-card-title uk-text-truncate">LeetCode Challenge</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 

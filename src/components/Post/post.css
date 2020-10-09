@@ -1,3 +1,14 @@
 .postCard {
     max-width: 600px;
+    margin: 0 1rem;
+}
+
+.postCard .date {
+    color: #aaaaaa;
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.postCard h3 {
+    margin-top: 0;
 }
