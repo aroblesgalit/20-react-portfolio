@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 import "./headingText.css";
 import resumePdf from "../../assets/images/AlvinGalit_Resume_October2020.pdf";
+import ButtonPrimary from "../ButtonPrimary";
 
 function HeadingText() {
 
@@ -69,9 +69,12 @@ function HeadingText() {
                     <animated.div style={propsName} className="name">Alvin<span>.</span></animated.div>
                 </div>
                 <animated.p style={propsSub} className="subHeading">Web Developer and Graphic Designer</animated.p>
-                <Link to={resumePdf} target="_blank">
+                <animated.div style={propsResume}>
+                    <ButtonPrimary text="Resume" path={resumePdf} newTab />
+                </animated.div>
+                {/* <Link to={resumePdf} target="_blank">
                     <animated.button style={propsResume} className="ctaBtn uk-button uk-button-default uk-margin">Resume</animated.button>
-                </Link>
+                </Link> */}
             </div>
         </div>
     );
