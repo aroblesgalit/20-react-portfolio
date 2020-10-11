@@ -11,14 +11,25 @@
 
 .post-card h3 {
     margin-top: 0;
-    margin-bottom: 0.6rem;
 }
 
 .post-copy {
+    margin-bottom: 0.5rem;
+}
+
+.post-copy.less {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
-    margin-top: 0;
-    margin-bottom: 1.6rem;
+}
+
+.post-card span {
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.post-card span:hover {
+    color: #B7D437;
 }
