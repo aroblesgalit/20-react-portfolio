@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./post.css";
 
-export default function Post({date, title, copy}) {
+export default function Post({ date, title, copy }) {
 
     const [readMore, setReadMore] = useState(false);
 
@@ -16,7 +16,7 @@ export default function Post({date, title, copy}) {
     return (
         <div className="post-card uk-card uk-card-default">
             <div className="uk-card-body">
-    <p className="date">{date}</p>
+                <p className="date">{date}</p>
                 <h3 className="uk-card-title uk-text-truncate">{title}</h3>
                 <p className={`post-copy ${readMore === false && "less"} uk-text-break`}>
                     {copy}
