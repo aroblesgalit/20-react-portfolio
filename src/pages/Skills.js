@@ -9,7 +9,7 @@ function Skills() {
     useEffect(() => {
         API.getSkills()
             .then(res => {
-                console.log("Getting skills...", res);
+                // console.log("Getting skills...", res);
                 setSkills(res);
             })
             .catch(err => {

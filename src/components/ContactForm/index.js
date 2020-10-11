@@ -37,14 +37,16 @@ function ContactForm() {
                 });
 
             setMessageSent(true);
-            // setTimeout(() => {
-            //     window.location.reload(false);
-            // }, 3000);
 
         } else {
             console.log("Empty fields...")
             setMissingFields(true);
         }
+
+        setTimeout(() => {
+            setMessageSent(false);
+            setMissingFields(false);
+        }, 3000);
 
     }
 
@@ -69,20 +71,20 @@ function ContactForm() {
                         placeholder="Your message..." ref={messageRef} ></textarea>
                 </div>
                 {
-                    messageSent ? (
+                    messageSent && (
                         <div className="success-alert-container uk-alert-success" uk-alert="true">
                             <span className="uk-alert-close" uk-close="true"></span>
                             <p>Your message was sent successfully!</p>
                         </div>
-                    ) : ""
+                    )
                 }
                 {
-                    misingFields ? (
+                    misingFields && (
                         <div className="danger-alert-container uk-alert-danger" uk-alert="true">
                             <span className="uk-alert-close" uk-close="true"></span>
                             <p>Please fill in all the fields and try again.</p>
                         </div>
-                    ) : ""
+                    )
                 }
             </div>
             <button id="submitBtn" className="uk-button" type="submit">Submit</button>
