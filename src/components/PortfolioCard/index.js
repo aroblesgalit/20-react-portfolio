@@ -11,8 +11,8 @@ function PortfolioCard({ title, description, imageUrl, githubUrl, deployedUrl })
                 <h3 className="uk-card-title uk-text-truncate">{title}</h3>
                 <p>{description}</p>
                 <a className="repoLink" href={githubUrl}
-                    target="_blank" rel="noopener noreferrer">GITHUB</a> {deployedUrl ? (<a className="demoLink"
-                        href={deployedUrl} target="_blank" rel="noopener noreferrer">DEMO</a>) : ""}
+                    target="_blank" rel="noopener noreferrer">GITHUB</a> {deployedUrl && (<a className="demoLink"
+                        href={deployedUrl} target="_blank" rel="noopener noreferrer">DEMO</a>)}
             </div>
         </div>
     );
