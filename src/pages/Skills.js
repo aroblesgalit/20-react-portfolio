@@ -20,7 +20,7 @@ function Skills() {
     let id = 0;
 
     return (
-        <div className="container">
+        // <div className="container">
             <div className="skills-wrapper">
                 <h2 className="uk-text-center">Skills</h2>
                 <div className="skills-results uk-grid-small uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-5@l uk-text-center" uk-grid="true">
@@ -38,7 +38,7 @@ function Skills() {
                     }
                 </div>
             </div>
-        </div>
+        // </div>
     );
 }
 

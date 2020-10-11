@@ -3,7 +3,7 @@ import "./about.css";
 
 function About() {
     return (
-        <div className="aboutWrapper uk-width-expand">
+        <div className="aboutWrapper uk-width-expand uk-margin-large-bottom">
             <svg className="svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                 <polygon points="0, 0 0, 100 100, 0" />
             </svg>

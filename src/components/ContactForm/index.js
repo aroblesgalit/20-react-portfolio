@@ -35,9 +35,7 @@ function ContactForm() {
                 .catch(err => {
                     console.log("Something went wrong while trying to send the form...", err);
                 });
-
             setMessageSent(true);
-
         } else {
             console.log("Empty fields...")
             setMissingFields(true);

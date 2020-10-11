@@ -36,7 +36,7 @@ function NavToggle({ handleOnClick, currentPath, active }) {
                         Design
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link 
                         className="navSmallLink" 
                         to="/skills" 
@@ -45,7 +45,7 @@ function NavToggle({ handleOnClick, currentPath, active }) {
                     >
                         Skills
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link 
                         className="navSmallLink" 

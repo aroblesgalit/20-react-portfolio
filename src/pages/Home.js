@@ -3,6 +3,7 @@ import Image from "../components/Image";
 import HeadingText from "../components/HeadingText";
 import About from "../components/About";
 import "./pages.css";
+import Skills from "./Skills";
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
                 <Image />
             </div>
             <About />
+            <Skills />
         </div>
     );
 }
