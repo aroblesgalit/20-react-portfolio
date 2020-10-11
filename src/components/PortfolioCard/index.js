@@ -1,5 +1,6 @@
 import React from "react";
 import "./portfolioCard.css";
+import ButtonSecondary from "../ButtonSecondary";
 
 function PortfolioCard({ title, description, imageUrl, githubUrl, deployedUrl }) {
     return (
@@ -10,9 +11,8 @@ function PortfolioCard({ title, description, imageUrl, githubUrl, deployedUrl })
             <div className="uk-card-body">
                 <h3 className="uk-card-title uk-text-truncate">{title}</h3>
                 <p>{description}</p>
-                <a className="repoLink" href={githubUrl}
-                    target="_blank" rel="noopener noreferrer">GITHUB</a> {deployedUrl && (<a className="demoLink"
-                        href={deployedUrl} target="_blank" rel="noopener noreferrer">DEMO</a>)}
+                <ButtonSecondary text='Github' path={githubUrl} newTab />
+                {deployedUrl && (<a className="demoLink" href={deployedUrl} target="_blank" rel="noopener noreferrer">DEMO</a>)}
             </div>
         </div>
     );
