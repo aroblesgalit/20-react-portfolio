@@ -3,7 +3,7 @@ import "./pages.css";
 import GDProjSection from "../components/GDProjSection";
 import API from "../utils/API";
 
-export default function GraphicDesign() {
+function GraphicDesign() {
     const [gdProjects, setGDProjects] = useState([]);
 
     useEffect(() => {
@@ -29,3 +29,5 @@ export default function GraphicDesign() {
         </div>
     )
 }
+
+export default GraphicDesign;

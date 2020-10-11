@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import Skills from "./pages/Skills";
 import Credits from "./pages/Credits";
 import GraphicDesign from "./pages/GraphicDesign";
 import IndigoBall from "./pages/IndigoBall";
@@ -46,9 +45,6 @@ function App() {
           <Route exact path="/graphic-design/other-prints">
             <OtherPrints />
             <GDNav />
-          </Route>
-          <Route path="/skills">
-            <Skills />
           </Route>
           <Route path="/posts">
             <Posts />

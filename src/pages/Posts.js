@@ -2,7 +2,7 @@ import React from "react";
 import "./pages.css";
 import Post from "../components/Post";
 
-export default function Posts() {
+function Posts() {
     return (
         <div className="container">
             <div className="posts-wrapper">
@@ -13,4 +13,6 @@ export default function Posts() {
             </div>
         </div>
     )
-}
+};
+
+export default Posts;
