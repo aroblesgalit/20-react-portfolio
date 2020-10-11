@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import "./post.css";
-import ButtonSecondary from "../ButtonSecondary";
 
 export default function Post() {
 
     const [readMore, setReadMore] = useState(false);
 
-    function handleMore() {
+    function handleView() {
         if (readMore) {
             setReadMore(false);
         } else {
@@ -24,7 +23,7 @@ export default function Post() {
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <span onClick={handleMore}>{readMore ? "See less..." : "See more..."}</span>
+                <span onClick={handleView}>{readMore ? "...see less." : "See more..."}</span>
             </div>
         </div>
     )

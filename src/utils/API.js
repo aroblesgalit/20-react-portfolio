@@ -328,6 +328,15 @@ const credits = [
     }
 ]
 
+const posts = [
+    {
+        id: 1,
+        date: "10/10/20 11:23PM",
+        title: "Posts Page",
+        copy: "I decided to create a page for my posts on my site instead of posting on social media like LinkedIn. This is more for me to record things I feel are post worthy. So here is my first post regarding this page itself and its future contents."
+    }
+]
+
 export default {
     getProjects: function () {
         return new Promise(resolve => {
@@ -357,6 +366,11 @@ export default {
     getGDPrints: function () {
         return new Promise(resolve => {
             resolve(graphicDesignPrints);
+        });
+    },
+    getPosts: function() {
+        return new Promise(resolve => {
+            resolve(posts);
         });
     }
 };
