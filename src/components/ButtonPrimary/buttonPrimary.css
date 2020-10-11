@@ -1,0 +1,17 @@
+.btn-primary {
+    height: 32px;
+    padding: 10px 20px;
+    background-color: #B7D437;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    letter-spacing: 1.2px;
+    color: #26291A;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: rgb(157, 187, 21);
+    color: #26291A;
+    text-decoration: none;
+}
