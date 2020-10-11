@@ -1,6 +1,6 @@
 import React from "react";
 import "./gdProjSection.css";
-import { Link } from "react-router-dom";
+import ButtonPrimary from "../ButtonPrimary";
 
 export default function GDProjSection({ title, type, image, link }) {
     return (
@@ -11,11 +11,7 @@ export default function GDProjSection({ title, type, image, link }) {
                     {type.join(", ")}
                 </p>
                 <h3 className="uk-light uk-margin-remove-top">{title}</h3>
-                <Link to={link}>
-                    <button className="ctaBtn uk-button uk-button-default uk-margin">
-                        See project
-                    </button>
-                </Link>
+                <ButtonPrimary text="See project" path={link} />
             </div>
         </section>
     )

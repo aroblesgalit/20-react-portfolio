@@ -25,24 +25,3 @@
     font-weight: lighter;
     color: #f2f2f2;
 }
-
-.ctaBtn {
-    font-family: 'Roboto', sans-serif;
-    background-color: #B7D437;
-    font-weight: 400;
-    border: none;
-    letter-spacing: 1.2px;
-}
-
-.ctaBtn:hover {
-    background-color: rgb(157, 187, 21);
-}
-
-.ctaBtn:focus {
-    background-color: #B7D437;
-}
-
-.ctaBtn a {
-    text-decoration: none;
-    color: #26291A;
-}
