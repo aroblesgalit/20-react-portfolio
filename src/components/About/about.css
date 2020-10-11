@@ -6,17 +6,32 @@
 
 .aboutWrapper {
     background-color: #f2f2f2;
-    position: relative;
-    padding-top: calc(10vw + 200px);
-    padding-bottom: 200px;
+    display: grid;
+    grid-template: 100px 100px auto 100px / 25% auto 25%;
 }
 
-.svg {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 10vw;
-    fill: #26291A;
+.black-box {
+    background-color: #26291A;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.white-box {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    z-index: 2;
+}
+
+.about-box {
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.5);
 }
 
 .aboutWrapper h2 {
@@ -38,7 +53,10 @@
 
 @media only screen and (max-width: 992px) {
     .aboutWrapper {
-        padding-top: 100px;
-        padding-bottom: 60px;
+        grid-template: 100px 100px auto 100px / 1rem auto 1rem;
+    }
+
+    .about-box {
+        padding: 40px 0 0 0;
     }
 }
