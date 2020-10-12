@@ -25,6 +25,7 @@ function Posts() {
                                 date={post.date}
                                 title={post.title}
                                 copy={post.copy}
+                                image={post.image}
                             />
                         ))
                     }

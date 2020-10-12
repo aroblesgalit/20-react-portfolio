@@ -4,12 +4,15 @@ import "./post.css";
 export default function Post({ date, title, copy, image }) {
 
     const [readMore, setReadMore] = useState(false);
+    const [height, setHeight] = useState("200px");
 
     function handleView() {
         if (readMore) {
             setReadMore(false);
+            setHeight("200px");
         } else {
             setReadMore(true);
+            setHeight("100%");
         }
     }
 
@@ -21,7 +24,9 @@ export default function Post({ date, title, copy, image }) {
                 <p className={`post-copy ${readMore === false && "less"} uk-text-break`}>
                     {copy}
                 </p>
-                { image && <img src="" alt="" />}
+                <div style={{maxHeight: height, overflow: "hidden"}}>
+                    {image && <img src={image} alt={title} />}
+                </div>
                 <span onClick={handleView}>{readMore ? "...see less." : "See more..."}</span>
             </div>
         </div>

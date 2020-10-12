@@ -31,6 +31,8 @@ import galaFlyer from "../assets/images/gala-flyer-2.jpg.png";
 import sipsAndGigglesFlyer from "../assets/images/sips-and-giggles-flyer.png";
 import lgbtqHangoutsFlyer from "../assets/images/lgbtqHangouts_flyer.png";
 import thankYouCard from "../assets/images/thankYou-card.png";
+// Posts
+import gridCss from "../assets/images/gridcss.PNG";
 
 const projects = [
     {
@@ -333,7 +335,8 @@ const posts = [
         id: 2,
         date: "10/11/20 7:45PM",
         title: "Grid CSS",
-        copy: "There are times, like today, when I look through my portfolio site and wonder what I can do to make it look better either by implementing something I just learned or something else I want a bit more practice with. I chose to update my about section using Grid CSS, which I've delved into a while back but never really used it much recently. I wanted the div that contains the text to overlap part of the dark background from the section above it and remain responsive on mobile. Using Grid, I defined the parent element to be the grid container with 3 rows of 100px, 100px, and auto height respectively and 3 columns of 25%, auto, and 25% width respectively. I then defined a div element as one item that takes in the same dark backgorund color as the previous section. This covers the first 2 whole rows. The div containing the text is the other item which covers the middle column of the second row as to overlap the dark background and expands to the height of its contents."
+        copy: "There are times, like today, when I look through my portfolio site and wonder what I can do to make it look better either by implementing something I just learned or something else I want a bit more practice with. I chose to update my about section using Grid CSS, which I've delved into a while back but never really used it much recently. I wanted the div that contains the text to overlap part of the dark background from the section above it and remain responsive on mobile. Using Grid, I defined the parent element to be the grid container with 3 rows of 100px, 100px, and auto height respectively and 3 columns of 25%, auto, and 25% width respectively. I then defined a div element as one item that takes in the same dark backgorund color as the previous section. This covers the first 2 whole rows. The div containing the text is the other item which covers the middle column of the second row as to overlap the dark background and expands to the height of its contents.",
+        image: gridCss
     },
     {
         id: 1,
