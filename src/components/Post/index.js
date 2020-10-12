@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import "./post.css";
 
 export default function Post({ id, date, title, copy, image }) {
-
+    // States for viewing contents
     const [readMore, setReadMore] = useState(false);
     const [height, setHeight] = useState("200px");
 
-    const postUrl = `https://www.alvingalit.com/posts#${id}`;
-    const href = `https://www.linkedin.com/shareArticle?mini=true&url=${postUrl}&title=${title}&summary=${copy.substr(0, 100)}&source=${postUrl}`
+    // href for sharing to linkedin
+    // const postUrl = `https://www.alvingalit.com/posts#${id}`;
+    // const href = `https://www.linkedin.com/shareArticle?mini=true&url=${postUrl}&title=${title}&summary=${copy.substr(0, 100)}&source=${postUrl}`
 
+    // Handle for toggling view mode
     function handleView() {
         if (readMore) {
             setReadMore(false);
@@ -31,9 +33,10 @@ export default function Post({ id, date, title, copy, image }) {
                     {image && <img src={image} alt={title} />}
                 </div>
                 <span onClick={handleView}>{readMore ? "...see less." : "See more..."}</span>
-                <a href={href} target="_blank" rel="noopener noreferrer" className="share-btn uk-position-absolute">
+                {/* Button for sharing to LinkedIn */}
+                {/* <a href={href} target="_blank" rel="noopener noreferrer" className="share-btn uk-position-absolute">
                     <span uk-icon="icon: linkedin" className="uk-icon" />
-                </a>
+                </a> */}
             </div>
         </div>
     )
