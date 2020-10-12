@@ -33,6 +33,7 @@ import lgbtqHangoutsFlyer from "../assets/images/lgbtqHangouts_flyer.png";
 import thankYouCard from "../assets/images/thankYou-card.png";
 // Posts
 import gridCss from "../assets/images/gridcss.PNG";
+import currentProjects from "../assets/images/currentProjects.PNG";
 
 const projects = [
     {
@@ -331,6 +332,13 @@ const credits = [
 ]
 
 const posts = [
+    {
+        id: 3,
+        date: "10/12/20 5:30PM",
+        title: "Current Projects",
+        copy: "This week, I will continue to work on a couple of projects: UT Course Registration and Prentus App. I'm collaborating with another web developer from my coding bootcamp cohort on a redesign of the UT at Austin course registration system and course catalog, which his friend did the UX Research and Design on. Our goal is to turn this into a functional application using the MERN stack. We've finished most of the UIs and will soon tackle the logic behind each page. The image below is just a snippet of the RegisterForm component I coded this past weekend. The other project I'm working on is for an internship I'm currently taking with Prentus, a startup where bootcamp grads can connect. I'm working on the backend and database with another developer. We have created some of the tables and schemas already on Google Cloud and will continue to create the rest.",
+        image: currentProjects
+    },
     {
         id: 2,
         date: "10/11/20 7:45PM",
