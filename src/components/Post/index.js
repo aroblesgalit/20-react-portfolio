@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./post.css";
 
-export default function Post({ date, title, copy }) {
+export default function Post({ date, title, copy, image }) {
 
     const [readMore, setReadMore] = useState(false);
 
@@ -21,6 +21,7 @@ export default function Post({ date, title, copy }) {
                 <p className={`post-copy ${readMore === false && "less"} uk-text-break`}>
                     {copy}
                 </p>
+                { image && <img src="" alt="" />}
                 <span onClick={handleView}>{readMore ? "...see less." : "See more..."}</span>
             </div>
         </div>
