@@ -22,6 +22,7 @@ function Posts() {
                         posts.map(post => (
                             <Post
                                 key={post.id}
+                                id={post.id}
                                 date={post.date}
                                 title={post.title}
                                 copy={post.copy}
