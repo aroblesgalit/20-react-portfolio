@@ -22,7 +22,7 @@ function About() {
                         a passion for coding as I was able to bring my designs to life. I'm
                         driven and motivated to continue growing and learning.
                     </p>
-                    <p className="aboutMeText uk-text-justify uk-padding">
+                    <p className="aboutMeText uk-text-justify uk-padding uk-padding-remove-top">
                         When I'm not coding, you can either find me drawing, exercising, hiking,
                         or simply watching movies. Oh and I can also be doing some graphic design
                         freelance work on the side.
