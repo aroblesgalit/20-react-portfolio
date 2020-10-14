@@ -6,13 +6,12 @@
 
 #navToggle {
     width: 240px;
-    height: 400px;
+    height: 340px;
     top: 65px;
     right: 14px;
     background-color: #26291A;
     border: 1px solid #B7D437;
     z-index: 2;
-    /* opacity: 0.8; */
 }
 
 #navToggle li {
