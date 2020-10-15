@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import PageTitle from "../PageTitle";
 
 function About() {
     return (
@@ -7,7 +8,7 @@ function About() {
             <div className="black-box"></div>
             <div className="white-box uk-flex uk-flex-center">
                 <div className="about-box">
-                    <h2 className="uk-text-center">About</h2>
+                    <PageTitle text="About" color="dark" />
                     <p className="aboutMeText uk-text-justify uk-padding">
                         I'm a Web Developer with a Bachelor of Fine Arts in Graphic Design from
                         Cal Poly Pomona and a Certificate of Completion of the Coding Bootcamp
