@@ -23,7 +23,11 @@ function Skills() {
     return (
         <div className="skills-wrapper">
             <PageTitle text="Tech/Skills" color="light" />
-            <div className="skills-results uk-grid-small uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-text-center" uk-grid="true">
+            <div 
+                className="skills-results uk-grid-small uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-text-center" 
+                uk-grid="true"
+                uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100"
+            >
                 {
                     skills && (
                         skills.map(skill => {
