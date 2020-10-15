@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./pages.css";
 import GDProjSection from "../components/GDProjSection";
+import PageTitle from "../components/PageTitle";
 import API from "../utils/API";
 
 function GraphicDesign() {
@@ -14,7 +15,7 @@ function GraphicDesign() {
 
     return (
         <div className="container">
-            <h2 className="uk-text-center design-title">Graphic Design</h2>
+            <PageTitle text="Graphic Design" color="light" />
             {
                 gdProjects.map(project => (
                     <GDProjSection

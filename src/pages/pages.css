@@ -53,9 +53,9 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .design-title {
+    /* .design-title {
         padding-top: 20px;
-    }
+    } */
 }
 
 /* For smaller screens */
