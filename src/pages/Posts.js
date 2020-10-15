@@ -18,7 +18,10 @@ function Posts() {
         <div className="container">
             <div className="posts-wrapper">
                 <PageTitle text="Posts" color="light" />
-                <div className="uk-flex uk-flex-column uk-flex-middle">
+                <div 
+                    className="uk-flex uk-flex-column uk-flex-middle"
+                    uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 300"
+                >
                     {
                         posts.map(post => (
                             <Post
