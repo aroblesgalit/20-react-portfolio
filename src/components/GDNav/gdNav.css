@@ -8,10 +8,10 @@
     bottom: 2rem;
     right: 2rem;
     width: 8rem;
-    /* background-color: aquamarine; */
 }
 
 .gd-nav span {
+    color: #26291A;
     background-color: #b7d437;
     padding: 1.25rem;
     border-radius: 2.5rem;
