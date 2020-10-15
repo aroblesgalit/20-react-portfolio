@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./pages.css";
 import Post from "../components/Post";
+import PageTitle from "../components/PageTitle";
 import API from "../utils/API";
 
 function Posts() {
@@ -16,7 +17,7 @@ function Posts() {
     return (
         <div className="container">
             <div className="posts-wrapper">
-                <h2 className="uk-text-center">Posts</h2>
+                <PageTitle text="Posts" color="light" />
                 <div className="uk-flex uk-flex-column uk-flex-middle">
                     {
                         posts.map(post => (
