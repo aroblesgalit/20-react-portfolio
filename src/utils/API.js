@@ -34,6 +34,7 @@ import thankYouCard from "../assets/images/thankYou-card.png";
 // Posts
 import gridCss from "../assets/images/gridcss.PNG";
 import currentProjects from "../assets/images/currentProjects.PNG";
+import alternativeTernary from "../assets/images/alternativeTernary.PNG";
 
 const projects = [
     {
@@ -332,6 +333,13 @@ const credits = [
 ]
 
 const posts = [
+    {
+        id: 4,
+        date: "10/14/20 8:55PM",
+        title: "An Alternative to Ternary",
+        copy: "I updated some of my components in my portfolio to use the && (AND) operation rather than the ternary operator where the second part is an empty ('') string. This does exactly the same thing as long as the first part of the && operation is a 'truthy' value. This makes my code cleaner and easier to read.",
+        image: alternativeTernary
+    },
     {
         id: 3,
         date: "10/12/20 5:30PM",
