@@ -1,0 +1,13 @@
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.light {
+    color: #f2f2f2;
+}
+
+.dark {
+    color: #26291A;
+}
