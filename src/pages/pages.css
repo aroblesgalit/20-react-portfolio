@@ -5,7 +5,6 @@
 }
 
 .container {
-    /* padding: 40px 100px; */
     background-color: #26291A;
     min-height: calc(100vh - 80px);
 }
@@ -25,13 +24,6 @@
     overflow: hidden;
 }
 
-/* h2 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 32px;
-    color: #f2f2f2;
-    margin-bottom: 40px;
-} */
-
 .portfolio-cards {
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
@@ -46,16 +38,13 @@
     .contact-wrapper,
     .skills-wrapper,
     .heading-wrapper {
-        padding: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .portfolio-cards {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    /* .design-title {
-        padding-top: 20px;
-    } */
 }
 
 /* For smaller screens */
