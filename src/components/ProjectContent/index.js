@@ -8,24 +8,24 @@ export default function ProjectContent({ heading, description, name, notes, word
             <h4>{heading}</h4>
             <p>{description}</p>
             {
-                name ?
+                name &&
                     <Brainstorm
                         key={name}
                         name={name}
                         notes={notes}
                         words={words}
                         combinations={combinations}
-                    /> : ""
+                    />
             }
             {
-                images ? (
+                images && (
                     images.map(image => (
                         <React.Fragment key={image.url}>
                             { image.title ? <span className="image-title">{image.title}</span> : "" }
                             <img src={image.url} alt={image.alt} />
                         </React.Fragment>
                     ))
-                ) : ""
+                )
             }
         </div>
     )
