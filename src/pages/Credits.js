@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import API from "../utils/API";
 import CreditCard from "../components/CreditCard";
+import PageTitle from "../components/PageTitle";
 
 function Credits() {
 
@@ -20,7 +21,7 @@ function Credits() {
 
     return (
         <div className="container">
-            <h2 className="uk-text-center">Credits</h2>
+            <PageTitle text="Credits" color="light" />
             <div className="uk-flex uk-flex-column uk-flex-middle">
                 {
                     credits && credits.length > 0 ? (
