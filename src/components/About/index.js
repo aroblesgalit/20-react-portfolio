@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="aboutWrapper uk-width-expand uk-margin-large-bottom">
             <div className="black-box"></div>
-            <div className="white-box uk-flex uk-flex-center">
+            <div className="white-box uk-flex uk-flex-center" uk-scrollspy="cls:uk-animation-slide-bottom; delay:300">
                 <div className="about-box">
                     <PageTitle text="About" color="dark" />
                     <p className="aboutMeText uk-text-justify uk-padding">
