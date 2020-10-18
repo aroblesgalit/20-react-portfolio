@@ -334,6 +334,12 @@ const credits = [
 
 const posts = [
     {
+        id: 5,
+        date: "10/18/20 5:25PM",
+        title: "Mobile Navbar",
+        copy: "I decided to make another update to my site by turning the navbar for mobile view into a bottom navbar using icons. This way it's just one click to view another page within my site. I also updated the navigation for my graphic design projects to hide itself when not scrolling so it's not in the way."
+    },
+    {
         id: 4,
         date: "10/14/20 8:55PM",
         title: "An Alternative to Ternary",

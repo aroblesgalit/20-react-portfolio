@@ -21,7 +21,7 @@ export default function ProjectContent({ heading, description, name, notes, word
                 images && (
                     images.map(image => (
                         <React.Fragment key={image.url}>
-                            { image.title ? <span className="image-title">{image.title}</span> : "" }
+                            { image.title && <span className="image-title">{image.title}</span> }
                             <img src={image.url} alt={image.alt} />
                         </React.Fragment>
                     ))
