@@ -1,0 +1,13 @@
+.mobile-navbar {
+    display: none;
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+    .mobile-navbar {
+        display: block;
+        bottom: 0;
+        background-color: #c0c0c0;
+        height: 60px;
+    }
+}

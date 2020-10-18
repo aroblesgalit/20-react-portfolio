@@ -14,6 +14,7 @@ import OtherPrints from "./pages/OtherPrints";
 import ScrollToTop from "./components/ScrollToTop";
 import GDNav from "./components/GDNav";
 import Posts from "./pages/Posts";
+import MobileNav from "./components/MobileNav";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         </Switch>
       </ScrollToTop>
       <Footer />
+      <MobileNav />
     </Router>
   );
 }
