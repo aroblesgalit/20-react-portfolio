@@ -30,7 +30,7 @@ export default function MobileNav() {
             <div className='icon-nav uk-width-1-5 uk-height-1-1'>
                 <Link 
                     to='/graphic-design' 
-                    className={`uk-flex uk-flex-column uk-flex-middle uk-flex-center uk-height-1-1 ${currentPath === '/graphic-design' && 'active'}`}
+                    className={`uk-flex uk-flex-column uk-flex-middle uk-flex-center uk-height-1-1 ${currentPath.includes('/graphic-design') && 'active'}`}
                 >
                     <span uk-icon="icon: folder; ratio: 1.25"></span>
                     <span>Design</span>
