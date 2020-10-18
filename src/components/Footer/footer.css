@@ -43,3 +43,12 @@
     margin-top: 4px;
     color: #c0c0c0;
 }
+
+
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+    #footer {
+        padding-bottom: 60px;
+    }
+}
