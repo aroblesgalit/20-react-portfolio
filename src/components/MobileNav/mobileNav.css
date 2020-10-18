@@ -20,6 +20,7 @@
 }
 
 .icon-nav a.active {
+    border-top: 2px solid #B7D437;
     color: #B7D437;
 }
 
