@@ -5,9 +5,9 @@
 }
 
 .gd-nav {
-    bottom: 2rem;
-    right: 2rem;
-    width: 8rem;
+    top: 40vh;
+    width: 100%;
+    padding: 1rem;
 }
 
 .gd-nav span {
@@ -48,8 +48,8 @@
 
 /* For mobile */
 @media screen and (max-width: 768px) {
-    .gd-nav {
+    /* .gd-nav {
         right: 5vw;
         width: 90vw;
-    }
+    } */
 }

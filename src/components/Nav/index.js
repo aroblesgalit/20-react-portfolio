@@ -14,19 +14,20 @@ function Nav() {
         fontWeight: 500
     };
 
-    const [toggle, setToggle] = useState(false);
+    // For smaller screens navbar
+    // const [toggle, setToggle] = useState(false);
 
-    function handleOnClick() {
-        setToggle(false);
-    }
+    // function handleOnClick() {
+    //     setToggle(false);
+    // }
 
     return (
         <div>
             <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar="true">
 
                 <div className="uk-navbar-left">
-                    <Link to="/" onClick={handleOnClick}><img src={myLogo} alt="My logo" className="logoMark" /></Link>
-                    <Link className="uk-navbar-item uk-logo myLogo" to="/" onClick={handleOnClick}>Alvin Galit</Link>
+                    <Link to="/"><img src={myLogo} alt="My logo" className="logoMark" /></Link>
+                    <Link className="uk-navbar-item uk-logo myLogo" to="/">Alvin Galit</Link>
                 </div>
 
                 <div className="uk-navbar-right">
@@ -37,19 +38,19 @@ function Nav() {
                         <li><Link to="/posts" style={currentPath === "/posts" ? active : {}}>Posts</Link></li>
                         <li><Link to="/contact" style={currentPath === "/contact" ? active : {}}>Contact</Link></li>
                     </ul>
-                    <div className="navMenuSmall" onClick={() => setToggle(!toggle)}>
+                    {/* <div className="navMenuSmall" onClick={() => setToggle(!toggle)}>
                         <span id="navMenuIcon" uk-icon={`icon: ${toggle ? "close" : "menu"}; ratio: 1.7`}></span>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
             {
-                toggle && (
-                    <NavToggle
-                        handleOnClick={handleOnClick}
-                        currentPath={currentPath}
-                        active={active}
-                    />
-                )
+                // toggle && (
+                //     <NavToggle
+                //         handleOnClick={handleOnClick}
+                //         currentPath={currentPath}
+                //         active={active}
+                //     />
+                // )
             }
         </div>
     );
