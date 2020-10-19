@@ -18,7 +18,7 @@ export default function GDNav() {
   
       resetTimeout = setTimeout(() => {
         setIsScrolling(false);
-      }, 2000)
+      }, 1500)
     }
 
     return (
