@@ -22,6 +22,8 @@
 }
 
 .navLink li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: #f2f2f2;
 }
 
