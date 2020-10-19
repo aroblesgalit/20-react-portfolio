@@ -14,7 +14,7 @@ export default function MobileNav() {
                     to='/' 
                     className={`uk-flex uk-flex-column uk-flex-middle uk-flex-center uk-height-1-1 ${currentPath === '/' && 'active'}`} 
                 >
-                    <span uk-icon="icon: user; ratio: 1.25"></span>
+                    <span uk-icon="icon: user"></span>
                     <span>About</span>
                 </Link>
             </div>
@@ -23,7 +23,7 @@ export default function MobileNav() {
                     to='/portfolio' 
                     className={`uk-flex uk-flex-column uk-flex-middle uk-flex-center uk-height-1-1 ${currentPath === '/portfolio' && 'active'}`}
                 >
-                    <span uk-icon="icon: code; ratio: 1.25"></span>
+                    <span uk-icon="icon: code"></span>
                     <span>Portfolio</span>
                 </Link>
             </div>
@@ -32,7 +32,7 @@ export default function MobileNav() {
                     to='/graphic-design' 
                     className={`uk-flex uk-flex-column uk-flex-middle uk-flex-center uk-height-1-1 ${currentPath.includes('/graphic-design') && 'active'}`}
                 >
-                    <span uk-icon="icon: folder; ratio: 1.25"></span>
+                    <span uk-icon="icon: folder"></span>
                     <span>Design</span>
                 </Link>
             </div>
@@ -41,7 +41,7 @@ export default function MobileNav() {
                     to='/posts' 
                     className={`uk-flex uk-flex-column uk-flex-middle uk-flex-center uk-height-1-1 ${currentPath === '/posts' && 'active'}`}
                 >
-                    <span uk-icon="icon: commenting; ratio: 1.25"></span>
+                    <span uk-icon="icon: commenting"></span>
                     <span>Posts</span>
                 </Link>
             </div>
@@ -50,7 +50,7 @@ export default function MobileNav() {
                     to='/contact' 
                     className={`uk-flex uk-flex-column uk-flex-middle uk-flex-center uk-height-1-1 ${currentPath === '/contact' && 'active'}`}
                 >
-                    <span uk-icon="icon: mail; ratio: 1.25"></span>
+                    <span uk-icon="icon: mail"></span>
                     <span>Contact</span>
                 </Link>
             </div>
