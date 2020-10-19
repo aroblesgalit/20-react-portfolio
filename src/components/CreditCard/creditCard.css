@@ -6,6 +6,8 @@
 
 .credit-link {
     color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .credit-link:hover {
