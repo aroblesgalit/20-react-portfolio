@@ -11,6 +11,8 @@
 
 .skill-title {
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     margin-top: 10px;
 }
