@@ -4,7 +4,7 @@ import ButtonPrimary from "../ButtonPrimary";
 
 export default function GDProjSection({ title, type, image, link }) {
     return (
-        <section className="uk-flex uk-position-relative">
+        <section className="gd-proj-section uk-flex uk-position-relative">
             <img src={image} alt={title} />
             <div className="uk-position-absolute">
                 <p className="uk-light uk-text-small uk-margin-remove">

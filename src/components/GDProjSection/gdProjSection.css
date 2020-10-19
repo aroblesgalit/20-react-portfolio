@@ -4,24 +4,28 @@
     box-sizing: border-box;
 }
 
-section {
+.gd-proj-section {
     overflow: hidden;
     height: 100vh;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
-section>img {
+.gd-proj-section>img {
     object-fit: cover;
     object-position: left;
     min-width: 100%;
     min-height: 100%;
 }
 
-section>div {
+.gd-proj-section>div {
     margin: 2rem 4rem;
 }
 
-h3 {
+.gd-proj-section h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 32px;
 }
 
@@ -30,7 +34,7 @@ h3 {
 
 /* For mobile */
 @media screen and (max-width: 768px) {
-    section>div {
+    .gd-proj-section>div {
         margin: 1.25rem;
     }
 }
