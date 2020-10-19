@@ -15,11 +15,14 @@
 .icon-nav a {
     text-decoration: none;
     color: #666663;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .icon-nav a.active {
     border-top: 2px solid #B7D437;
     color: #B7D437;
+    font-weight: 500;
 }
 
 /* For smaller screens */
