@@ -10,7 +10,8 @@
 
 .proj-print h4 {
     font-size: 2.25rem;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     color: #D1D5BE;
     margin: 8rem 0 2rem 0;
     padding: 0 1.25rem;
@@ -19,6 +20,8 @@
 
 .proj-print p {
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: #575B48;
     margin-bottom: 3.125rem;
     padding: 0 1.25rem;

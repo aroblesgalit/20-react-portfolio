@@ -9,6 +9,8 @@
     width: 80vw;
     border: 2px solid #D1D58E;
     color: #575B48;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .brainstorm ul {
@@ -22,6 +24,8 @@
 }
 
 .brainstorm .description h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 1.375rem;
     margin-bottom: 0.5rem;
 }
@@ -35,6 +39,8 @@
 }
 
 .word h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 1.25rem;
     position: relative;
     padding-bottom: 0.625rem;
