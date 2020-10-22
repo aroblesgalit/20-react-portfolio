@@ -1,7 +1,7 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import "./headingText.css";
-import resumePdf from "../../assets/images/AlvinGalit_Resume_October2020.pdf";
+import resumePdf from "../../assets/images/AlvinGalit_Resume.pdf";
 import ButtonPrimary from "../ButtonPrimary";
 
 function HeadingText() {
