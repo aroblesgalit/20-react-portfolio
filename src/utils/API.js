@@ -35,6 +35,7 @@ import thankYouCard from "../assets/images/thankYou-card.png";
 import gridCss from "../assets/images/gridcss.PNG";
 import currentProjects from "../assets/images/currentProjects.PNG";
 import alternativeTernary from "../assets/images/alternativeTernary.PNG";
+import js30DrumKit from "../assets/images/js30_drumKit.PNG";
 
 const projects = [
     {
@@ -333,6 +334,13 @@ const credits = [
 ]
 
 const posts = [
+    {
+        id: 6,
+        date: "10/21/20 8:39PM",
+        title: "JavaScript 30",
+        copy: "I've been seeing posts from other web developers regarding the 30 Day Vanilla JS Coding Challenge and realized they're learning things I have yet to learn myself. Today marks my first day of this coding challenge, which helped me brush up on key events and DOM manipulation by writing the script for a JavaScript Drum Kit. Looking forward to getting better at JavaScript by building things through this challenge.",
+        image: js30DrumKit
+    },
     {
         id: 5,
         date: "10/18/20 5:25PM",
