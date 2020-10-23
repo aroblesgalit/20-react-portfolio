@@ -36,6 +36,7 @@ import gridCss from "../assets/images/gridcss.PNG";
 import currentProjects from "../assets/images/currentProjects.PNG";
 import alternativeTernary from "../assets/images/alternativeTernary.PNG";
 import js30DrumKit from "../assets/images/js30_drumKit.PNG";
+import js30Clock from "../assets/images/js30_clock.png";
 
 const projects = [
     {
@@ -334,6 +335,13 @@ const credits = [
 ]
 
 const posts = [
+    {
+        id: 7,
+        date: "10/22/20 11:23PM",
+        title: "CSS + JS Clock",
+        copy: "Today's JavaScript 30 challenge was to create the logic for moving the hands of a clock using JavaScript's built-in Date Object and converting the hours, minutes, and seconds into degrees. To move each hand, css properites of transform-origin, transform rotate, transition, and transition-timing-function were used. This challenge was a good practice for utilizing a built-in JavaScript object along with CSS properties transform and transition.",
+        image: js30Clock
+    },
     {
         id: 6,
         date: "10/21/20 8:39PM",
