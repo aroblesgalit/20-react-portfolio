@@ -336,6 +336,13 @@ const credits = [
 
 const posts = [
     {
+        id: 8,
+        date: "10/23/20 10:36PM",
+        title: "CSS Variables",
+        copy: "I have some experience with CSS variables, but I admit I don't use it as often as I should. It does make updating certain values a lot easier when you create a variable for it. For example, creating a variable for a primary color on your site avoids having to copy and paste it over and over again. Creating a variable allows you to also change it with JavaScript, which is what today's JavaScript 30 challenge was about. Using sliders for spacing, blur, and color, I added change and mouseover events to handle the change in values. Each of the slider inputs have a 'name' attribute that corresponds to the css variables I've created. So everytime a certain slider is changed, it updates the correct variable value.",
+        image: "https://j.gifs.com/mOooK3.gif"
+    },
+    {
         id: 7,
         date: "10/22/20 11:23PM",
         title: "CSS + JS Clock",
