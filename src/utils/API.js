@@ -37,6 +37,7 @@ import currentProjects from "../assets/images/currentProjects.PNG";
 import alternativeTernary from "../assets/images/alternativeTernary.PNG";
 import js30DrumKit from "../assets/images/js30_drumKit.PNG";
 import js30Clock from "../assets/images/js30_clock.png";
+import js30ArrayCardio from "../assets/images/js30_ArrayCardioDay.png";
 
 const projects = [
     {
@@ -335,6 +336,13 @@ const credits = [
 ]
 
 const posts = [
+    {
+        id: 9,
+        date: "10/24/20 1:08PM",
+        title: "Array Cardio Day",
+        copy: "Went back to JavaScript fundamentals today and had some more practiced with array methods: filter, map, sort, and reduce. The nice thing about this challenge being a recorded video is that I'm able to pause the video and try the exercises myself before I see the solutions. I'm proficient in filter and map, so I only really needed to look up sort and reduce to brush up on them. The last exercise of summing up the instances of each of the items in an array using reduce was new to me. I'll be keeping this one in mind for when an opportunity to use it arises.",
+        image: js30ArrayCardio
+    },
     {
         id: 8,
         date: "10/23/20 10:36PM",
