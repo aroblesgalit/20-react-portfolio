@@ -337,6 +337,13 @@ const credits = [
 
 const posts = [
     {
+        id: 10,
+        date: "10/25/20 12:20PM",
+        title: "Flex Panels Image Gallery",
+        copy: "I've always been a fan of flex and today I had the opportunity to work on an image gallery that implements it on a click event. I decided to add an extra logic for only allowing one panel to be opened at a time. Although, I've used flex a lot, I still learned a few things from today's JavaScript 30 challenge that I'm thinking of using on future projects.",
+        image: "https://j.gifs.com/jZlzQR.gif"
+    },
+    {
         id: 9,
         date: "10/24/20 1:08PM",
         title: "Array Cardio Day",
