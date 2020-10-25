@@ -53,4 +53,12 @@
     #footer {
         padding-bottom: 60px;
     }
+
+    .credits {
+        margin-top: 1.25rem !important;
+    }
+
+    .copyright {
+        margin-top: 1.25rem;
+    }
 }
