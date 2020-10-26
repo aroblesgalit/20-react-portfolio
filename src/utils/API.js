@@ -350,7 +350,7 @@ const posts = [
         date: "10/25/20 12:20PM",
         title: "Flex Panels Image Gallery",
         copy: "I've always been a fan of flex and today I had the opportunity to work on an image gallery that implements it on a click event. I decided to add an extra logic for only allowing one panel to be opened at a time. Although, I've used flex a lot, I still learned a few things from today's JavaScript 30 challenge that I'm thinking of using on future projects.",
-        image: "https://j.gifs.com/jZlzQR.gif"
+        gif: "https://j.gifs.com/jZlzQR.gif"
     },
     {
         id: 9,
@@ -364,7 +364,7 @@ const posts = [
         date: "10/23/20 10:36PM",
         title: "CSS Variables",
         copy: "I have some experience with CSS variables, but I admit I don't use it as often as I should. It does make updating certain values a lot easier when you create a variable for it. For example, creating a variable for a primary color on your site avoids having to copy and paste it over and over again. Creating a variable allows you to also change it with JavaScript, which is what today's JavaScript 30 challenge was about. Using sliders for spacing, blur, and color, I added change and mouseover events to handle the change in values. Each of the slider inputs have a 'name' attribute that corresponds to the css variables I've created. So everytime a certain slider is changed, it updates the correct variable value.",
-        image: "https://j.gifs.com/mOooK3.gif"
+        gif: "https://j.gifs.com/mOooK3.gif"
     },
     {
         id: 7,
