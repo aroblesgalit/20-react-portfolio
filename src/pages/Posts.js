@@ -31,6 +31,7 @@ function Posts() {
                                 title={post.title}
                                 copy={post.copy}
                                 image={post.image}
+                                gif={post.gif}
                             />
                         ))
                     }

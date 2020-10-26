@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./post.css";
 
-export default function Post({ id, date, title, copy, image }) {
+export default function Post({ id, date, title, copy, image, gif }) {
     // States for viewing contents
     const [readMore, setReadMore] = useState(false);
     const [height, setHeight] = useState("200px");
@@ -30,6 +30,7 @@ export default function Post({ id, date, title, copy, image }) {
                     {copy}
                 </p>
                 <div style={{maxHeight: height, overflow: "hidden"}}>
+                    {gif && <img src={gif} alt={title} />}
                     {image && <img src={image} alt={title} />}
                 </div>
                 <span onClick={handleView}>{readMore ? "...see less." : "See more..."}</span>

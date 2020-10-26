@@ -38,6 +38,7 @@ import alternativeTernary from "../assets/images/alternativeTernary.PNG";
 import js30DrumKit from "../assets/images/js30_drumKit.PNG";
 import js30Clock from "../assets/images/js30_clock.png";
 import js30ArrayCardio from "../assets/images/js30_ArrayCardioDay.png";
+import js30AjaxType from "../assets/images/js30_ajaxTypeAhead.png";
 
 const projects = [
     {
@@ -336,6 +337,14 @@ const credits = [
 ]
 
 const posts = [
+    {
+        id: 10,
+        date: "10/26/20 5:30PM",
+        title: "Ajax Type Ahead",
+        copy: "Today's JavaScript 30 challenge is a small City Search application that also highlights the search value in the results. Using an API endpoint, I first fetched the cities and pushed them into an empty array. Then I created a function that accepts the search term and cities array as arguments. Using regex on the search term, I filtered through the cities array and returned the results. I created another function that maps over the matches, returns string literals for each item, and displays the results on the DOM.",
+        image: js30AjaxType,
+        gif: "https://j.gifs.com/q7vOBp.gif"
+    },
     {
         id: 10,
         date: "10/25/20 12:20PM",
