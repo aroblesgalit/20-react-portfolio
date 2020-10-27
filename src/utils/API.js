@@ -39,6 +39,7 @@ import js30DrumKit from "../assets/images/js30_drumKit.PNG";
 import js30Clock from "../assets/images/js30_clock.png";
 import js30ArrayCardio from "../assets/images/js30_ArrayCardioDay.png";
 import js30AjaxType from "../assets/images/js30_ajaxTypeAhead.png";
+import js30ArrayCardio2 from "../assets/images/js30_ArrayCardioDay2.png";
 
 const projects = [
     {
@@ -338,6 +339,13 @@ const credits = [
 
 const posts = [
     {
+        id: 11,
+        date: "10/27/20 1:58PM",
+        title: "Array Cardio Day 2",
+        copy: "Had some more practice with array methods for today's JavaScript 30 challenge. I'm familiar with the methods some() and every(), but haven't really used them yet in any projects. Though I know they'll be useful someday. Some() method takes in a function and checks if any of the items in the array pass a test. It returns true as long as one item returns a true value. Every() on the other hand, only returns true if all the items in the array return true. Other methods for today's challenge were find() and findIndex(), which I've used a few times. Find() takes in function and looks for the first item that passes a test and then returns it. FindIndex(), on the other hand, returns only the index of the first item that passes a test. The last part of this challenge was to remove the item of the given index from the array. With splice(), this can be done by passing in the given index and a value of 1, but this will modify the original array as well. To preserve the original array, you can use the spread operator to create a new array, which you would then use the splice() method on. Or you could also use the spread operator and the slice() method. The slice() method returns the selected items without changing the original array. So with slice() method, you would select index 0 to the given index, and select everything else above the given index.",
+        image: js30ArrayCardio2
+    },
+    {
         id: 10,
         date: "10/26/20 5:30PM",
         title: "Ajax Type Ahead",
@@ -355,7 +363,7 @@ const posts = [
     {
         id: 9,
         date: "10/24/20 1:08PM",
-        title: "Array Cardio Day",
+        title: "Array Cardio Day 1",
         copy: "Went back to JavaScript fundamentals today and had some more practiced with array methods: filter, map, sort, and reduce. The nice thing about this challenge being a recorded video is that I'm able to pause the video and try the exercises myself before I see the solutions. I'm proficient in filter and map, so I only really needed to look up sort and reduce to brush up on them. The last exercise of summing up the instances of each of the items in an array using reduce was new to me. I'll be keeping this one in mind for when an opportunity to use it arises.",
         image: js30ArrayCardio
     },
