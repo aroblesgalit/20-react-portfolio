@@ -339,6 +339,13 @@ const credits = [
 
 const posts = [
     {
+        id: 12,
+        date: "10/28/20 2:20PM",
+        title: "Fun with HTML5 Canvas",
+        copy: "I'm familiar with the HTML5 Canvas and even created a small app not too long ago. For today's JavaScript 30 challenge, I got a chance to brush up on the canvas and learned a few things: dynamically changing the hue and line width as well as using blend mode. By using HSL (Hue, Saturation, Lightness) color values, I'm able to increment a variable for the hue from 1 to 360 and back to 1 again. The line width increments up to a certain value and then decrements down to 1 repeatedly. And with mouse events, I was able to update a variable's boolean value to indicate when to start and when to end a drawing.",
+        gif: "https://j.gifs.com/jZDQY4.gif"
+    },
+    {
         id: 11,
         date: "10/27/20 1:58PM",
         title: "Array Cardio Day 2",
