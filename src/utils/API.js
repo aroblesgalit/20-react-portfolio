@@ -342,7 +342,7 @@ const posts = [
     {
         id: 13,
         date: "10/29/20 5:37PM",
-        title: "Multiple Checkboxes and Angular",
+        title: "Checkboxes and Angular",
         copy: "Last night, I worked on the next JavaScript 30 challenge which was to create the logic for selecting multiple checkboxes by selecting the first checkbox and then holding down the shift key and selecting the last checkbox, which will then check everything in between. I tried the challenge prior to watching the video, but to no avail. Although, I had the right idea, I couldn't figure out how to save the last selected checkbox and target the current. Well, I learned something new at least. And today, I followed a couple of tutorials on Angular. I learned how to create a new Angular app, the main files to work with, how to bind event handlers and classes, routing within the app, and how to create a build for production. Angular is TypeScript-based so I learned a bit about that as well. Now I just need to build my own projects using Angular and TypeScript to solidify what I've learned.",
         gif: "https://j.gifs.com/k8E5l6.gif",
         image: js30MultipleCheckboxes
