@@ -340,30 +340,36 @@ const credits = [
 
 const posts = [
     {
-        id: 13,
+        id: 15,
+        date: "10/29/20 10:35PM",
+        title: "Custom Video Player",
+        copy: "Tackled another JavaScript 30 challenge, customizing an HTML5 video player. Goal was to target the necessary control elements, build out the functions for each, and then hook up the event listeners. The control elements were the play button, sliders for volume and playback rate, skip buttons, and the scrub or progress bar. I was able to do everything but the last. I couldn't figure out the progress bar as I didn't know how to detect when the time is changing so I ended up following along the tutorial for it. Some of my approach for the ones I did figure out were a bit different but still worked. There was a final challenge to make the fullscreen button to work. After doing some research I learned of the requestFullscreen() and exitFullscreen() methods, and I was able to complete today's challenge.",
+        video: "https://www.youtube.com/embed/CcObKbpMwXM"
+    },
+    {
+        id: 14,
         date: "10/29/20 5:37PM",
         title: "Checkboxes and Angular",
         copy: "Last night, I worked on the next JavaScript 30 challenge which was to create the logic for selecting multiple checkboxes by selecting the first checkbox and then holding down the shift key and selecting the last checkbox, which will then check everything in between. I tried the challenge prior to watching the video, but to no avail. Although, I had the right idea, I couldn't figure out how to save the last selected checkbox and target the current. Well, I learned something new at least. And today, I followed a couple of tutorials on Angular. I learned how to create a new Angular app, the main files to work with, how to bind event handlers and classes, routing within the app, and how to create a build for production. Angular is TypeScript-based so I learned a bit about that as well. Now I just need to build my own projects using Angular and TypeScript to solidify what I've learned.",
         gif: "https://j.gifs.com/k8E5l6.gif",
         image: js30MultipleCheckboxes
-
     },
     {
-        id: 12,
+        id: 13,
         date: "10/28/20 2:20PM",
         title: "Fun with HTML5 Canvas",
         copy: "I'm familiar with the HTML5 Canvas and even created a small app not too long ago. For today's JavaScript 30 challenge, I got a chance to brush up on the canvas and learned a few things: dynamically changing the hue and line width as well as using blend mode. By using HSL (Hue, Saturation, Lightness) color values, I'm able to increment a variable for the hue from 1 to 360 and back to 1 again. The line width increments up to a certain value and then decrements down to 1 repeatedly. And with mouse events, I was able to update a variable's boolean value to indicate when to start and when to end a drawing. I also did the next challenge and learned about some dev tools and console tricks. Sometimes you can be looking at a code on a browser and you're wondering what JavaScript logic is causing the change on an element. What you can do is inspect the page and right click on the element, then go to 'Break on...' and select 'attribute modifications'. And now when you click on the element, it's going to pause exactly where the line of code that causes the logic is. Other than console.log(), there are other ways you can log things: interpolated, styled, warning, error, info, testing, clearing, viewing DOM elements, grouping together, counting, timing, and table. I've used a couple of these and today I've learned the rest. 'Tis a good day :)",
         gif: "https://j.gifs.com/jZDQY4.gif"
     },
     {
-        id: 11,
+        id: 12,
         date: "10/27/20 1:58PM",
         title: "Array Cardio Day 2",
         copy: "Had some more practice with array methods for today's JavaScript 30 challenge. I'm familiar with the methods some() and every(), but haven't really used them yet in any projects. Though I know they'll be useful someday. Some() method takes in a function and checks if any of the items in the array pass a test. It returns true as long as one item returns a true value. Every() on the other hand, only returns true if all the items in the array return true. Other methods for today's challenge were find() and findIndex(), which I've used a few times. Find() takes in function and looks for the first item that passes a test and then returns it. FindIndex(), on the other hand, returns only the index of the first item that passes a test. The last part of this challenge was to remove the item of the given index from the array. With splice(), this can be done by passing in the given index and a value of 1, but this will modify the original array as well. To preserve the original array, you can use the spread operator to create a new array, which you would then use the splice() method on. Or you could also use the spread operator and the slice() method. The slice() method returns the selected items without changing the original array. So with slice() method, you would select index 0 to the given index, and select everything else above the given index.",
         image: js30ArrayCardio2
     },
     {
-        id: 10,
+        id: 11,
         date: "10/26/20 5:30PM",
         title: "Ajax Type Ahead",
         copy: "Today's JavaScript 30 challenge is a small City Search application that also highlights the search value in the results. Using an API endpoint, I first fetched the cities and pushed them into an empty array. Then I created a function that accepts the search term and cities array as arguments. Using regex on the search term, I filtered through the cities array and returned the results. I created another function that maps over the matches, returns string literals for each item, and displays the results on the DOM.",

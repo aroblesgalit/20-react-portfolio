@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./post.css";
 
-export default function Post({ id, date, title, copy, image, gif }) {
+export default function Post({ id, date, title, copy, image, gif, video }) {
     // States for viewing contents
     const [readMore, setReadMore] = useState(false);
     const [height, setHeight] = useState("200px");
@@ -29,7 +29,11 @@ export default function Post({ id, date, title, copy, image, gif }) {
                 <p className={`post-copy ${readMore === false && "less"} uk-text-break`}>
                     {copy}
                 </p>
-                <div style={{maxHeight: height, overflow: "hidden"}}>
+                <div style={{ maxHeight: height, overflow: "hidden" }}>
+                    {
+                        video &&
+                        <iframe title={title} width="100%" height="315" src={video} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                    }
                     {gif && <img src={gif} alt={title} />}
                     {image && <img src={image} alt={title} />}
                 </div>

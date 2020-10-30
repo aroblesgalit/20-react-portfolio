@@ -32,6 +32,7 @@ function Posts() {
                                 copy={post.copy}
                                 image={post.image}
                                 gif={post.gif}
+                                video={post.video}
                             />
                         ))
                     }
