@@ -41,6 +41,7 @@ import js30ArrayCardio from "../assets/images/js30_ArrayCardioDay.png";
 import js30AjaxType from "../assets/images/js30_ajaxTypeAhead.png";
 import js30ArrayCardio2 from "../assets/images/js30_ArrayCardioDay2.png";
 import js30MultipleCheckboxes from "../assets/images/js30_multipleCheckboxes.png";
+import js30KeySequence from "../assets/images/js30_keySequence.png";
 
 const projects = [
     {
@@ -339,6 +340,14 @@ const credits = [
 ]
 
 const posts = [
+    {
+        id: 16,
+        date: "10/30/20 11:28AM",
+        title: "Key Sequence Detection",
+        copy: "Had some fun with today's JavaScript 30 challenge. I learned how to store a certain number of items into an array and check to see if it includes a certain sequence I'm looking for. With this I can do something fun. Aside from generating random unicorn and rainbow graphics, I can also change the styling or layout of a page. I can create a game that unlocks an achievement. There are a lot of things I could think of with this, and I will definitely be using this in the future.",
+        gif: "https://j.gifs.com/xnXvKr.gif",
+        image: js30KeySequence
+    },
     {
         id: 15,
         date: "10/29/20 10:35PM",
