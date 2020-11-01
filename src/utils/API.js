@@ -341,6 +341,13 @@ const credits = [
 
 const posts = [
     {
+        id: 17,
+        date: "10/31/20 4:48PM",
+        title: "Slide In on Scroll",
+        copy: "Worked on some logic to figure out the y position at which an image is halfway shown for it to slide in to the page. I've used some libraries that takes care of this logic, but it's always good to know how it works under the hood.",
+        gif: "https://j.gifs.com/q7N2xk.gif"
+    },
+    {
         id: 16,
         date: "10/30/20 11:28AM",
         title: "Key Sequence Detection",
