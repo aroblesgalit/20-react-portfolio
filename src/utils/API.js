@@ -42,6 +42,7 @@ import js30AjaxType from "../assets/images/js30_ajaxTypeAhead.png";
 import js30ArrayCardio2 from "../assets/images/js30_ArrayCardioDay2.png";
 import js30MultipleCheckboxes from "../assets/images/js30_multipleCheckboxes.png";
 import js30KeySequence from "../assets/images/js30_keySequence.png";
+import js30Reference from "../assets/images/js30_referenceVsCopy.png";
 
 const projects = [
     {
@@ -341,10 +342,17 @@ const credits = [
 
 const posts = [
     {
+        id: 18,
+        date: "11/1/20 4:11PM",
+        title: "Reference vs Copy",
+        copy: "Went over JavaScript fundamentals on objects and arrays reference vs copy for today's JavaScript 30 challenge. I already know how to make a copy of an array using the ES6 spread operator, but I learned of other ways as well. You can also use slice(), concat(), or Array.from(). With an object, you can also use the ES6 spread operator to make a copy of it, and now I know of 2 other ways: Object.assign() and JSON.parse(JSON.stringify()).",
+        image: js30Reference
+    },
+    {
         id: 17,
         date: "10/31/20 4:48PM",
         title: "Slide In on Scroll",
-        copy: "Worked on some logic to figure out the y position at which an image is halfway shown for it to slide in to the page. I've used some libraries that takes care of this logic, but it's always good to know how it works under the hood.",
+        copy: "Worked on some logic for today's JavaScript 30 challenge to figure out the y position at which an image is halfway shown for when to slide it into the page. I've used some libraries that takes care of this logic, but it's always good to know how things work under the hood.",
         gif: "https://j.gifs.com/q7N2xk.gif"
     },
     {
