@@ -43,6 +43,7 @@ import js30ArrayCardio2 from "../assets/images/js30_ArrayCardioDay2.png";
 import js30MultipleCheckboxes from "../assets/images/js30_multipleCheckboxes.png";
 import js30KeySequence from "../assets/images/js30_keySequence.png";
 import js30Reference from "../assets/images/js30_referenceVsCopy.png";
+import js30LocalStorage from "../assets/images/js30_localStorage.png";
 
 const projects = [
     {
@@ -341,6 +342,14 @@ const credits = [
 ]
 
 const posts = [
+    {
+        id: 19,
+        date: "11/2/20 2:47PM",
+        title: "LocalStorage",
+        copy: "Brushed up on localStorage and event delegation for today's JavaScript 30 challenge. Created a small item list application that allows you to add an item and check them off as persistent data. At the end of this tutorial was a challenge to add three buttons: delete all, uncheck all, and check all. These buttons should delete all, uncheck all, and check all items respectively and keep the data persistent. For the delete all logic, I set the items array into an empty one, populated the list with it, and removed the items key from the localStorage. For check all and uncheck all, I looped through the items array and set the done property to true and false respectively, populated the itemsList, and stored them into the localStorage. For all of them, I also added a logic to just return when the array is empty.",
+        gif: "https://j.gifs.com/vlVmEM.gif",
+        image: js30LocalStorage
+    },
     {
         id: 18,
         date: "11/1/20 4:11PM",
