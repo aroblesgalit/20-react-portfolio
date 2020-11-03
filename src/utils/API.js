@@ -343,6 +343,13 @@ const credits = [
 
 const posts = [
     {
+        id: 20,
+        date: "11/3/20 8:38AM",
+        title: "CSS Text Shadow",
+        copy: "Today I explored a CSS text shadow mouse move effect for the JavaScript 30 challenge. Using the mousemove event listener and coordinates of the hero div and mouse cursor, I was able to calculate the displacement of the text shadow and update it. Though, I have to admit, I had to do a bit of research to fully understand the solution.",
+        gif: "https://j.gifs.com/wVWZxJ.gif"
+    },
+    {
         id: 19,
         date: "11/2/20 2:47PM",
         title: "LocalStorage",
