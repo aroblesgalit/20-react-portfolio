@@ -35,18 +35,11 @@
 }
 
 .aboutWrapper h2 {
-    color: #26291A;
     margin: 0;
 }
 
-.aboutWrapper span {
-    color: #848586;
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-}
-
 .aboutMeText {
-    color: #26291A;
+    color: var(--black-color);
     margin: 0;
 }
 

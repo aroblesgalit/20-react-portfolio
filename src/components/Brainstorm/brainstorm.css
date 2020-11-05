@@ -1,7 +1,7 @@
 .brainstorm {
     padding: 2.5rem 6.25rem;
     width: 80vw;
-    border: 2px solid #D1D58E;
+    border: 1px solid #D1D58E;
     color: #575B48;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .brainstorm .description h5 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 1.375rem;
     margin-bottom: 0.5rem;
@@ -31,7 +31,7 @@
 }
 
 .word h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 1.25rem;
     position: relative;
@@ -42,7 +42,7 @@
 .word h6::after {
     content: '';
     display: block;
-    height: 2px;
+    height: 1px;
     width: 100%;
     background-color: #D1D58E;
     position: absolute;
@@ -50,7 +50,7 @@
 }
 
 .possible-combos {
-    border: 2px solid #D1D58E;
+    border: 1px solid #D1D58E;
     padding: 1.25rem;
 }
 

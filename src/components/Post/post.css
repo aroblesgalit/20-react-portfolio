@@ -31,7 +31,7 @@
 }
 
 .post-card span:hover {
-    color: #B7D437;
+    color: var(--main-color);
 }
 
 .share-btn {

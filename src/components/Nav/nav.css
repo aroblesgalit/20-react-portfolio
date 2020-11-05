@@ -1,16 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .myLogo {
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--title-font);
     color: #f2f2f2;
 }
 
 .myLogo:hover {
-    color: #B7D437;
+    color: var(--main-color);
 }
 
 .logoMark {
@@ -22,17 +16,15 @@
 }
 
 .navLink li a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
     color: #f2f2f2;
 }
 
 .navLink li a:hover {
-    color: #B7D437;
+    color: var(--main-color);
 }
 
 .navLink li a:focus {
-    color: #B7D437;
+    color: var(--main-color);
 }
 
 .navMenuSmall {
@@ -45,7 +37,7 @@
 }
 
 #navMenuIcon:hover {
-    color: #B7D437;
+    color: var(--main-color);
 }
 
 

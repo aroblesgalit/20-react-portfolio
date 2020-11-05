@@ -1,15 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .gd-proj-section {
     overflow: hidden;
     height: 100vh;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
 }
 
 .gd-proj-section>img {
@@ -24,7 +16,7 @@
 }
 
 .gd-proj-section h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 32px;
 }

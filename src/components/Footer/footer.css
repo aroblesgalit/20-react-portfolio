@@ -3,8 +3,8 @@
 }
 
 .divider {
-    color: #B7D437;
-    background-color: #B7D437;
+    color: var(--main-color);
+    background-color: var(--main-color);
 }
 
 .socialLink {
@@ -20,16 +20,16 @@
 }
 
 .socialLink:hover {
-    color: #B7D437;
+    color: var(--main-color);
 }
 
 .credits {
-    color: #B7D437;
+    color: var(--main-color);
     margin-top: 6px !important;
 }
 
 .credits:hover {
-    color: #B7D437;
+    color: var(--main-color);
 }
 
 .copyright {

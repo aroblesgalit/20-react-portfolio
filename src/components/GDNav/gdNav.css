@@ -1,9 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .gd-nav {
     top: 40vh;
     width: 100%;
@@ -12,7 +6,7 @@
 
 .gd-nav span {
     color: #26291A;
-    background-color: #b7d437;
+    background-color: var(--main-color);
     padding: 1rem;
     border-radius: 2.5rem;
     cursor: pointer;
@@ -21,11 +15,11 @@
 }
 
 .gd-nav span:hover {
-    background-color: rgb(157, 187, 21);
+    background-color: var(--main-color-shade);
 }
 
 .gd-nav span:focus {
-    background-color: #B7D437;
+    background-color: var(--main-color);
 }
 
 .gd-nav .hidden {
@@ -48,8 +42,8 @@
 
 /* For mobile */
 @media screen and (max-width: 768px) {
-    /* .gd-nav {
-        right: 5vw;
-        width: 90vw;
-    } */
+    .gd-nav {
+        top: auto;
+        bottom: 50px;
+    }
 }

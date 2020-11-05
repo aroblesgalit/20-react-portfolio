@@ -1,5 +1,5 @@
 h2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--title-font);
     font-size: 32px;
     margin-bottom: 40px;
     text-transform: capitalize;
@@ -10,7 +10,7 @@ h2 {
 }
 
 .dark {
-    color: #26291A;
+    color: var(--black-color);
 }
 
 

@@ -4,15 +4,15 @@
     background-color: transparent;
     font-size: 14px;
     font-weight: 400;
-    border: 1px solid #B7D437;
+    border: 1px solid var(--main-color);
     letter-spacing: 1.2px;
-    color: #26291A;
+    color: var(--black-color);
     margin-right: 6px;
     text-transform: uppercase;
 }
 
 .btn-secondary:hover {
-    background-color: rgb(157, 187, 21);
+    background-color: var(--main-color-shade);
     color: #26291A;
     text-decoration: none;
 }

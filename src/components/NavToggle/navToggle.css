@@ -1,16 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 #navToggle {
     width: 240px;
     height: 340px;
     top: 65px;
     right: 14px;
-    background-color: #26291A;
-    border: 1px solid #B7D437;
+    background-color: var(--black-color);
+    border: 1px solid var(--main-color);
     z-index: 2;
 }
 
@@ -23,5 +17,5 @@
 }
 
 #navToggle a:hover {
-    color: #B7D437;
+    color: var(--main-color);
 }

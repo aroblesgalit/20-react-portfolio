@@ -1,26 +1,18 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .project-info {
     background-color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
 }
 
 .project-info h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     padding: 0 0.875rem;
     font-size: 2.625rem;
     width: 100%;
     margin: 2.5rem 0;
-    color: #26291A;
+    color: var(--black-color);
 }
 
 .project-info h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     flex: 1;
     text-align: right;
     font-weight: 500;
