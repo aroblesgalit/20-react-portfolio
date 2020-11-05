@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: #B7D437;
+  --black-color: #26291A;
+  --main-font: 'Roboto', sans-serif;
+  --title-font: 'Roboto Slab', serif;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   font-weight: 300;
-  background-color: #26291A;
+  background-color: var(--black-color);
 }
 
 code {
