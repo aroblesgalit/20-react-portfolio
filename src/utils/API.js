@@ -48,6 +48,12 @@ import js30SortingBands from "../assets/images/js30_sortingBands.png";
 
 const posts = [
     {
+        id: 22,
+        date: "11/5/20 11:19PM",
+        title: "Meetings and Interviews",
+        copy: "Busy day today. Had a couple of meetings for my internship at Prentus, a coding challenge involving an email newsletter template (now anxious about the result as this is the last step of the process), and a first interview with another company. Happy to say I've made it to the next round of interview and am looking forward to it. I also have a video interview as a first step of the process for another company that I will be doing tomorrow. I'd say it's been a good day. I wasn't able to do any JavaScript 30 challenge, so I'll be playing catch up tomorrow."
+    },
+    {
         id: 21,
         date: "11/4/20 10:59AM",
         title: "Sorting Band Names",
