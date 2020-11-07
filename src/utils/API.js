@@ -45,8 +45,16 @@ import js30KeySequence from "../assets/images/js30_keySequence.png";
 import js30Reference from "../assets/images/js30_referenceVsCopy.png";
 import js30LocalStorage from "../assets/images/js30_localStorage.png";
 import js30SortingBands from "../assets/images/js30_sortingBands.png";
+import js30TallyStrings from "../assets/images/js30_tallyStringTimes.png";
 
 const posts = [
+    {
+        id: 23,
+        date: "11/6/20 6:56PM",
+        title: "Tally String Times",
+        copy: "Had some practice with adding up string times using Reduce as a JavaScript 30 challenge. Given an unordered list of videos with attributes data-time and values of mins and seconds but as string type, I targeted all nodes and converted the list into an array using Array.from(). Then I mapped through the array and took the data-time values, split them by the colon (:), set the left side to mins and the right to secs, converted them into numbers, added them for total of seconds, and used reduce() to get the total seconds of all videos. From there I calculated the hours, mins, and seconds.",
+        image: js30TallyStrings
+    },
     {
         id: 22,
         date: "11/5/20 11:19PM",
