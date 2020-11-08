@@ -49,6 +49,13 @@ import js30TallyStrings from "../assets/images/js30_tallyStringTimes.png";
 
 const posts = [
     {
+        id: 24,
+        date: "11/7/20 11:47PM",
+        title: "Unreal Webcam Fun",
+        copy: "I learned something new for today's JavaScript 30 challenge -- how to access the webcam and mess with the pixels to create some cool effects. I also polished the UI a bit and added buttons for the effects to trigger them.",
+        gif: "https://j.gifs.com/oVLgYX.gif"
+    },
+    {
         id: 23,
         date: "11/6/20 6:56PM",
         title: "Tally String Times",
