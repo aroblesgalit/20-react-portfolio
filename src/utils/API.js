@@ -49,6 +49,13 @@ import js30TallyStrings from "../assets/images/js30_tallyStringTimes.png";
 
 const posts = [
     {
+        id: 25,
+        date: "11/8/20 5:56PM",
+        title: "Native Speech Recognition",
+        copy: "Just found out about the browser's native speech recognition API. It's not perfect but it would be fun to create a small app with it. Here's a video of me testing it out and reading some quotes from the X-Men movies:",
+        video: "https://www.youtube.com/embed/6ig27OFBumo"
+    },
+    {
         id: 24,
         date: "11/7/20 11:47PM",
         title: "Unreal Webcam Fun",
