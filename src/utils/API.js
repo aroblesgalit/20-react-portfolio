@@ -46,8 +46,16 @@ import js30Reference from "../assets/images/js30_referenceVsCopy.png";
 import js30LocalStorage from "../assets/images/js30_localStorage.png";
 import js30SortingBands from "../assets/images/js30_sortingBands.png";
 import js30TallyStrings from "../assets/images/js30_tallyStringTimes.png";
+import js30Geolocation from "../assets/images/js30_geolocation.PNG";
 
 const posts = [
+    {
+        id: 26,
+        date: "11/9/20 6:11PM",
+        title: "Geolocation",
+        copy: "Worked on the MySQL tables with Sohail for Prentus by adding new columns to the existing mentors table. I also learned about the native geolocation API for today's JavaScript 30 challenge. The challenge was to fetch the geolocation position data and rendering the coordinates speed and heading to the DOM.",
+        image: js30Geolocation
+    },
     {
         id: 25,
         date: "11/8/20 5:56PM",
