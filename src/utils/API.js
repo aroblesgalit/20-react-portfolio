@@ -53,7 +53,7 @@ const posts = [
         id: 26,
         date: "11/9/20 6:11PM",
         title: "Geolocation",
-        copy: "Worked on the MySQL tables with Sohail for Prentus by adding new columns to the existing mentors table. I also learned about the native geolocation API for today's JavaScript 30 challenge. The challenge was to fetch the geolocation position data and rendering the coordinates speed and heading to the DOM.",
+        copy: "Worked on the MySQL tables with Sohail for Prentus by adding new columns to the existing mentors table. I also learned about the native geolocation API for today's JavaScript 30 challenge. The challenge was to fetch the geolocation position data and then render the coordinates speed and heading to the DOM.",
         image: js30Geolocation
     },
     {
