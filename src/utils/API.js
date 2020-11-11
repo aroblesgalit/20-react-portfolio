@@ -47,8 +47,17 @@ import js30LocalStorage from "../assets/images/js30_localStorage.png";
 import js30SortingBands from "../assets/images/js30_sortingBands.png";
 import js30TallyStrings from "../assets/images/js30_tallyStringTimes.png";
 import js30Geolocation from "../assets/images/js30_geolocation.PNG";
+import js30FollowLinks from "../assets/images/js30_followAlongLinks.png";
 
 const posts = [
+    {
+        id: 27,
+        date: "11/10/20 10:23PM",
+        title: "Follow Along Links",
+        copy: "Learned something new, something I've been wondering how it's done but have not looked into it for some reason. But today, for a JavaScript 30 challenge, I was able to create a smooth transition of a highlight that moves from one link to another on a mouseenter event. The idea was to get the width and height and coordinates of the object being highlighted and applying it to span element and using transition.",
+        gif: "https://j.gifs.com/oVL1rj.gif",
+        image: js30FollowLinks
+    },
     {
         id: 26,
         date: "11/9/20 6:11PM",
