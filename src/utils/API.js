@@ -48,8 +48,17 @@ import js30SortingBands from "../assets/images/js30_sortingBands.png";
 import js30TallyStrings from "../assets/images/js30_tallyStringTimes.png";
 import js30Geolocation from "../assets/images/js30_geolocation.PNG";
 import js30FollowLinks from "../assets/images/js30_followAlongLinks.png";
+import js30SpeechSynthesis from "../assets/images/js30_speechSynthesis.png";
 
 const posts = [
+    {
+        id: 28,
+        date: "11/11/20 6:45PM",
+        title: "Speech Synthesis",
+        copy: "Had a lot of fun with today's JavaScript 30 challenge learning about the native speech synthesis that reads a message after setting up some options for voice, text, rate, and pitch. Also enjoyed my interview this morning that I was very anxious and nervous about but turned out to be a lot of fun.",
+        video: "https://www.youtube.com/embed/JekgbmNJvY8",
+        image: js30SpeechSynthesis
+    },
     {
         id: 27,
         date: "11/10/20 10:23PM",
