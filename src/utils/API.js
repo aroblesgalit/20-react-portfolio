@@ -52,6 +52,13 @@ import js30SpeechSynthesis from "../assets/images/js30_speechSynthesis.png";
 
 const posts = [
     {
+        id: 29,
+        date: "11/12/20 5:00PM",
+        title: "Sticky Nav",
+        copy: "Today's JavaScript 30 challenge was simple, to make a navbar sticky and animate a couple of other elements simultaneously. I was able to do the first part of making the nav sticky and just followed along for the rest. The idea was to compare the values of the top of the nav and the y position of the page. When the y position of the page is equal to or greater than the top of the nav, add a 'fixed-nav' class to the body, otherwise remove the class. This class was then used to update the position property of the nav from relative to sticky. It was also used to update the logo's max-width so it animates in and to update the scale of the white div so it zooms in.",
+        gif: "https://j.gifs.com/6XZP4O.gif"
+    },
+    {
         id: 28,
         date: "11/11/20 6:45PM",
         title: "Speech Synthesis",
