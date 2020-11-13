@@ -49,8 +49,16 @@ import js30TallyStrings from "../assets/images/js30_tallyStringTimes.png";
 import js30Geolocation from "../assets/images/js30_geolocation.PNG";
 import js30FollowLinks from "../assets/images/js30_followAlongLinks.png";
 import js30SpeechSynthesis from "../assets/images/js30_speechSynthesis.png";
+import js30Propagation from "../assets/images/js30_propagation.png";
 
 const posts = [
+    {
+        id: 30,
+        date: "11/13/20 2:20PM",
+        title: "Propagation and Bubbling",
+        copy: "Brushed up on propagation and learned something new for the JavaScript 30 challenge. Bubbling is the principle that event on the innermost element is handled first and then to the outer elements and all the way up. You can stop this from happening by using event.stopPropagation(), which will only handle the event on the element that was clicked. The new thing I learned is that you can actually remove the event after it's been handled once. This would be useful for things you only want your user to interact with once, like on a shopping cart where the user would click a button to complete a sale.",
+        image: js30Propagation
+    },
     {
         id: 29,
         date: "11/12/20 5:00PM",
