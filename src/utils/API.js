@@ -50,8 +50,17 @@ import js30Geolocation from "../assets/images/js30_geolocation.PNG";
 import js30FollowLinks from "../assets/images/js30_followAlongLinks.png";
 import js30SpeechSynthesis from "../assets/images/js30_speechSynthesis.png";
 import js30Propagation from "../assets/images/js30_propagation.png";
+import js30FollowAlongNav from "../assets/images/js30_followAlongNav.png";
 
 const posts = [
+    {
+        id: 31,
+        date: "11/14/20 1:41PM",
+        title: "Stripe Follow Along Nav",
+        copy: "Recreated Stripe's follow along nav for a JavaScript 30 challenge. Using what I learned from a previous challenge, I targeted the triggers and applied mouseenter and mouseleave events, which adds and remove classes that makes each dropdown visible and active. I also grabbed the dropdown's coordinates and applied it to the background div for it to follow along.",
+        gif: "https://j.gifs.com/Jy5LKD.gif",
+        image: js30FollowAlongNav
+    },
     {
         id: 30,
         date: "11/13/20 2:20PM",
