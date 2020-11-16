@@ -54,6 +54,13 @@ import js30FollowAlongNav from "../assets/images/js30_followAlongNav.png";
 
 const posts = [
     {
+        id: 32,
+        date: "11/15/20 8:59PM",
+        title: "Click & Drag to Scroll",
+        copy: "Learned how to go about creating a carousel slider that scrolls on mouse click and drag. The idea is to calculate how far you deviate from the initial x position and subtract it from how far you've scrolled from the left. Then you would set the slider's scrollLeft position to that value. This concept could also be useful for a drag and drop feature. 🤔💡",
+        gif: "https://j.gifs.com/ZYjql5.gif"
+    },
+    {
         id: 31,
         date: "11/14/20 1:41PM",
         title: "Stripe Follow Along Nav",
