@@ -51,8 +51,17 @@ import js30FollowLinks from "../assets/images/js30_followAlongLinks.png";
 import js30SpeechSynthesis from "../assets/images/js30_speechSynthesis.png";
 import js30Propagation from "../assets/images/js30_propagation.png";
 import js30FollowAlongNav from "../assets/images/js30_followAlongNav.png";
+import js30SpeedController from "../assets/images/js30_speedControlUI.png";
 
 const posts = [
+    {
+        id: 33,
+        date: "11/16/20 10:07PM",
+        title: "JS 30 and More",
+        copy: "Another busy day today. I worked on more database for my internship/volunteer work at Prentus with another fellow developer, found out I made it to the next round of interviews and worked on the take home coding project, and then worked on a JavaScript 30 challenge. For the challenge, I created a video speed controller user interface by combining a few things from previous challenges: calculating the y position of the controller during a mousemove and setting a video's playback rate to its value. I took it a little further and updated the playback rate only on mouse down, as if to click and drag.",
+        video: "https://www.youtube.com/embed/wGq5TTMWzJc",
+        image: js30SpeedController
+    },
     {
         id: 32,
         date: "11/15/20 8:59PM",
