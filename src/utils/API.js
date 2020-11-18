@@ -52,8 +52,17 @@ import js30SpeechSynthesis from "../assets/images/js30_speechSynthesis.png";
 import js30Propagation from "../assets/images/js30_propagation.png";
 import js30FollowAlongNav from "../assets/images/js30_followAlongNav.png";
 import js30SpeedController from "../assets/images/js30_speedControlUI.png";
+import js30CountdownClock from "../assets/images/js30_countdownClock.png";
 
 const posts = [
+    {
+        id: 34,
+        date: "11/17/20 10:29PM",
+        title: "Countdown Clock",
+        copy: "Created a small app for today's JavaScript 30 challenge that lets you select an option for the timer and also views the time when it should end. Using the Date API and calling it every second, I was able to accurately calculate the seconds left for the countdown.",
+        gif: "https://j.gifs.com/jZpYAR.gif",
+        image: js30CountdownClock
+    },
     {
         id: 33,
         date: "11/16/20 10:07PM",
