@@ -53,8 +53,17 @@ import js30Propagation from "../assets/images/js30_propagation.png";
 import js30FollowAlongNav from "../assets/images/js30_followAlongNav.png";
 import js30SpeedController from "../assets/images/js30_speedControlUI.png";
 import js30CountdownClock from "../assets/images/js30_countdownClock.png";
+import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
+    {
+        id: 35,
+        date: "11/19/20 9:26PM",
+        title: "Whack a Mole Game",
+        copy: "Today marks the day I complete the JavaScript 30 challenge by creating a Whack a Mole game. This was a fun one and uses recursion to keep a mole from peeping twice in a row and also to keep the moles peeping until a certain time. I also decided to work on this as a way to give myself a short break from prepping for hours for an important interview tomorrow. I'm quite nervous and anxious for this one because I really really want this job as I feel this would be a perfect opportunity for me to continue growing and learning within a company that values its employees.",
+        gif: "https://j.gifs.com/P736Ww.gif",
+        image: js30WhackAMole
+    },
     {
         id: 34,
         date: "11/17/20 10:29PM",
@@ -66,7 +75,7 @@ const posts = [
     {
         id: 33,
         date: "11/16/20 10:07PM",
-        title: "JS 30 and More",
+        title: "JS30 and More",
         copy: "Another busy day today. I worked on more database for my internship/volunteer work at Prentus with another fellow developer, found out I made it to the next round of interviews and worked on the take home coding project, and then worked on a JavaScript 30 challenge. For the challenge, I created a video speed controller user interface by combining a few things from previous challenges: calculating the y position of the controller during a mousemove and setting a video's playback rate to its value. I took it a little further and updated the playback rate only on mouse down, as if to click and drag.",
         video: "https://www.youtube.com/embed/wGq5TTMWzJc",
         image: js30SpeedController
