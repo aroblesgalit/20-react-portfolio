@@ -60,7 +60,7 @@ const posts = [
         id: 35,
         date: "11/19/20 9:26PM",
         title: "Whack a Mole Game",
-        copy: "Today marks the day I complete the JavaScript 30 challenge by creating a Whack a Mole game. This was a fun one and uses recursion to keep a mole from peeping twice in a row and also to keep the moles peeping until a certain time. I also decided to work on this as a way to give myself a short break from prepping for hours for an important interview tomorrow. I'm quite nervous and anxious for this one because I really really want this job as I feel this would be a perfect opportunity for me to continue growing and learning within a company that values its employees.",
+        copy: "Today marks the day I complete the JavaScript 30 challenge by creating a Whack a Mole game. This was a fun one and uses recursion to keep a mole from peeping twice in a row and also to keep the moles peeping until a certain time. I also decided to work on this as a way to give myself a short break from prepping for hours for an important interview tomorrow. I'm quite nervous and anxious for this one because I really really want this job as I feel this would be a perfect opportunity for me to continue growing and learning within a company that values its employees. Keeping my fingers crossed that I don't blow this one.",
         gif: "https://j.gifs.com/P736Ww.gif",
         image: js30WhackAMole
     },
