@@ -57,6 +57,12 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 36,
+        date: "11/20/20 5:34PM",
+        title: "Ibotta Interview",
+        copy: "Had my 2 hour long interview with Ibotta, and I'm quite happy with how it turned out. I was nervous for the first half but felt much better as it went on. I first had an hour long interview with 2 members of the team and went over the take-home explaining what I did and my thought process. The rest of the interviews were behavioral and I was able to meet 4 more team members. It was a fun round of interviews overall, and I'm content that I was able to say everything I wanted to."
+    },
+    {
         id: 35,
         date: "11/19/20 9:26PM",
         title: "Whack a Mole Game",
