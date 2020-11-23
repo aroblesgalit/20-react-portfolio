@@ -15,6 +15,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import GDNav from "./components/GDNav";
 import Posts from "./pages/Posts";
 import MobileNav from "./components/MobileNav";
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -56,8 +57,8 @@ function App() {
           <Route path="/credits">
             <Credits />
           </Route>
-          <Route path="*">
-            <Home />
+          <Route>
+            <NotFound />
           </Route>
         </Switch>
       </ScrollToTop>
