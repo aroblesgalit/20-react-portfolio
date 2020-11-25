@@ -57,6 +57,12 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 37,
+        date: "11/24/20 8:27PM",
+        title: "Best of 2020",
+        copy: "A few hours ago, I received an email followed by a call for an offer on the Junior Web Developer role at Ibotta. It has been a long 6-month job search, and I'm very happy to finally say I'm starting my first role in web development in a couple of weeks. This news is the best thing that has happened to me of 2020. 😁🙌"
+    },
+    {
         id: 36,
         date: "11/20/20 5:34PM",
         title: "Ibotta Interview",
