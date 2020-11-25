@@ -60,7 +60,7 @@ const posts = [
         id: 37,
         date: "11/24/20 8:27PM",
         title: "Best of 2020",
-        copy: "A few hours ago, I received an email followed by a call for an offer on the Junior Web Developer role at Ibotta. It has been a long 6-month job search, and I'm very happy to finally say I'm starting my first role in web development in a couple of weeks. This news is the best thing that has happened to me of 2020. 😁🙌"
+        copy: "A few hours ago, I received an email followed by a call for an offer on the Junior Web Developer role at Ibotta. It has been a long 6-month job search, and I'm very happy that I finally get to announce I'm starting my first role in web development in a couple of weeks. This news is the best thing that has happened to me in 2020. 😁🙌"
     },
     {
         id: 36,
