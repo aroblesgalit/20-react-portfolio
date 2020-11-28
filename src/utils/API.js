@@ -57,6 +57,13 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 38,
+        date: "11/28/20 3:34PM",
+        title: "Hover Effects",
+        copy: "Worked on different types of hover effects the last few days to practice more of CSS. I took ideas from other sites and tried to figure each one on my own. The last one was the most challenging as I ran into issues with the 3d aspect but glad I was able to solve them.",
+        gif: "https://j.gifs.com/3QLAy4.gif"
+    },
+    {
         id: 37,
         date: "11/24/20 8:27PM",
         title: "Best of 2020",
