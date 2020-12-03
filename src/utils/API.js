@@ -57,6 +57,13 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 39,
+        date: "12/3/20 11:48AM",
+        title: "More Hover Effects",
+        copy: "Worked on more different types of hover offects for product cards and learned how to animate svg elements. Thinking of ways to redo my portfolio and implement some of these effects.",
+        gif: "https://j.gifs.com/p8xw1m.gif"
+    },
+    {
         id: 38,
         date: "11/28/20 3:34PM",
         title: "Hover Effects",
