@@ -57,10 +57,16 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 40,
+        date: "12/5/20 7:01PM",
+        title: "MacBook Pro",
+        copy: "Just received my work equipment yesterday. I don't think it would be too hard of a transition to mac from windows. I'm actually excited for this opportunity to work on mac operating system and looking forward to the onboarding this Wednesday."
+    },
+    {
         id: 39,
         date: "12/3/20 11:48AM",
         title: "More Hover Effects",
-        copy: "Worked on more different types of hover offects for product cards and learned how to animate svg elements. Thinking of ways to redo my portfolio and implement some of these effects.",
+        copy: "Worked on more different types of hover effects for product cards and learned how to animate svg elements. Thinking of ways to redo my portfolio and implement some of these effects.",
         gif: "https://j.gifs.com/p8xw1m.gif"
     },
     {
