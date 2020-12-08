@@ -57,6 +57,12 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 41,
+        date: "12/7/20 8:29PM",
+        title: "Top Scroll Bar",
+        copy: "I'm thinking of redesigning my portfolio, and I was looking at other web developers' portfolios for inspirations when one feature caught my eye. It was a scroll bar at the top of the page that indicates how far along you are down the page. I thought this was a neat feature so I decided to add it to my design portfolio pages. I can proudly say that I managed to create a component for it without looking into a tutorial. You can check it out in action by going to my Design page and viewing any of the projects from there."
+    },
+    {
         id: 40,
         date: "12/5/20 7:01PM",
         title: "MacBook Pro",
