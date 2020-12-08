@@ -41,14 +41,17 @@ function App() {
           <Route exact path="/graphic-design/hypermock">
             <HyperMock />
             <GDNav />
+            <TopScrollBar />
           </Route>
           <Route exact path="/graphic-design/other-logos">
             <OtherLogos />
             <GDNav />
+            <TopScrollBar />
           </Route>
           <Route exact path="/graphic-design/other-prints">
             <OtherPrints />
             <GDNav />
+            <TopScrollBar />
           </Route>
           <Route path="/posts">
             <Posts />
