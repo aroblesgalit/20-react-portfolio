@@ -1,0 +1,5 @@
+.top-scroll-bar {
+    min-height: 4px;
+    width: 100vw;
+    background: var(--main-color);
+}

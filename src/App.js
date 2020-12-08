@@ -16,6 +16,7 @@ import GDNav from "./components/GDNav";
 import Posts from "./pages/Posts";
 import MobileNav from "./components/MobileNav";
 import NotFound from './pages/NotFound';
+import TopScrollBar from './components/TopScrollBar';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/graphic-design/indigo-ball">
             <IndigoBall />
             <GDNav />
+            <TopScrollBar />
           </Route>
           <Route exact path="/graphic-design/hypermock">
             <HyperMock />
