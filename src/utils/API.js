@@ -57,6 +57,12 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 42,
+        date: "12/9/20 6:28PM",
+        title: "First Day at Ibotta",
+        copy: "I had a great remote onboarding experience on my first official day at Ibotta along with other new hires. We learned more about the tools the team uses on the daily as well as of the many perks and benefits Ibotta provides. I also had the opportunity to get to know more about my team and how they started at the company. I can't wait to start my training and work on projects!"
+    },
+    {
         id: 41,
         date: "12/7/20 8:29PM",
         title: "Top Scroll Bar",
