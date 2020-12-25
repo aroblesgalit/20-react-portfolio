@@ -57,6 +57,12 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 43,
+        date: "12/25/20 9:27AM",
+        title: "Merry Christmas!",
+        copy: "It's been a little over 2 weeks at Ibotta and I couldn't have asked for a better experience. I've been enjoying the work that I do with the most welcoming and supportive people. I'm really happy to have been given this opportunity right before Christmas and I can only say that 2021 will be a very rewarding year to come."
+    },
+    {
         id: 42,
         date: "12/9/20 6:28PM",
         title: "First Day at Ibotta",
