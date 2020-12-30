@@ -57,10 +57,17 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 44,
+        date: "12/29/20 3:39PM",
+        title: "Snake Game",
+        copy: "Followed a tutorial on YouTube on how to code the Snake Game in JavaScript by Web Dev Simplified. This game uses a grid layout and renders at a certain time rate continuously. It also separates the logic for each component into its own JS file, which then get imported into one game JS file. I added a few extra things on top of what was provided in the tutorial: a level select that changes the speed of the snake and the amount that the body of the snake grows, a scoreboard that shows your score based on the length of the snake, and a highscore board showing the top 3 scores. These elements can also be toggled by a click of a button.",
+        gif: "https://j.gifs.com/p8Jl3Q.gif"
+    },
+    {
         id: 43,
         date: "12/25/20 9:27AM",
         title: "Merry Christmas!",
-        copy: "It's been a little over 2 weeks at Ibotta and I couldn't have asked for a better experience. I've been enjoying the work that I do with the most welcoming and supportive people. I'm really happy to have been given this opportunity right before Christmas and I can only say that 2021 will be a very rewarding year to come."
+        copy: "It's been a little over 2 weeks at Ibotta and I couldn't have asked for a better experience. I've been enjoying the work that I do with the most welcoming and supportive people. I'm really happy to have been given this opportunity right before Christmas and I can only predict that 2021 will be a very rewarding year to come."
     },
     {
         id: 42,
