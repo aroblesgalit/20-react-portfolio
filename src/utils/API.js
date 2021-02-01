@@ -57,6 +57,13 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 45,
+        date: "1/31/21 8:18PM",
+        title: "CSS Drawings",
+        copy: "Had some fun drawing with just HTML and CSS. The first one was from a tutorial I followed while the rest were either copied from google images or imagination. This taught me how much could be done with just HTML and CSS including animations.",
+        gif: "https://j.gifs.com/L7QDQX.gif"
+    },
+    {
         id: 44,
         date: "12/29/20 3:39PM",
         title: "Snake Game",
