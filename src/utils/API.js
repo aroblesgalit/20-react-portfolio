@@ -57,6 +57,12 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 46,
+        date: "2/20/21 10:10PM",
+        title: "2 Months",
+        copy: "It's been 2 months now since I started my role as a Junior Web Developer at Ibotta. I've worked along side many talented people and have learned a lot regarding email and web development. I'm now able to produce Litmus files and In App Messages with little to no supervision. Next step is to be able to take web development tasks from start to finish as well as become proficient in Braze API integration."
+    },
+    {
         id: 45,
         date: "1/31/21 8:18PM",
         title: "CSS Drawings",
