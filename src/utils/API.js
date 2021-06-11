@@ -57,6 +57,12 @@ import js30WhackAMole from "../assets/images/js30_whackAMole.png";
 
 const posts = [
     {
+        id: 47,
+        date: "6/10/21 9:44PM",
+        title: "New Personal Project",
+        copy: "I have been working on a small personal project for tracking expenses, mainly to practice and brush up on developing full stack applications. It has been months since I've really created a web app from scratch so before I forget things, I decided I'd create one that I would also use. This would allow me to keep track of my spending so I can better manage my finance. To continue expanding my frontend skills, I'm using a new css framework and a new way of implementing it as well. You can check out my github repo @ https://github.com/aroblesgalit/my-expense-tracker and a demo @ https://my-expense-tracker-web-app.herokuapp.com/"
+    },
+    {
         id: 46,
         date: "2/20/21 10:10PM",
         title: "2 Months",
