@@ -58,7 +58,7 @@ import js30WhackAMole from '../assets/images/js30_whackAMole.png'
 const posts = [
   {
     id: 49,
-    date: '12/09/21 10:31PM',
+    date: '12/9/21 10:31PM',
     title: '1 Year',
     copy:
       'Today marks my one year at Ibotta. It has been an amazing time learning and growing at a company that cares so much in every aspect. I can really see myself continuing my career at Ibotta for many more years.'
