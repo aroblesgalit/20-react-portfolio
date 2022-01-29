@@ -57,6 +57,13 @@ import js30WhackAMole from '../assets/images/js30_whackAMole.png'
 
 const posts = [
   {
+    id: 50,
+    date: '1/28/22 10:09PM',
+    title: 'Vue.js',
+    copy:
+      "I've been learning Vue.js for the past few months. Took some courses on TeamTreehouse and finished a fullstack MEVN app. It hasn't been too difficult so it's been enjoyable. Next I'm going to learn how to handle authentication so I can create my first personal project using Vue.js."
+  },
+  {
     id: 49,
     date: '12/9/21 10:31PM',
     title: '1 Year',
