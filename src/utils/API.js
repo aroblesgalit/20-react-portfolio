@@ -57,6 +57,13 @@ import js30WhackAMole from '../assets/images/js30_whackAMole.png'
 
 const posts = [
   {
+    id: 51,
+    date: '5/7/22 9:36PM',
+    title: 'Digital Paper',
+    copy:
+      "Took me a few months, but I finally finished my first full stack Vue project. It's a simple blog web app with authentication and users can view, create, edit, and delete posts. Features include likes, comments, filter, and sort. You can check out the code @ https://github.com/aroblesgalit/digital-paper and live demo @ https://digital-paper.herokuapp.com/"
+  },
+  {
     id: 50,
     date: '1/28/22 10:09PM',
     title: 'Vue.js',
