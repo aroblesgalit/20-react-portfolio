@@ -11,7 +11,7 @@ function About() {
                 <div className="about-box">
                     <PageTitle text="About" color="dark" />
                     <p className="aboutMeText uk-text-justify uk-padding">
-                        I'm a Web Developer with a Bachelor of Fine Arts in Graphic Design from
+                        I'm a Frontend Web Developer with a Bachelor of Fine Arts in Graphic Design from
                         Cal Poly Pomona and a Certificate of Completion of the Coding Bootcamp
                         Certificate Program from the University of Texas at Austin. My skills are
                         HTML, CSS, JavaScript, MongoDB, Express, React, and Node.js. My strengths
@@ -25,9 +25,8 @@ function About() {
                         driven and motivated to continue growing and learning.
                     </p>
                     <p className="aboutMeText uk-text-justify uk-padding uk-padding-remove-top">
-                        When I'm not coding, you can either find me drawing, exercising, hiking,
-                        or simply watching movies. Oh and I can also be doing some graphic design
-                        freelance work on the side.
+                        When I'm not coding, I enjoy drawing, lifting weights, going on hikes,
+                        or simply watching movies.
                     </p>
                 </div>
             </div>
