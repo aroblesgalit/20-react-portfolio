@@ -57,6 +57,12 @@ import js30WhackAMole from '../assets/images/js30_whackAMole.png'
 
 const posts = [
   {
+    id: 52,
+    date: '7/25/22 11:32PM',
+    title: 'Promotion',
+    copy: "After a year and a half at Ibotta, I finally dropped the Jr from my title and I'm now a Web Developer. Excited to see what comes next. I've also had my first opportunity to pair up with an experienced developer in the Engineering team to make some simple updates to a web page made with Vue. I learned some new things that I would never have with YouTube tutorials. Hoping for more opportunities to work with Vue."
+  },
+  {
     id: 51,
     date: '5/7/22 9:36PM',
     title: 'Digital Paper',
