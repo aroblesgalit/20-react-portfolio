@@ -14,6 +14,16 @@ function About () {
         <div className='about-box'>
           <PageTitle text='About' color='dark' />
           <p className='aboutMeText uk-text-justify uk-padding'>
+            Notes:
+            1. Frontend web developer
+            2. Former graphic Designer
+            3. Growing up in Orange County and spending most of my time there
+            4. Moving to another state, and then another
+            5. Getting into coding - bootcamp
+            6. Favorite framework
+            7. Future goals?
+            8. Hobbies
+
             I'm a Frontend Web Developer from SoCal (Southern California). I
             wasn't always a web developer. I was a Graphic Designer first with
             focus on print and User Interface designs. I was 2-3 years deep when
