@@ -14,15 +14,25 @@ function About () {
         <div className='about-box'>
           <PageTitle text='About' color='dark' />
           <p className='aboutMeText uk-text-justify uk-padding'>
+            Currently I am a web developer at Ibotta, responsible for email communications, in-app messages,
+            and web/landing pages. I enjoy the challenges of developing custom projects(...expand on this. What type of challenges?). I also have an eye 
+            for design as I transitioned from a graphic designer role working with user interfaces and prints.
+            I made the change when I decided to move out of Orange County, CA where I grow up and spent most 
+            of my time in. Wanting to experience life elsewhere, I chose Austin, TX as my next home for the next
+            2 years, where I enrolled myself at a coding bootcamp...right when the COVID-19 lockdown started.
+          </p>
+          <p className='aboutMeText uk-text-justify uk-padding'>
             Notes:
-            1. Frontend web developer
-            2. Former graphic Designer
-            3. Growing up in Orange County and spending most of my time there
-            4. Moving to another state, and then another
-            5. Getting into coding - bootcamp
-            6. Favorite framework
-            7. Future goals?
-            8. Hobbies
+            <ul>
+              <li>Frontend web developer</li>
+              <li>Former graphic designer</li>
+              <li>Growing up in Orange County and spending most of my time there</li>
+              <li>Moving to another state, and then another</li>
+              <li>Getting into coding - bootcamp</li>
+              <li>Favorite framework</li>
+              <li>Future goals?</li>
+              <li>Hobbies</li>
+            </ul>
 
             I'm a Frontend Web Developer from SoCal (Southern California). I
             wasn't always a web developer. I was a Graphic Designer first with
