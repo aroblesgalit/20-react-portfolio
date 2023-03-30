@@ -57,6 +57,12 @@ import js30WhackAMole from '../assets/images/js30_whackAMole.png'
 
 const posts = [
   {
+    id: 53,
+    date: '3/29/23 6:23PM',
+    title: 'Mentorship',
+    copy: "I'm currently doing a mentorship program at my work to gain skills that would help me land a role in the Engineering department by end of this year hopefully. That includes Vuejs, Nuxt, GraphQL, unit testing in Jest. I'm excited to continue learning and developing my skills."
+  },
+  {
     id: 52,
     date: '7/25/22 11:32PM',
     title: 'Promotion',
